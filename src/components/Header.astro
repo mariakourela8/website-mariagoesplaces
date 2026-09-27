@@ -29,12 +29,10 @@ const is = (p: string) => path.startsWith(`/${lang}/${p}`);
   </div>
 
   <div class="mainbar wrap">
-    <nav class="nav nav-left" aria-label="Primary">
-      <a class:list={['label', { on: is('journal') }]} href={`/${lang}/journal/`}>{s.journal}</a>
-      <a class:list={['label', { on: is('food') }]} href={`/${lang}/food/`}>{s.food}</a>
-    </nav>
+    <div class="nav-left" aria-hidden="true"></div>
     <Logo href={`/${lang}/`} />
-    <nav class="nav nav-right" aria-label="Secondary">
+    <nav class="nav nav-right" aria-label="Primary">
+      <a class:list={['label', { on: is('journal') }]} href={`/${lang}/journal/`}>{s.journal}</a>
       <a class:list={['label', { on: is('destinations') }]} href={`/${lang}/destinations/`}>{s.destinations}</a>
       <a class:list={['label', { on: is('about') }]} href={`/${lang}/about/`}>{s.aboutMe}</a>
     </nav>
@@ -86,7 +84,7 @@ const is = (p: string) => path.startsWith(`/${lang}/${p}`);
 
   @media (max-width: 860px) {
       .top-right .label { display: none; }
-    .nav { display: none; }
+    .nav, .nav-left { display: none; }
     .mainbar { grid-template-columns: 1fr auto; padding-top: 14px; padding-bottom: 14px; }
     .menu-btn { display: inline-block; }
   }
