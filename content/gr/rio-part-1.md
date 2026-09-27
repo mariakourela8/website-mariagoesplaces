@@ -1,7 +1,7 @@
 ---
 title: "Σαλβαδόρ: Η πόλη που με μάγεψε - Μέρος 1"
 description: ""
-date: 2026-05-20
+date: 2026-09-27
 category: story
 country: Brazil
 city: Σαλβαδόρ

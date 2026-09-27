@@ -1,7 +1,7 @@
 ---
 title: "Salvador: The city that completely stole my heart - Part 1"
 description: ""
-date: 2026-05-20
+date: 2026-09-27
 category: story
 country: Brazil
 city: Salvador
