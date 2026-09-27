@@ -1,0 +1,20 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Greek-language browsers land on the Greek site, everyone else on English
+[[redirects]]
+  from = "/"
+  to = "/gr/"
+  status = 302
+  force = true
+  conditions = { Language = ["el"] }
+
+[[redirects]]
+  from = "/"
+  to = "/en/"
+  status = 302
+  force = true

@@ -1,0 +1,47 @@
+---
+/**
+ * Interactive pop-ups. In the article text, write a link like
+ *   [Porto da Barra](#pop-porto-da-barra)
+ * and add a Highlight in the CMS with key "porto-da-barra".
+ */
+interface Props { items: { key: string; title: string; text: string; image?: string }[]; closeLabel: string }
+const { items, closeLabel } = Astro.props;
+---
+{items.map((h) => (
+  <dialog class="pop" id={`pop-${h.key}`}>
+    <button class="dialog-close" aria-label={closeLabel}>×</button>
+    {h.image && <img src={h.image} alt="" />}
+    <div class="pop-body">
+      <h3 class="title-serif">{h.title}</h3>
+      <p>{h.text}</p>
+    </div>
+  </dialog>
+))}
+
+<script>
+  document.querySelectorAll<HTMLAnchorElement>('a[href^="#pop-"]').forEach((a) => {
+    const dlg = document.getElementById(a.getAttribute('href')!.slice(1)) as HTMLDialogElement | null;
+    if (!dlg) return;
+    a.classList.add('pop-link');
+    a.addEventListener('click', (e) => { e.preventDefault(); dlg.showModal(); });
+  });
+  document.querySelectorAll<HTMLDialogElement>('dialog.pop').forEach((dlg) => {
+    dlg.querySelector('.dialog-close')?.addEventListener('click', () => dlg.close());
+    dlg.addEventListener('click', (e) => { if (e.target === dlg) dlg.close(); });
+  });
+</script>
+
+<style>
+  .pop img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; }
+  .pop-body { padding: 26px 30px 30px; }
+  .pop-body h3 { font-size: 32px; margin-bottom: 12px; }
+  .pop-body p { margin: 0; font-size: 16px; }
+  :global(.pop-link) {
+    text-decoration: none;
+    border-bottom: 1px dashed var(--accent);
+    cursor: pointer;
+  }
+  :global(.pop-link)::after {
+    content: '✦'; font-size: .6em; vertical-align: super; margin-left: 2px; color: var(--accent);
+  }
+</style>

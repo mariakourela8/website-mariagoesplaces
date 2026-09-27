@@ -1,0 +1,42 @@
+---
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { t, langPaths, type Lang } from '../../i18n/ui';
+import { getPage } from '../../lib/content';
+import { siteImage } from '../../lib/siteImages';
+
+export const getStaticPaths = langPaths;
+const lang = Astro.params.lang as Lang;
+const s = t(lang);
+const page = await getPage(lang, 'about');
+const Content = page ? (await render(page)).Content : null;
+const photo = page?.data.image ?? siteImage('about-1');
+---
+<Base lang={lang} title={page?.data.title ?? s.aboutMe}>
+  <section class="about wrap">
+    <div class="about-img">
+      {photo && <div class="frame"><img src={photo} alt="" /></div>}
+    </div>
+    <div class="about-text">
+      <h1 class="display">{page?.data.title ?? s.aboutMe}</h1>
+      {page?.data.subtitle && <p class="sub title-serif">{page.data.subtitle}</p>}
+      <div class="prose">{Content && <Content />}</div>
+    </div>
+  </section>
+  <section class="quote">
+    <p class="display">{s.quoteA} <em>{s.quoteB}</em></p>
+  </section>
+</Base>
+<style>
+  .about { display: grid; grid-template-columns: 1fr 1.1fr; gap: clamp(28px, 6vw, 80px); align-items: start; padding-top: clamp(48px, 7vw, 90px); padding-bottom: clamp(48px, 7vw, 90px); }
+  .about-img { position: sticky; top: 24px; }
+  .about-img .frame { aspect-ratio: 4 / 5; }
+  .about-img .frame img { object-position: center 75%; }
+  .about-text .display { font-size: clamp(44px, 6vw, 72px); }
+  .sub { font-style: italic; font-size: 24px; margin: 10px 0 26px; }
+  .prose { color: var(--ink-soft); font-size: 18px; }
+  .prose :global(h2) { font-family: var(--f-serif); color: var(--ink); font-size: 32px; margin: 1.4em 0 .4em; }
+  .quote { background: var(--sand); padding: clamp(48px, 7vw, 80px) var(--gutter); text-align: center; }
+  .quote .display { font-size: clamp(28px, 4.5vw, 48px); margin: 0; }
+  @media (max-width: 860px) { .about { grid-template-columns: 1fr; } .about-img { position: static; } }
+</style>

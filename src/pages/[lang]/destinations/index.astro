@@ -1,0 +1,55 @@
+---
+import Base from '../../../layouts/Base.astro';
+import PageHead from '../../../components/PageHead.astro';
+import TravelMap from '../../../components/TravelMap.astro';
+import { t, countryName, langPaths, type Lang } from '../../../i18n/ui';
+import { getStories, groupByCountry, storyUrl, countryUrl } from '../../../lib/content';
+
+export const getStaticPaths = langPaths;
+const lang = Astro.params.lang as Lang;
+const s = t(lang);
+const stories = await getStories(lang);
+const countries = groupByCountry(stories).sort((a, b) =>
+  countryName(a.country, lang).localeCompare(countryName(b.country, lang)),
+);
+const points = stories
+  .filter((x) => typeof x.data.lat === 'number' && typeof x.data.lng === 'number')
+  .map((x) => ({
+    lat: x.data.lat!, lng: x.data.lng!, title: x.data.title, href: storyUrl(x),
+    place: [x.data.city, countryName(x.data.country, lang)].filter(Boolean).join(', '),
+  }));
+---
+<Base lang={lang} title={s.destinations}>
+  <PageHead title={s.destinations} intro={s.guidesIntro} />
+
+  <section class="wrap countries">
+    {countries.map((c) => (
+      <a class="country" href={countryUrl(lang, c.country)}>
+        <div class="frame"><img src={c.stories[0].data.cover} alt="" loading="lazy" /></div>
+        <div class="country-body">
+          <h2 class="title-serif">{countryName(c.country, lang)}</h2>
+          <p class="label eyebrow">{s.stories(c.stories.length)}</p>
+        </div>
+      </a>
+    ))}
+  </section>
+
+  {points.length > 0 && (
+    <section class="section">
+      <div class="wrap">
+        <h2 class="label section-head">{s.map}</h2>
+        <TravelMap points={points} />
+      </div>
+    </section>
+  )}
+</Base>
+
+<style>
+  .countries { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 28px; }
+  .country { text-decoration: none; position: relative; display: block; }
+  .country .frame { aspect-ratio: 3 / 4; }
+  .country .frame::after { content: ''; position: absolute; inset: 0; background: linear-gradient(transparent 55%, rgba(30,26,22,.55)); }
+  .country-body { position: absolute; left: 0; right: 0; bottom: 0; padding: 22px; color: var(--white); }
+  .country h2 { font-size: 40px; }
+  .country .eyebrow { color: inherit; opacity: .9; margin: 4px 0 0; }
+</style>

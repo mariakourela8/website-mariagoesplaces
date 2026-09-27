@@ -1,0 +1,108 @@
+# Decap CMS configuration: the fields Maria sees at /admin
+backend:
+  name: github
+  repo: mariakourela8/website-mariagoesplaces
+  branch: main
+  commit_messages:
+    create: 'New story: {{slug}}'
+    update: 'Update: {{slug}}'
+
+# Lets you use the editor locally with `npm run cms` + `npm run dev` (no login)
+local_backend: true
+
+site_url: https://mariagoesplaces.com
+display_url: https://mariagoesplaces.com
+locale: en
+
+media_folder: public/images/uploads
+public_folder: /images/uploads
+
+# One story = one file per language: content/en/<slug>.md and content/gr/<slug>.md
+i18n:
+  structure: multiple_folders
+  locales: [en, gr]
+  default_locale: en
+
+collections:
+  - name: stories
+    label: Stories
+    label_singular: Story
+    folder: content
+    create: true
+    i18n: true
+    slug: '{{slug}}'
+    summary: '{{title}} · {{city}} ({{fields.date | date("DD MMM YYYY")}})'
+    sortable_fields: [date, title, country]
+    view_groups:
+      - { label: Country, field: country }
+    fields:
+      - { label: Title, name: title, widget: string, i18n: true }
+      - { label: Short description, name: description, widget: text, required: false, i18n: true,
+          hint: 'One or two sentences shown on cards and in Google.' }
+      - { label: Publish date, name: date, widget: datetime, date_format: 'DD.MM.YYYY', time_format: false, format: 'YYYY-MM-DD', i18n: duplicate }
+      - label: Category
+        name: category
+        widget: select
+        default: story
+        i18n: duplicate
+        options:
+          - { label: Story, value: story }
+          - { label: Food & cafés, value: food }
+          - { label: Travel guide, value: guide }
+      - { label: Country (in English), name: country, widget: string, i18n: duplicate,
+          hint: 'Always in English, e.g. Brazil, Greece, Jordan. The Greek site translates it.' }
+      - { label: City, name: city, widget: string, required: false, i18n: true }
+      - { label: Series, name: series, widget: string, required: false, i18n: duplicate,
+          hint: 'Same value for all parts, e.g. brazil-salvador' }
+      - { label: Part number, name: part, widget: number, value_type: int, required: false, i18n: duplicate }
+      - { label: Cover image, name: cover, widget: image, i18n: duplicate }
+      - { label: Cover description (for screen readers), name: coverAlt, widget: string, required: false, i18n: true }
+      - { label: Feature on homepage, name: featured, widget: boolean, default: false, i18n: duplicate }
+      - { label: Draft (hidden from site), name: draft, widget: boolean, default: false, i18n: duplicate }
+      - { label: Map latitude, name: lat, widget: number, value_type: float, required: false, i18n: duplicate,
+          hint: 'Right-click the place in Google Maps → click the numbers to copy. First number here.' }
+      - { label: Map longitude, name: lng, widget: number, value_type: float, required: false, i18n: duplicate,
+          hint: 'Second number from Google Maps.' }
+      - label: Tags
+        name: tags
+        widget: list
+        required: false
+        default: []
+        i18n: false
+        hint: 'Fill in on the English side only; the Greek version uses the same tags. Add "food" to show the story on the Food & cafés page too.'
+        field: { label: Tag, name: tag, widget: string }
+      - label: Photo gallery
+        name: gallery
+        widget: list
+        required: false
+        i18n: true
+        summary: '{{fields.caption}}'
+        fields:
+          - { label: Photo, name: image, widget: image }
+          - { label: Caption, name: caption, widget: string, required: false }
+      - label: Pop-ups
+        name: highlights
+        widget: list
+        required: false
+        i18n: true
+        hint: 'In the text, link a word to #pop-KEY, e.g. [Porto da Barra](#pop-porto-da-barra). Clicking it opens this pop-up.'
+        summary: '{{fields.title}}'
+        fields:
+          - { label: Key (lowercase, no spaces), name: key, widget: string }
+          - { label: Title, name: title, widget: string }
+          - { label: Text, name: text, widget: text }
+          - { label: Image, name: image, widget: image, required: false }
+      - { label: Story, name: body, widget: markdown, i18n: true }
+
+  - name: pages
+    label: Pages
+    folder: content/pages
+    create: false
+    i18n: true
+    slug: '{{slug}}'
+    fields:
+      - { label: Title, name: title, widget: string, i18n: true }
+      - { label: Subtitle, name: subtitle, widget: string, required: false, i18n: true }
+      - { label: Photo 1, name: image, widget: image, required: false, i18n: duplicate }
+      - { label: Photo 2, name: image2, widget: image, required: false, i18n: duplicate }
+      - { label: Text, name: body, widget: markdown, i18n: true }

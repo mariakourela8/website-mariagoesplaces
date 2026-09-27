@@ -1,0 +1,14 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base lang="en" title="Not found">
+  <section class="nf wrap">
+    <p class="label eyebrow">404</p>
+    <h1 class="display">Lost <em>somewhere nice.</em></h1>
+    <p>This page doesn't exist (yet). <a href="/en/">Back home</a> · <a href="/gr/">Αρχική</a></p>
+  </section>
+</Base>
+<style>
+  .nf { text-align: center; padding: 120px var(--gutter); }
+  .nf .display { font-size: clamp(40px, 7vw, 80px); margin: 12px 0 24px; }
+</style>

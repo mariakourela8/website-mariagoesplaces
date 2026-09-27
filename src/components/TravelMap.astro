@@ -1,0 +1,36 @@
+---
+/** Interactive map (Leaflet + OpenStreetMap, loaded from a CDN, no install needed). */
+interface Point { lat: number; lng: number; title: string; place: string; href: string }
+interface Props { points: Point[]; height?: string }
+const { points, height = '460px' } = Astro.props;
+---
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<div class="travel-map" style={`height:${height}`} data-points={JSON.stringify(points)}></div>
+<script is:inline src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script is:inline>
+  document.querySelectorAll('.travel-map').forEach(function (el) {
+    if (!window.L || el.dataset.ready) return;
+    el.dataset.ready = '1';
+    var pts = JSON.parse(el.dataset.points || '[]');
+    var map = L.map(el, { scrollWheelZoom: false }).setView([20, 0], 2);
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; OpenStreetMap &copy; CARTO', maxZoom: 18,
+    }).addTo(map);
+    var icon = L.divIcon({ className: 'map-pin', iconSize: [14, 14] });
+    var bounds = [];
+    pts.forEach(function (p) {
+      var esc = function (s) { var d = document.createElement('div'); d.textContent = s; return d.innerHTML; };
+      L.marker([p.lat, p.lng], { icon: icon }).addTo(map)
+        .bindPopup('<span class="label">' + esc(p.place) + '</span><br><a href="' + p.href + '">' + esc(p.title) + '</a>');
+      bounds.push([p.lat, p.lng]);
+    });
+    if (bounds.length > 1) map.fitBounds(bounds, { padding: [60, 60], maxZoom: 6 });
+    else if (bounds.length === 1) map.setView(bounds[0], 6);
+  });
+</script>
+<style is:global>
+  .travel-map { width: 100%; background: var(--paper-2); z-index: 0; }
+  .map-pin { background: var(--ink); border: 3px solid var(--white); border-radius: 50%; box-shadow: 0 2px 6px rgba(0,0,0,.3); }
+  .leaflet-popup-content { font-family: var(--f-sans); }
+  .leaflet-popup-content a { font-family: var(--f-serif); font-size: 18px; color: var(--ink); }
+</style>

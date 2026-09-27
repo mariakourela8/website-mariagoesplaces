@@ -1,0 +1,44 @@
+---
+import { storyUrl, type Story } from '../lib/content';
+import { t, countryName } from '../i18n/ui';
+import type { Lang } from '../i18n/ui';
+
+interface Props { story: Story; variant?: 'grid' | 'row' | 'overlay' }
+const { story, variant = 'grid' } = Astro.props;
+const lang = story.id.split('/')[0] as Lang;
+const s = t(lang);
+const d = story.data;
+const place = [d.city, countryName(d.country, lang)].filter(Boolean).join(', ');
+---
+<a href={storyUrl(story)} class:list={['card', `card--${variant}`]}>
+  <div class="frame">
+    <img src={d.cover} alt={d.coverAlt} loading="lazy" />
+  </div>
+  <div class="card-body">
+    {variant === 'grid' && <p class="label eyebrow">{place}</p>}
+    <h3 class:list={[variant === 'grid' ? 'title-serif' : 'label']}>{d.title}</h3>
+    <span class="label more">{s.readMore}</span>
+  </div>
+</a>
+
+<style>
+  .card { text-decoration: none; display: block; }
+  .card h3 { margin: 6px 0 12px; }
+
+  .card--grid .frame { aspect-ratio: 4 / 5; }
+  .card--grid .card-body { padding-top: 18px; }
+  .card--grid h3 { font-size: 28px; }
+  .card--grid .eyebrow { margin: 0; font-size: 11px; }
+
+  .card--row { display: grid; grid-template-columns: 44% 1fr; gap: 18px; align-items: center; }
+  .card--row .frame { aspect-ratio: 16 / 11; }
+  .card--row h3 { font-size: 12px; line-height: 1.6; }
+
+  .card--overlay { position: relative; }
+  .card--overlay .frame { aspect-ratio: 5 / 4; height: 100%; }
+  .card--overlay .card-body {
+    position: absolute; left: 0; bottom: 0; max-width: 78%;
+    background: rgba(255,255,255,.9); padding: 14px 20px;
+  }
+  .card--overlay h3 { font-size: 12px; margin: 0 0 6px; }
+</style>

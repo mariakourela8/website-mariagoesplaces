@@ -1,0 +1,15 @@
+---
+import StoryCard from './StoryCard.astro';
+import type { Story } from '../lib/content';
+interface Props { stories: Story[]; empty: string }
+const { stories, empty } = Astro.props;
+---
+{stories.length ? (
+  <div class="story-grid wrap">{stories.map((s) => <StoryCard story={s} />)}</div>
+) : (
+  <p class="empty">{empty}</p>
+)}
+<style>
+  .story-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 48px 28px; padding-bottom: 80px; }
+  .empty { text-align: center; color: var(--ink-soft); font-family: var(--f-serif); font-style: italic; font-size: 22px; padding: 40px 0 100px; }
+</style>

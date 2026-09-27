@@ -1,0 +1,36 @@
+---
+import Base from '../../../layouts/Base.astro';
+import PageHead from '../../../components/PageHead.astro';
+import StoryGrid from '../../../components/StoryGrid.astro';
+import TravelMap from '../../../components/TravelMap.astro';
+import { t, countryName, slugify, langs, type Lang } from '../../../i18n/ui';
+import { getStories, groupByCountry, storyUrl } from '../../../lib/content';
+
+export async function getStaticPaths() {
+  const paths = [];
+  for (const lang of langs) {
+    for (const c of groupByCountry(await getStories(lang))) {
+      paths.push({ params: { lang, country: slugify(c.country) }, props: { country: c.country, stories: c.stories } });
+    }
+  }
+  return paths;
+}
+
+const { country, stories } = Astro.props;
+const lang = Astro.params.lang as Lang;
+const s = t(lang);
+const name = countryName(country, lang);
+const points = stories
+  .filter((x) => typeof x.data.lat === 'number' && typeof x.data.lng === 'number')
+  .map((x) => ({ lat: x.data.lat!, lng: x.data.lng!, title: x.data.title, href: storyUrl(x), place: x.data.city ?? name }));
+---
+<Base lang={lang} title={name}>
+  <PageHead kicker={s.destinations} title={name} intro={s.stories(stories.length)} />
+  <StoryGrid stories={stories} empty={s.nothingYet} />
+  {points.length > 0 && <div class="wrap map-wrap"><TravelMap points={points} height="380px" /></div>}
+  <p class="back"><a class="label more" href={`/${lang}/destinations/`}>{s.allDestinations}</a></p>
+</Base>
+<style>
+  .map-wrap { margin-bottom: 48px; }
+  .back { text-align: center; margin-bottom: 40px; }
+</style>
