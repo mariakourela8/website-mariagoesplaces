@@ -1,12 +1,19 @@
 ---
-title: "About me"
-subtitle: "Travel writer & slow traveller"
+title: Who I am?
+subtitle: ""
 ---
+Hi! I’m Maria.
 
-Hi, I'm Maria! I travel slowly, eat well and write down the small moments that make a place feel like home. *(Sample text: replace with Maria's own introduction.)*
+I’m a Greek living in the Netherlands, and I have a permanent weakness for tickets (any kind). I love discovering new countries, cities, different cultures, and all those places that eventually turn into stories.
 
-This journal is where I share the stories, cafés and hidden corners I find along the way, in English and in Greek.
+If you asked me, I’d happily travel once a month. Or twice. But somewhere between work, responsibilities, and real life… *it is what it is*. Which is exactly why I appreciate every trip I get to take even more.
 
-## Where I have been
+### Why this *blog*?
 
-Brazil, Jordan, Cuba, Lisbon, Paris and, of course, Greece.
+This blog was born as my personal travel journal.
+
+I didn’t want to create another website filled with “10 Things You Must Do” lists. I wanted a space to keep my memories alive and share my travels the way I’d tell them to a friend: the beautiful moments, the unexpected adventures, the mistakes, the food I absolutely loved, and the dishes I’ll probably never order again.
+
+Everything you’ll read here is through my own eyes and my own experience.
+
+Welcome, and happy reading.
