@@ -1,5 +1,5 @@
 ---
-title: "Salvador: The City That Completely Stole My Heart - Part 1"
+title: "Salvador: The city that completely stole my heart - Part 1"
 description: ""
 date: 2026-05-20
 category: story
