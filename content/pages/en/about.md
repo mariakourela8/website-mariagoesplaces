@@ -10,6 +10,8 @@ If you asked me, I’d happily travel once a month. Or twice. But somewhere betw
 
 ### Why this *blog*?
 
+
+
 This blog was born as my personal travel journal.
 
 I didn’t want to create another website filled with “10 Things You Must Do” lists. I wanted a space to keep my memories alive and share my travels the way I’d tell them to a friend: the beautiful moments, the unexpected adventures, the mistakes, the food I absolutely loved, and the dishes I’ll probably never order again.
