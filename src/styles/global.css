@@ -20,10 +20,11 @@
   --wrap: 1180px;
   --gutter: clamp(16px, 4vw, 40px);
   --radius: 999px;
+  --header-h: 96px;         /* sticky header height */
 }
 
 *, *::before, *::after { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; }
+html { -webkit-text-size-adjust: 100%; scroll-padding-top: var(--header-h); }
 body {
   margin: 0;
   background: var(--paper);
@@ -110,6 +111,8 @@ dialog::backdrop { background: rgba(43,39,35,.55); backdrop-filter: blur(3px); }
   width: 36px; height: 36px; border-radius: 50%;
   border: 0; background: var(--white); cursor: pointer; font-size: 20px; line-height: 1;
 }
+
+@media (max-width: 960px) { :root { --header-h: 76px; } }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; animation: none !important; }

@@ -29,7 +29,7 @@ const photo = page?.data.image ?? siteImage('about-1');
 </Base>
 <style>
   .about { display: grid; grid-template-columns: 1fr 1.1fr; gap: clamp(28px, 6vw, 80px); align-items: start; padding-top: clamp(48px, 7vw, 90px); padding-bottom: clamp(48px, 7vw, 90px); }
-  .about-img { position: sticky; top: 24px; }
+  .about-img { position: sticky; top: calc(var(--header-h) + 24px); }
   .about-img .frame { aspect-ratio: 4 / 5; }
   .about-img .frame img { object-position: center 75%; }
   .about-text .display { font-size: clamp(44px, 6vw, 72px); }
