@@ -35,9 +35,7 @@ const is = (p: string) => path.startsWith(`/${lang}/${p}`);
   <nav id="mobile-nav" class="mobile-nav" hidden>
     <a href={`/${lang}/journal/`}>{s.journal}</a>
     <a href={`/${lang}/destinations/`}>{s.destinations}</a>
-    <a href={`/${lang}/food/`}>{s.food}</a>
     <a href={`/${lang}/about/`}>{s.aboutMe}</a>
-    <a href={`/${lang}/search/`}>{s.search}</a>
     <a href={site.instagram} target="_blank" rel="noopener">Instagram</a>
     <a href={altHref} hreflang={other === 'gr' ? 'el' : 'en'}>{s.otherLang}</a>
   </nav>

@@ -2,7 +2,7 @@
 title: "Salvador, Part 2: Eating my way through Bahia"
 description: "Acarajé, moqueca and the cafés worth the detour."
 date: 2026-05-09
-category: food
+category: story
 country: Brazil
 city: "Salvador"
 series: brazil-salvador

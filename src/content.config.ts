@@ -14,7 +14,7 @@ const stories = defineCollection({
     title: z.string(),
     description: optString,
     date: z.coerce.date(),
-    category: z.enum(['story', 'food', 'guide']).default('story'),
+    category: z.enum(['story', 'guide']).default('story'),
     country: z.string(),
     city: optString,
     series: optString,

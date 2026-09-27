@@ -2,7 +2,7 @@
 title: "Σαλβαδόρ, Μέρος 2: Γευστική περιήγηση στη Μπαΐα"
 description: "Ακαραζέ, μοκέκα και τα καφέ που αξίζουν τη διαδρομή."
 date: 2026-05-09
-category: food
+category: story
 country: Brazil
 city: "Σαλβαδόρ"
 series: brazil-salvador

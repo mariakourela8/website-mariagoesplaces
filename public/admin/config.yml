@@ -47,7 +47,6 @@ collections:
         i18n: duplicate
         options:
           - { label: Story, value: story }
-          - { label: Food & cafés, value: food }
           - { label: Travel guide, value: guide }
       - { label: Country (in English), name: country, widget: string, i18n: duplicate,
           hint: 'Always in English, e.g. Brazil, Greece, Jordan. The Greek site translates it.' }
@@ -69,7 +68,7 @@ collections:
         required: false
         default: []
         i18n: false
-        hint: 'Fill in on the English side only; the Greek version uses the same tags. Add "food" to show the story on the Food & cafés page too.'
+        hint: 'Fill in on the English side only; the Greek version uses the same tags.'
         field: { label: Tag, name: tag, widget: string }
       - label: Photo gallery
         name: gallery

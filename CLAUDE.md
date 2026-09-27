@@ -40,14 +40,14 @@ content/en/*.md, content/gr/*.md ──┘  read by src/content.config.ts (glob 
 | `netlify.toml` | Build settings + `/` → `/gr/` for Greek browsers, else `/en/` |
 
 ## Routes
-`/en/` home · `/en/journal/` · `/en/journal/<slug>/` · `/en/destinations/` (+ map) · `/en/destinations/<country>/` · `/en/food/` (category `food` or tag `food`) · `/en/about/` · `/en/search/` (+ `/en/search.json` index) · same under `/gr/` · `/admin/`
+`/en/` home · `/en/journal/` · `/en/journal/<slug>/` · `/en/destinations/` (+ map) · `/en/destinations/<country>/` · `/en/about/` · same under `/gr/` · `/admin/`
 
 ## Features & how they work
 - **Language switch**: header swaps `/en/`↔`/gr/`. On articles it links to the same slug if a translation exists, else to the journal.
 - **Pop-ups**: in Markdown write `[Porto da Barra](#pop-porto-da-barra)`; the story's `highlights` list needs `key: porto-da-barra`. `Highlights.astro` renders `<dialog>`s and wires links.
 - **Gallery**: `gallery` list → grid + lightbox `<dialog>` with arrows (`Gallery.astro`).
 - **Map**: Leaflet 1.9.4 + CARTO light tiles from unpkg CDN (no npm dep). Points come from story `lat`/`lng`.
-- **Search**: static JSON per language + client-side filter (accent-insensitive). No dependency. Could swap for Pagefind later.
+- **Search / Food & cafés**: removed for now (Sep 2026, Dani's request). Both are in git history (commit 48f8e92) if wanted back.
 - **Drafts**: `draft: true` hides a story in production, shows it in `npm run dev`.
 - **Series**: stories with the same `series` value show "In this series" at the bottom, ordered by `part`.
 
