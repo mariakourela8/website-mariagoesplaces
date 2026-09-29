@@ -15,8 +15,20 @@ lat: -12.9711
 lng: -38.5108
 tags:
   - brazil
-gallery: []
-highlights: []
+gallery:
+  - image: /images/uploads/img_0750.jpg
+  - image: /images/uploads/img_0750.jpg
+highlights:
+  - key: baianas de acarajé
+    title: Baianas de Acarajé
+    text: >
+      They are one of the strongest cultural and religious symbols of Bahia.
+
+
+      Historically, Baianas were enslaved or formerly enslaved Black women who sold food in the streets of Bahia. Through the income they earned from selling Acarajé, some were able to buy their own freedom and, in some cases, the freedom of family members.
+
+
+      Today, their profession and cultural traditions are officially recognised as part of Brazil’s Intangible Cultural Heritage.
 ---
 I genuinely tried to write this trip day by day. The problem is that it happened back in November-December 2024, and I’m sitting here reminiscing sometime in 2026. Safe to say… my memory has decided to laugh at me.
 
