@@ -7,7 +7,7 @@ country: Brazil
 city: Salvador
 series: ""
 part: 2
-cover: /images/uploads/img_7313.jpg
+cover: /images/uploads/img_0773.jpeg
 coverAlt: Salvador
 featured: false
 draft: false
