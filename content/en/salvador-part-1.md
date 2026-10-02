@@ -1,14 +1,14 @@
 ---
-title: "Ρίο ντε Τζανέιρο: Η πόλη που δεν ήξερες ότι πρέπει να επισκεφθείς - Μέρος 2"
+title: "Rio de Janeiro: The city you didn’t know you needed to visit - Part 2"
 description: ""
 date: 2026-10-02
 category: story
 country: Brazil
-city: Ρίο ντε Τζανέιρο
+city: Rio de Janeiro
 series: ""
 part: 2
 cover: /images/uploads/img_8828.jpeg
-coverAlt: Salvador
+coverAlt: ""
 featured: true
 draft: false
 lat: -12.9777
@@ -17,148 +17,124 @@ tags: []
 gallery: []
 highlights: []
 ---
-## Cristo Redentor
+## **Cristo Redentor**
 
-Η μέρα ξεκίνησε με ένα από τα πιο γνωστά αξιοθέατατου Ρίο: τον Χριστό Λυτρωτή.
+The next day started with… ***Christ the Redeemer***, obviously.
 
-Δεν θυμάμαι αν είχαμε κάνει κράτηση online ή αν βγάλαμε εισιτήριο εκεί, ψέματα δεν θα σου πω.  Αυτό που θυμάμαι όμως είναι ότι, ανεξαρτήτου θρησκείας, το θέαμα είναιπραγματικά εκθαμβωτικό.
+I honestly don’t remember if we booked the tickets online or bought them there. What I do remember, however, is that, regardless of religion, the sight is truly dazzling.
 
-Είχε, φυσικά, πάρα πολύ κόσμο, αλλά η θέα από ψηλάήταν εξαιρετική.
+If you’re lucky, you can even spot monkeys along the way.
 
-Ανεβήκαμε με το *Trem do Corcovado*, το τρένο που σε μεταφέρει μέσα από το *Tijuca National Park*. Η διαδρομή διαρκεί περίπου 20 λεπτά και περνάς μέσα από το πάρκο, πουαποτελεί μία από τις μεγαλύτερες αστικές ζούγκλες στον κόσμο.
+Emma did.
 
-Και αν είσαι τυχερός, μπορεί να δεις και μαϊμούδες.
+I didn’t. I wasn't the lucky one of the day.
 
-Η Έμμυ είδε.
+## **A little bit of Harry Potter in Rio**
 
-Εγώ όχι. Δεν ήμουν η τυχερή της ημέρας.
+Back in the city, we stopped at the ***Real Gabinete Português de Leitura,*** the Royal Portuguese Reading Room.
 
-## Λίγο Harry Potter στο Ρίο
+I don’t know if it’s the first thing that comes to mind when you hear "Rio," but it is truly worth a visit. The interior architecture is stunning, and for some reason, it gave me strong Harry Potter vibes.
 
-Πίσω στην πόλη, κάναμε μια στάση στο *Real Gabinete Português de Leitura*, το Βασιλικό Πορτογαλικό Αναγνωστήριο.
+Maybe it was the books, or perhaps the atmosphere. I’m not sure.
 
-Δεν ξέρω αν είναι το πρώτο πράγμα που θα σκεφτείςόταν ακούσεις «Ρίο», αλλά αξίζει πραγματικά μια επίσκεψη. Η αρχιτεκτονική τουεσωτερικού είναι εντυπωσιακή και, για κάποιο λόγο, εμένα μου έδωσε έντονα Harry Potter vibes.
+But for a moment, I certainly felt as though a Hogwarts professor was about to appear out of nowhere.
 
-Ίσως έφταιγαν τα βιβλία, ίσως η ατμόσφαιρα. Δενξέρω.
+## **Rainy days & beach walks**
 
-Αλλά σίγουρα ένιωσα για λίγο ότι από κάπου θαεμφανιστεί ένας καθηγητής του Hogwarts.
+You don’t always need sunshine to enjoy a city.
 
-## Βροχερές μέρες και βόλτες στη παραλία
+## **Santa Teresa**
 
-Οι μέρες μας στο Ρίο ήταν αρκετά βροχερές, οπότε δενκαταφέραμε να απολαύσουμε τη θάλασσα όσο θα θέλαμε.
+On one of the rainiest days, we decided to take the old, historic ***Bondinho de Santa Teresa tram***.
 
-Αλλά αυτό δεν μας πτόησε.
+The tram starts at *Carioca Station* and takes you towards ***Santa Teresa***, one of the most charming and bohemian areas of Rio.
 
-Πηγαίναμε βόλτες στην παραλία, περπατούσαμε στην Copacabana και, ακόμα και με συννεφιά, η πόλη είχε τη δική της ομορφιά.
+We eventually stopped at *Bar do Mineiro*, a traditional restaurant in Santa Teresa, where we tried one of the most famous Brazilian dishes: *Feijoada*.
 
-Άλλωστε, δεν χρειάζεται πάντα ήλιος για νααπολαύσεις ένα μέρος.
+And when I say *we*, I mostly mean Emmy.
 
-## Santa Teresa
+I hate beans. So there was absolutely no way I was going to eat a plate full of them.
 
-Μια από τις πιο βροχερές μέρες αποφασίσαμε ναπάρουμε το παλιό ιστορικό τραμ *Bondinho de Santa Teresa*.
+Emmy, on the other hand, really liked it.
 
-Ξεκινήσαμε από τον σταθμό *Carioca*, στο κέντρο της πόλης, και ανεβήκαμε προς τη γραφική και μποέμ γειτονιάτης *Santa Teresa*.
+The restaurant itself was lovely, very traditional and had great reviews, so if you like trying local food, definitely put it on your list.
 
-Η διαδρομή από μόνη της ήταν εμπειρία. Κάποιαστιγμή, αντί να συνεχίσουμε μέχρι το τέλος, αποφασίσαμε να κατεβούμε κάπου στημέση και να συνεχίσουμε με τα πόδια.
+## **Rio on two wheels**
 
-Και κάπου εκεί καταλήξαμε στο *Bar do Mineiro*, όπου η Έμμυ δοκίμασε τη γνωστή *Feijoada*.
+Another day, we decided to rent bikes and explore the city differently.
 
-Εγώ θα είμαι ειλικρινής: δεν αντέχω τα φασόλια.Οπότε δεν ήμουν αρκετά γενναία για να δοκιμάσω. 
+We cycled from ***Copacabana*** towards **Red Beach**, and even though the weather was cloudy and definitely not ideal for swimming, the bike ride itself was great.
 
-Η κριτική της Έμμυ, πάντως, ήταν πολύ καλή.
+## **Ipanema**
 
-Το ίδιο και οι κριτικές του εστιατορίου. Είναι έναπαραδοσιακό, χαλαρό μέρος. Οπότε, αν σου αρέσει να δοκιμάζεις τοπικές γεύσεις,οπωσδήποτε να το βάλεις στη λίστα σου.
+Of course, we also had to visit ***Ipanema***.
 
-## Ποδηλατάδα στο Ρίο
+We took a taxi because, for us, it felt like the easiest option, and once we got there, we walked around, did a little shopping, and explored the area.
 
-Μία από τις μέρες αποφασίσαμε να νοικιάσουμε ποδήλατα.
+Ipanema felt a bit more polished and expensive compared to Copacabana, with plenty of international and European brands.
 
-Πήραμε τα ποδήλατά μας, διασχίσαμε την *Copacabana* και κατευθυνθήκαμε προς μια κοντινή παραλία, τη *Red Beach*.
+Was it nice?
 
-Ο καιρός ήταν αρκετά μουντός και σίγουρα όχιιδανικός για μπάνιο. Αλλά, και πάλι, η ποδηλατάδα ήταν σκέτη απόλαυση.
+Yes.
 
-Αυτό είναι κάτι που αγαπάω στα ταξίδια: δενχρειάζεται πάντα να έχεις τέλειο καιρό ή το τέλειο πρόγραμμα. Μερικές φορέςαρκεί να πάρεις ένα ποδήλατο και να δεις πού θα σε βγάλει.
+Would I spend the whole day shopping there?
 
-## Ipanema
+Probably not.
 
-Φυσικά, δεν θα μπορούσαμε να φύγουμε από το Ρίοχωρίς να επισκεφθούμε την *Ipanema*.
+But it was definitely worth seeing another side of Rio.
 
-Μια πιο κοσμοπολίτικη εκδοχή της Copacabana.
+## **Emmy turns 30**
 
-Πήγαμε με ταξί, καθώς προτιμήσαμε αυτή την επιλογήγια τη συγκεκριμένη διαδρομή. 
+The day Emmy turned 30.
 
-Εκεί κάναμε λίγα ψώνια και χαζέψαμε τα καταστήματα.Θα βρεις αρκετές γνωστές διεθνείς μάρκες, οπότε δεν ήταν ακριβώς η πιοαυθεντική πλευρά της Βραζιλίας.
+After dinner, we went for drinks at a local bar. I honestly cannot remember the name anymore, but there are plenty of places to go out in Rio.
 
-Ωραίο μέρος.
+Just remember: have fun, but always be aware of your surroundings.
 
-Good enough.
+## **A day on the water**
 
-## Η Έμμυ γίνεται30!
+One of the highlights of the whole trip was our full-day boat tour to ***Angra dos Reis*** and** *Ilha Grande***.
 
-Και κάπου μέσα σε όλα αυτά ήταν και τα γενέθλια τηςφίλης μου.
+We were picked up around 7 in the morning and drove for about an hour before reaching the place where the boat was waiting for us.
 
-Η είσοδός της στα 30.
+And then, the best part of the day began.
 
-Ελπίζω να μη με βρίζει που την ξεπροστιάζω έτσι, ανδιαβάζει αυτή τη στιγμή το blog.
+The water was absolutely beautiful.
 
-Είχαμε κλείσει τραπέζι στο *Aprazível*, ένα πραγματικά εντυπωσιακό εστιατόριο.
+We stopped at a few different places for swimming and diving, around two or three stops throughout the day. Lunch was also included, and we stopped at a local restaurant on one of the beaches.
 
-Το φαγητό ήταν πολύ καλό και ο χώρος ακόμαπερισσότερο. Έχει υπέροχη θέα και μια πολύ ιδιαίτερη ατμόσφαιρα, οπότε ανψάχνεις μία πιο ξεχωριστή βραδινή έξοδο στο Ρίο, αξίζει να το βάλεις στη λίστασου.
+And somewhere during the day, I saw capybaras for the first time in my life.
 
-Και ένα μικρό bonus: αν έχεις γενέθλια και τους τοπεις, σου φέρνουν γλυκάκι με κεράκι χωρις επιπλέον χρέωση.
+Yes, I know.
 
-Δεν θα μπορούσαμε φυσικά να τελειώσουμε τη βραδιάχωρίς ένα ποτό.
+It’s not exactly the biggest travel achievement.
 
-Πήγαμε σε ένα τοπικό μπαρ στο κέντρο, δεν θυμάμαιδυστυχώς ποιο. Αλλά πραγματικά δεν θα δυσκολευτείς να βρεις επιλογές για nightlife στο Ρίο.
+But let me have this one.
 
-*Just remember: have fun, but always be aware ofyour surroundings.*
+## **One last swim**
 
-## Μία μέρα στο νερό
+And suddenly, it was time to leave.
 
-Μέσα στις μέρες που ήμασταν εκεί, αποφασίσαμε νακλείσουμε και ένα boat tour προς *Angra dos Reis* και *Ilha Grande*.
+Our flight was taking us back to Salvador before heading back to the Netherlands, but we still had a few hours to kill.
 
-Ήταν ολοήμερη εκδρομή και βρήκαμε αρκετές επιλογές online.
+So obviously, we couldn’t just sit at the airport.
 
-Ξεκινήσαμε πολύ νωρίς, περίπου στις 7 το πρωί, μεπαραλαβή από το ξενοδοχείο. Μετά από περίπου μία ώρα φτάσαμε στο σημείο απόόπου θα παίρναμε το καράβι.
+Once landed in Salvador, we left our luggage in lockers at the airport, took a taxi to a nearby beach, and went for one last swim.
 
-Και κάπου εκεί ξεκίνησε το καλύτερο κομμάτι τηςημέρας.
+Because, come on. It’s Brazil.
 
-Τα νερά ήταν απίστευτα.
+You cannot leave without squeezing every last second out of it.
 
-Κάναμε δύο ή τρεις στάσεις για κολύμπι και βουτιές,ενώ στην τιμή περιλαμβανόταν και φαγητό σε ένα τοπικό εστιατόριο σε μία από τιςπαραλίες που επισκεφθήκαμε.
+Eventually, back to the airport.
 
-Ήταν από εκείνες τις μέρες που δεν χρειάζεσαι πολλά.Ήλιο, θάλασσα, ένα καράβι και καλή παρέα.
+And... back to the Netherlands.
 
-Και κάπου εκεί είδα για πρώτη φορά στη ζωή μου capybaras.
+## **Until next time...**
 
-Μην με κρίνεις.
+We obviously didn’t see everything. Rio is huge, and I think you could spend weeks there and still have places left to discover.
 
-Δεν είχα ιδέα ότι υπάρχουν.
+But that’s not really the point of travelling for me anyway.
 
-## Μια τελευταία βουτιά
+Not just a checklist.
 
-Και κάπως έτσι φτάσαμε στην τελευταία μας μέρα.
-
-Είχαμε πτήση πίσω στο Σαλβαδόρ και από εκεί θαξεκινούσε το ταξίδι της επιστροφής στην Ολλανδία.
-
-Αλλά φυσικά δεν γινόταν να φύγουμε από τη Βραζιλίαχωρίς να εκμεταλλευτούμε και το τελευταίο λεπτό.
-
-Μόλις προεγειωθήκαμε στο Σαλβαδόρ, αφήσαμε τιςβαλίτσες μας σε lockers στο αεροδρόμιο, πήραμε ένα ταξίκαι κατευθυνθήκαμε προς μια κοντινή παραλία για μία τελευταία βουτιά.
-
-Επιστροφή στο αεροδρόμιο.
-
-Και... πίσω στην Ολλανδία.
-
-## Μέχρι την επόμενη φορά...
-
-Αυτά ήταν κάπως τα highlights των λίγων ημερώνμας στο Ρίο.
-
-Δεν προλάβαμε να τα δούμε όλα. Δεν κάναμε όλα όσαείχαμε σημειώσει. Το Ρίο είναι τεράστιο. Χρειάζεσαι βδομάδες για να ταανακαλύψεις όλα.
-
-Αλλά κάπως έτσι είναι τα ταξίδια.
-
-Δεν είναι checklist.
-
-Είναι οι άνθρωποι, οι βόλτες που δεν είχεςσχεδιάσει, το φαγητό που δοκίμασες παρόλο που δεν ήξερες τι είναι, η βροχή πουσου χάλασε το πρόγραμμα και τελικά σου χάρισε μια άλλη εμπειρία.
-
-Μέχρι την επόμενη φορά...
+Until next time...
