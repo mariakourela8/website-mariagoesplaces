@@ -6,8 +6,8 @@ category: story
 country: Brazil
 city: Rio de Janeiro
 series: ""
-part: 2
-cover: /images/uploads/img_7413.jpg
+part: 1
+cover: /images/uploads/rio-city.jpeg
 coverAlt: Rio de Janeiro
 featured: false
 draft: false
@@ -39,21 +39,19 @@ After a few days in Salvador, we took a domestic flight to Rio de Janeiro. The f
 
 Somehow, we made it work.
 
-## Copacabana, our new home
+## **Copacabana, our new home**
 
-We stayed in ***Copacabana*** at the *Ritz Copacabana Hotel*, in a really convenient location close to the beach and surrounded by plenty of restaurants and places to walk around. The hotel itself was nice, and breakfast was definitely a plus.
+We stayed in ***Copacabana*** at the *Ritz Copacabana Hotel*, in one of the most tourist-friendly yet convenient areas for travelers. The hotel was just steps away from the beach, offered an excellent breakfast, and served as an ideal base for exploring the city.
 
-But the first thing that struck me when we arrived in Rio was how different it felt from Salvador. Salvador felt colourful, slower, and much more connected to its Afro-Brazilian culture. 
-
-Rio felt… huge. Tall buildings, skyscrapers, traffic, crowds, people everywhere. It was a completely different side of Brazil, almost like we had arrived in another country.
+The first thing that struck me was how different Rio was from Salvador. Tall buildings, skyscrapers, vast avenues, and a much faster pace of life. Ιt was as if we had traveled to a different country.
 
 ## **Walking tour, again and again**
 
 On our first day, we explored the city on foot and joined a walking tour. The group was much bigger than the one we had in Salvador, and the tour lasted several hours. 
 
-And honestly, I think walking tours are one of the best ways to get to know a new destination. You don’t just see the famous places. You hear the stories behind them, learn little details you would probably never discover on your own, and get a better idea of how the city actually came to be what it is today.
+I honestly believe it is the best way to get to know a destination. You don't just see the sights; you hear stories you would hardly discover on your own.
 
-## Confeitaria Colombo
+## **Confeitaria Colombo**
 
 Our first stop was ***Confeitaria Colombo***, one of the city’s most famous historic cafés. The interior is beautiful, and the place has a long history as a meeting point for Brazilian writers, artists, and intellectuals.
 
@@ -63,28 +61,44 @@ And yes, if you visit, try some of the traditional sweets and snacks, especially
 
 ## **Escadaria Selarón**
 
-Next stop: ***Escadaria Selarón**.* 
+Next stop: ***Escadaria Selarón***. 
 
 If you’ve ever seen colourful photos of Rio with a staircase covered in thousands of different tiles, this is probably the place. The staircase connects ***Lapa*** and ***Santa Teresa*** and is covered with more than 2.000 tiles from countries all over the world.
 
-It is definitely touristy. 
-
-It is definitely crowded. 
+I’ll be honest: it’s very touristy. The crowds take away a bit of the magic, but if you’re in Rio, it’s worth a visit. After all… I’m saying this as just another tourist who waited patiently to take a photo.
 
 Around the staircase, you’ll also find small tourist shops, street food and places to grab a drink, so you can easily spend a little more time exploring the area.
 
-## The cathedral that looks like a pyramid
+## **The cathedral that looks like a pyramid**
 
-## **Sugarloaf Mountain** 
+While walking through the city, we spotted a massive building in the distance that looked more like a pyramid than a church. Curiosity got the better of us, and we headed towards it.
+
+That is how we discovered the ***Metropolitan Cathedral of Saint Sebastian***.
+
+Its exterior is unlike any other cathedral I have ever seen, but the interior is truly impressive. Huge, colorful bands of light streaming through the stained glass create an almost magical atmosphere. 
+
+For us, it also offered a welcome respite from the city's unbearable heat.
+
+## **Sugarloaf Mountain**
 
 We spent the afternoon at one of Brazil's most iconic landmarks: ***Sugarloaf Mountain***.
 
 We had booked our tickets online and chose the skip-the-line option, a choice that was truly worth it, as the queues were enormous.
 
+The famous transparent cable car (***Bondinho do Pão de Açúcar***) takes you up to two different levels, and the view becomes increasingly spectacular. If I could give you just one piece of advice, it would be to go shortly before sunset. That way, you’ll see Rio in daylight, enjoy the sunset, and stay long enough to watch the city lights come on.
+
+It is one of those sights that can never be perfectly captured in a photograph.
+
 ## **Samba under the stars**
+
+Think the day is over? Not even.
+
+From Sugarloaf, we headed to ***Pedra do Sal***, the historic area known as ***Pequena África*** *("Little Africa")*. One of the most authentic outdoor samba nights in Rio takes place there ***(Roda de Samba da Pedra do Sal)***.
 
 There were small stalls selling drinks and food, people everywhere, music playing in the middle of the square, and groups of people gathering around the musicians to dance and enjoy the night.
 
 We also stopped for one last beer at ***Bafo da Prainha***, an outdoor bar in ***Largo São Francisco da Prainha***.
+
+And somewhere along the way, I found myself thinking that Rio didn't resemble the image I’d had in my mind before arriving at all. It was far more vibrant, far more human, and, above all, filled with music.
 
 See you in part two!
