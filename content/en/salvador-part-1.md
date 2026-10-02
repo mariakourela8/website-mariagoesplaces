@@ -43,6 +43,8 @@ Emma did.
 
 I didn’t. I wasn't the lucky one of the day.
 
+![](/images/uploads/xristos.jpeg)
+
 ## **A little bit of Harry Potter in Rio**
 
 Back in the city, we stopped at the ***Real Gabinete Português de Leitura,*** the Royal Portuguese Reading Room.
