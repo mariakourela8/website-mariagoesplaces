@@ -15,13 +15,27 @@ lat: -12.9777
 lng: -38.5016
 tags: []
 gallery: []
-highlights: []
+highlights:
+  - key: bikes
+    title: Biking Around Rio
+    text: >-
+      Much easier than we expected!
+
+
+      We used Itaú’s bike-sharing service. You download the app, pay by card, and… off you go.
+
+
+      The whole process was easy, and the prices were reasonable, pretty much what you would expect to pay in Europe.
 ---
 ## **Cristo Redentor**
 
 The next day started with… ***Christ the Redeemer***, obviously.
 
 I honestly don’t remember if we booked the tickets online or bought them there. What I do remember, however, is that, regardless of religion, the sight is truly dazzling.
+
+It was, of course, very crowded, but the view from the top was exceptional.
+
+We went up on the ***Trem do Corcovado***, the train that travels through ***Tijuca National Park***. The journey takes about 20 minutes and passes through the park, one of the largest urban jungles in the world.
 
 If you’re lucky, you can even spot monkeys along the way.
 
@@ -41,6 +55,12 @@ But for a moment, I certainly felt as though a Hogwarts professor was about to a
 
 ## **Rainy days & beach walks**
 
+Our days in Rio were quite rainy, so we didn't manage to enjoy the sea as much as we would have liked.
+
+But that didn't discourage us.
+
+We went for strolls along the beach and walked in Copacabana, and even under cloudy skies, the city had a beauty of its own.
+
 You don’t always need sunshine to enjoy a city.
 
 ## **Santa Teresa**
@@ -48,6 +68,8 @@ You don’t always need sunshine to enjoy a city.
 On one of the rainiest days, we decided to take the old, historic ***Bondinho de Santa Teresa tram***.
 
 The tram starts at *Carioca Station* and takes you towards ***Santa Teresa***, one of the most charming and bohemian areas of Rio.
+
+The journey itself was an experience. At one point, instead of continuing to the end, we decided to get off somewhere in the middle and continue on foot.
 
 We eventually stopped at *Bar do Mineiro*, a traditional restaurant in Santa Teresa, where we tried one of the most famous Brazilian dishes: *Feijoada*.
 
@@ -65,27 +87,33 @@ Another day, we decided to rent bikes and explore the city differently.
 
 We cycled from ***Copacabana*** towards **Red Beach**, and even though the weather was cloudy and definitely not ideal for swimming, the bike ride itself was great.
 
+That’s something I love about traveling: you don’t always need perfect weather or a perfect itinerary. Sometimes, all it takes is hopping on a bike and seeing where it leads you.
+
 ## **Ipanema**
 
 Of course, we also had to visit ***Ipanema***.
 
+A more cosmopolitan version of Copacabana.
+
 We took a taxi because, for us, it felt like the easiest option, and once we got there, we walked around, did a little shopping, and explored the area.
 
-Ipanema felt a bit more polished and expensive compared to Copacabana, with plenty of international and European brands.
+You’ll find quite a few well-known European and international brands, so it wasn’t exactly the most authentic side of Brazil.
 
-Was it nice?
+Nice place. 
 
-Yes.
+Good enough.
 
-Would I spend the whole day shopping there?
-
-Probably not.
-
-But it was definitely worth seeing another side of Rio.
-
-## **Emmy turns 30**
+## **Emmy turns 30!**
 
 The day Emmy turned 30.
+
+I hope she doesn't curse me out for exposing her like this, if she happens to be reading the blog right now.
+
+We had booked a table at Aprazível, a truly impressive restaurant.
+
+The food was excellent, and the setting was even better. It boasts a wonderful view and a very unique atmosphere, so if you’re looking for a special night out in Rio, it’s worth adding to your list.
+
+And a little bonus: if it’s your birthday and you let them know, they’ll bring you a dessert with a candle at no extra charge.
 
 After dinner, we went for drinks at a local bar. I honestly cannot remember the name anymore, but there are plenty of places to go out in Rio.
 
@@ -93,7 +121,9 @@ Just remember: have fun, but always be aware of your surroundings.
 
 ## **A day on the water**
 
-One of the highlights of the whole trip was our full-day boat tour to ***Angra dos Reis*** and** *Ilha Grande***.
+One of the highlights of the whole trip was our boat tour to ***Angra dos Reis*** and** *Ilha Grande***.
+
+It was an all-day excursion, and we found several options online.
 
 We were picked up around 7 in the morning and drove for about an hour before reaching the place where the boat was waiting for us.
 
@@ -131,10 +161,14 @@ And... back to the Netherlands.
 
 ## **Until next time...**
 
+These were, more or less, the highlights of our few days in Rio.
+
 We obviously didn’t see everything. Rio is huge, and I think you could spend weeks there and still have places left to discover.
 
 But that’s not really the point of travelling for me anyway.
 
 Not just a checklist.
+
+It’s the people, the unplanned strolls, the food you tried even though you didn’t know what it was, the rain that disrupted your plans but ultimately gave you a different experience.
 
 Until next time...
