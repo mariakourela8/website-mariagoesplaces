@@ -1,34 +1,38 @@
 ---
 title: "Σαλβαδόρ, Μέρος 1: Άφιξη στη Μπαΐα"
-description: "Οι πρώτες μέρες στο Σαλβαδόρ: χρώματα, ρυθμός και το ωραιότερο ηλιοβασίλεμα της Βραζιλίας."
-date: 2026-05-02
+description: "Οι πρώτες μέρες στο Σαλβαδόρ: χρώματα, ρυθμός και το ωραιότερο
+  ηλιοβασίλεμα της Βραζιλίας."
+date: 2026-10-02
 category: story
 country: Brazil
-city: "Σαλβαδόρ"
-series: brazil-salvador
-part: 1
-cover: /images/brazil/salvador/cover-1.svg
-coverAlt: "Σαλβαδόρ"
+city: Σαλβαδόρ
+series: ""
+part: 2
+cover: /images/uploads/img_8828.jpeg
+coverAlt: Σαλβαδόρ
 featured: true
 draft: false
 lat: -12.9777
 lng: -38.5016
-tags: [brazil]
+tags:
+  - brazil
 gallery:
   - image: /images/brazil/salvador/photo-1.svg
-    caption: "Το Πελουρίνιο αργά το απόγευμα"
+    caption: Το Πελουρίνιο αργά το απόγευμα
   - image: /images/brazil/salvador/photo-2.svg
-    caption: "Ακαραζέ στη γωνία"
+    caption: Ακαραζέ στη γωνία
   - image: /images/brazil/salvador/photo-3.svg
-    caption: "Ηλιοβασίλεμα στο Πόρτο ντα Μπάρα"
+    caption: Ηλιοβασίλεμα στο Πόρτο ντα Μπάρα
 highlights:
   - key: porto-da-barra
-    title: "Porto da Barra"
-    text: "Μια ήρεμη, προστατευμένη παραλία στο Σαλβαδόρ όπου οι ντόπιοι μαζεύονται κάθε βράδυ για να χειροκροτήσουν το ηλιοβασίλεμα."
+    title: Porto da Barra
+    text: Μια ήρεμη, προστατευμένη παραλία στο Σαλβαδόρ όπου οι ντόπιοι μαζεύονται
+      κάθε βράδυ για να χειροκροτήσουν το ηλιοβασίλεμα.
     image: /images/brazil/salvador/porto-da-barra.svg
   - key: pelourinho
-    title: "Pelourinho"
-    text: "Το πολύχρωμο ιστορικό κέντρο του Σαλβαδόρ, μνημείο παγκόσμιας κληρονομιάς της UNESCO."
+    title: Pelourinho
+    text: Το πολύχρωμο ιστορικό κέντρο του Σαλβαδόρ, μνημείο παγκόσμιας κληρονομιάς
+      της UNESCO.
 ---
 
 Προσγειώθηκα στο Σαλβαδόρ χωρίς σχέδιο, μόνο με μία διεύθυνση και μια λίστα με φαγητά που ήθελα να δοκιμάσω. *(Δείγμα κειμένου: αντικαταστήστε με την ιστορία της Μαρίας.)*
