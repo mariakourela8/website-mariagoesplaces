@@ -7,7 +7,7 @@ country: Brazil
 city: Σαλβαδόρ
 series: ""
 part: 1
-cover: /images/brazil/rio/cover-1.svg
+cover: /images/uploads/plein-center-2.jpeg
 coverAlt: Σαλβαδόρ
 featured: false
 draft: false
@@ -15,13 +15,7 @@ lat: -22.9068
 lng: -43.1729
 tags:
   - brazil
-gallery:
-  - image: /images/brazil/rio/photo-1.svg
-    caption: Πρωινό στη Σάντα Τερέζα
-  - image: /images/brazil/rio/photo-2.svg
-    caption: Ιπανέμα
-  - image: /images/brazil/rio/photo-3.svg
-    caption: Σάμπα στην Πέδρα ντο Σαλ
+gallery: []
 highlights:
   - key: porto da barra beach
     title: Porto da Barra Beach
