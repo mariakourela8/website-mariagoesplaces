@@ -13,11 +13,8 @@ featured: false
 draft: false
 lat: -12.9711
 lng: -38.5108
-tags:
-  - brazil
-gallery:
-  - image: /images/uploads/img_0750.jpg
-  - image: /images/uploads/img_0750.jpg
+tags: []
+gallery: []
 highlights:
   - key: baianas de acarajé
     title: Baianas de Acarajé
