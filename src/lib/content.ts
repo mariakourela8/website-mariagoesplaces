@@ -25,8 +25,15 @@ export async function getStories(lang: Lang) {
       if (twin) s.data.tags = twin.data.tags;
     }
   }
-  return all.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+  return all.sort((a, b) => -byTime(a, b));
 }
+
+/** Oldest first; stories on the same date are ordered by part number (Part 1 before Part 2). */
+const byTime = (a: Story, b: Story) =>
+  a.data.date.valueOf() - b.data.date.valueOf() || (a.data.part ?? 0) - (b.data.part ?? 0);
+
+/** Copy of `stories` in chronological order (oldest first). */
+export const chronological = (stories: Story[]) => [...stories].sort(byTime);
 
 export function groupByCountry(stories: Story[]) {
   const map = new Map<string, Story[]>();

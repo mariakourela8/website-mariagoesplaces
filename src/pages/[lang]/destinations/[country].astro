@@ -5,7 +5,7 @@ import StoryGrid from '../../../components/StoryGrid.astro';
 import TravelMap from '../../../components/TravelMap.astro';
 import { t, slugify, langs, type Lang } from '../../../i18n/ui';
 import { render } from 'astro:content';
-import { getCountries, storyUrl, getDestination, countryNamer } from '../../../lib/content';
+import { getCountries, storyUrl, getDestination, countryNamer, chronological } from '../../../lib/content';
 
 export async function getStaticPaths() {
   const paths = [];
@@ -30,7 +30,7 @@ const points = stories
 <Base lang={lang} title={name}>
   <PageHead kicker={s.destinations} title={name} intro={stories.length ? s.stories(stories.length) : s.comingSoon} />
   {Intro && <div class="intro prose narrow"><Intro /></div>}
-  <StoryGrid stories={stories} empty={s.nothingYet} />
+  <StoryGrid stories={chronological(stories)} empty={s.nothingYet} />
   {points.length > 0 && <div class="wrap map-wrap"><TravelMap points={points} height="380px" /></div>}
   <p class="back"><a class="label more" href={`/${lang}/destinations/`}>{s.allDestinations}</a></p>
 </Base>
