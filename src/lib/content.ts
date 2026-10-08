@@ -39,6 +39,16 @@ export function groupByCountry(stories: Story[]) {
   return [...map.entries()].map(([country, list]) => ({ country, stories: list }));
 }
 
+/** Map pins for every story that has coordinates. */
+export function mapPoints(stories: Story[], countryName: (c: string) => string) {
+  return stories
+    .filter((x) => typeof x.data.lat === 'number' && typeof x.data.lng === 'number')
+    .map((x) => ({
+      lat: x.data.lat!, lng: x.data.lng!, title: x.data.title, href: storyUrl(x),
+      place: [x.data.city, countryName(x.data.country)].filter(Boolean).join(', '),
+    }));
+}
+
 const sameCountry = (a: string, b: string) => a.trim().toLowerCase() === b.trim().toLowerCase();
 
 /** Country entry written in the CMS (name + intro text). Matched on the English country name. */

@@ -3,7 +3,7 @@ import Base from '../../../layouts/Base.astro';
 import PageHead from '../../../components/PageHead.astro';
 import TravelMap from '../../../components/TravelMap.astro';
 import { t, langPaths, type Lang } from '../../../i18n/ui';
-import { getStories, getCountries, storyUrl, countryUrl, countryNamer } from '../../../lib/content';
+import { getStories, getCountries, countryUrl, countryNamer, mapPoints } from '../../../lib/content';
 
 export const getStaticPaths = langPaths;
 const lang = Astro.params.lang as Lang;
@@ -13,12 +13,7 @@ const countryName = await countryNamer(lang);
 const countries = (await getCountries(lang)).sort((a, b) =>
   countryName(a.country).localeCompare(countryName(b.country), lang === 'gr' ? 'el' : 'en'),
 );
-const points = stories
-  .filter((x) => typeof x.data.lat === 'number' && typeof x.data.lng === 'number')
-  .map((x) => ({
-    lat: x.data.lat!, lng: x.data.lng!, title: x.data.title, href: storyUrl(x),
-    place: [x.data.city, countryName(x.data.country)].filter(Boolean).join(', '),
-  }));
+const points = mapPoints(stories, countryName);
 ---
 <Base lang={lang} title={s.destinations}>
   <PageHead title={s.destinations} intro={s.guidesIntro} />
