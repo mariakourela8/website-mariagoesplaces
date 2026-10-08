@@ -3,7 +3,7 @@ import Base from '../../layouts/Base.astro';
 import StoryCard from '../../components/StoryCard.astro';
 import TravelMap from '../../components/TravelMap.astro';
 import { t, langPaths, type Lang } from '../../i18n/ui';
-import { getStories, groupByCountry, getPage, storyUrl, countryUrl, countryNamer, mapPoints } from '../../lib/content';
+import { getStories, getPage, countryNamer, mapPoints } from '../../lib/content';
 import { siteImage } from '../../lib/siteImages';
 
 export const getStaticPaths = langPaths;
@@ -13,9 +13,6 @@ const s = t(lang);
 const stories = await getStories(lang);
 const countryName = await countryNamer(lang);
 const featured = stories.find((x) => x.data.featured) ?? stories[0];
-const second = stories.find((x) => x !== featured);
-const countries = groupByCountry(stories).sort((a, b) => b.stories.length - a.stories.length);
-const spotlight = countries[0];
 const about = await getPage(lang, 'about');
 const aboutIntro = about?.body?.split(/\n\s*\n/).slice(0, 2).join(' ').replace(/[#*_>\[\]]/g, '') ?? '';
 const latest = stories.slice(0, 3);
@@ -37,43 +34,20 @@ const aboutImg2 = about?.data.image2 ?? siteImage('about-2');
     </div>
   </section>
 
-  <!-- 2. Featured story, split layout -->
-  {featured && (
-    <section class="feature wrap">
-      <a class="feature-img frame" href={storyUrl(featured)}>
-        <img src={featured.data.cover} alt={featured.data.coverAlt} />
-      </a>
-      <div class="feature-text">
-        <p class="label eyebrow">{[featured.data.city, countryName(featured.data.country)].filter(Boolean).join(', ')}</p>
-        <h2 class="title-serif">{featured.data.title}</h2>
-        {featured.data.description && <p>{featured.data.description}</p>}
-        <a class="label more" href={storyUrl(featured)}>{s.readMore}</a>
-      </div>
-      {second && (
-        <div class="feature-mini">
-          <StoryCard story={second} variant="row" />
-        </div>
-      )}
-    </section>
-  )}
+  <!-- 2. Latest stories -->
+  <section class="section wrap">
+    <div class="section-head">
+      <h2 class="label">{s.latest}</h2>
+    </div>
+    {latest.length ? (
+      <div class="grid3">{latest.map((st) => <StoryCard story={st} />)}</div>
+    ) : (
+      <p class="center">{s.nothingYet}</p>
+    )}
+    <p class="center"><a class="btn label" href={`/${lang}/journal/`}>{s.viewAll}</a></p>
+  </section>
 
-  <!-- 3. Travel to: <country> -->
-  {spotlight && spotlight.stories.length > 0 && (
-    <section class="section wrap">
-      <div class="section-head">
-        <h2 class="label">{s.travelTo}: <strong>{countryName(spotlight.country)}</strong></h2>
-      </div>
-      <div class="spot">
-        <StoryCard story={spotlight.stories[0]} variant="overlay" />
-        <div class="spot-list">
-          {spotlight.stories.slice(1, 4).map((st) => <StoryCard story={st} variant="row" />)}
-          <a class="label more" href={countryUrl(lang, spotlight.country)}>{s.viewAll}</a>
-        </div>
-      </div>
-    </section>
-  )}
-
-  <!-- 4. About me -->
+  <!-- 3. About me -->
   <section class="about-band">
     <div class="wrap about">
       <div class="about-imgs">
@@ -89,51 +63,19 @@ const aboutImg2 = about?.data.image2 ?? siteImage('about-2');
     </div>
   </section>
 
-  <!-- 5. Quote band -->
+  <!-- 4. Quote band -->
   <section class="quote">
     <p class="display quote-text">{s.quoteA} <em>{s.quoteB}</em></p>
   </section>
 
-  <!-- 6. Latest stories -->
-  <section class="section wrap">
-    <div class="section-head">
-      <h2 class="label">{s.latest}</h2>
-    </div>
-    {latest.length ? (
-      <div class="grid3">{latest.map((st) => <StoryCard story={st} />)}</div>
-    ) : (
-      <p class="center">{s.nothingYet}</p>
-    )}
-    <p class="center"><a class="btn label" href={`/${lang}/journal/`}>{s.viewAll}</a></p>
-  </section>
-
-  <!-- 7. Destinations / guides -->
-  <section class="section guides">
-    <div class="wrap">
-      <div class="section-head">
-        <h2 class="label">{s.guidesTitle}</h2>
-        <p>{s.guidesIntro}</p>
-      </div>
-      {countries.map((c) => (
-        <div class="guide">
-          <div class="guide-text">
-            <h3 class="title-serif">{countryName(c.country)}</h3>
-            <p class="eyebrow">{s.stories(c.stories.length)} · {[...new Set(c.stories.map((x) => x.data.city).filter(Boolean))].join(', ')}</p>
-            <a class="label more" href={countryUrl(lang, c.country)}>{s.discover}</a>
-          </div>
-          {c.stories.slice(0, 2).map((st) => (
-            <a class="frame guide-img" href={storyUrl(st)}><img src={st.data.cover} alt={st.data.coverAlt} loading="lazy" /></a>
-          ))}
-        </div>
-      ))}
-      {points.length > 0 && (
-        <div class="home-map">
-          <h2 class="label section-head">{s.map}</h2>
-          <TravelMap points={points} />
-        </div>
-      )}
-    </div>
-  </section>
+  <!-- 5. Map of all destinations -->
+  {points.length > 0 && (
+    <section class="section wrap">
+      <h2 class="label section-head">{s.map}</h2>
+      <TravelMap points={points} />
+      <p class="center map-more"><a class="btn label" href={`/${lang}/destinations/`}>{s.allDestinations}</a></p>
+    </section>
+  )}
 </Base>
 
 <style>
@@ -143,16 +85,6 @@ const aboutImg2 = about?.data.image2 ?? siteImage('about-2');
   .hero-inner { position: relative; color: var(--white); width: 100%; padding-bottom: clamp(40px, 6vh, 64px); }
   .hero-kicker { opacity: .85; margin-bottom: 18px; }
   .hero-title { font-size: clamp(52px, 8vw, 100px); line-height: .95; margin-bottom: 32px; }
-
-  .feature { display: grid; grid-template-columns: 1.15fr 1fr; margin-top: clamp(40px, 7vw, 80px); position: relative; }
-  .feature-img { aspect-ratio: 4 / 3.4; }
-  .feature-text { background: var(--paper-2); padding: clamp(28px, 5vw, 64px); display: flex; flex-direction: column; justify-content: center; }
-  .feature-text h2 { font-size: clamp(32px, 4vw, 48px); margin: 10px 0 18px; }
-  .feature-text p { color: var(--ink-soft); font-size: 16px; }
-  .feature-mini { grid-column: 2; background: var(--white); padding: 18px; margin: -40px 0 0 -40px; position: relative; box-shadow: 0 10px 40px rgba(0,0,0,.06); }
-
-  .spot { display: grid; grid-template-columns: 1.6fr 1fr; gap: 20px; }
-  .spot-list { display: flex; flex-direction: column; gap: 16px; justify-content: space-between; }
 
   .about-band { background: var(--white); padding: clamp(56px, 8vw, 100px) 0; }
   .about { display: grid; grid-template-columns: 1.1fr 1fr; gap: clamp(28px, 5vw, 70px); align-items: center; }
@@ -170,16 +102,10 @@ const aboutImg2 = about?.data.image2 ?? siteImage('about-2');
   .grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; margin-bottom: 44px; }
   .center { text-align: center; }
 
-  .guides { background: var(--white); }
-  .guide { display: grid; grid-template-columns: 1fr 1.1fr 1.1fr; gap: 16px; align-items: center; padding: 28px 0; border-top: 1px solid var(--line); }
-  .guide h3 { font-size: 40px; }
-  .guide .eyebrow { font-size: 15px; margin: 8px 0 14px; }
-  .guide-img { aspect-ratio: 4 / 3; }
-  .home-map { margin-top: clamp(56px, 8vw, 96px); }
+  .map-more { margin: 36px 0 0; }
 
   @media (max-width: 860px) {
-    .feature, .spot, .about, .guide { grid-template-columns: 1fr; }
-    .feature-mini { grid-column: 1; margin: -30px 16px 0; }
+    .about { grid-template-columns: 1fr; }
     .grid3 { grid-template-columns: 1fr; }
     .about-text { order: -1; }
   }
