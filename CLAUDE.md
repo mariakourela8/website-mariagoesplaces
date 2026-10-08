@@ -60,7 +60,8 @@ content/en/*.md, content/gr/*.md ──┘  read by src/content.config.ts (glob 
 
 Rules: cream `--paper` background, white/sand alternating sections, big serif caps (`.display`) with italic accents (`<em>`),
 light serif for story titles (`.title-serif`), tiny letter-spaced sans labels (`.label`), "READ MORE →" links (`.label.more`),
-generous white space, square-cornered photos. Fonts have Greek fallbacks (GFS Didot, EB Garamond, Commissioner) — **always check Greek pages render nicely.**
+generous white space, square-cornered photos. Fonts have Greek fallbacks (GFS Didot, Commissioner) — **always check Greek pages render nicely.**
+Greek pages swap `--f-serif` to **Noto Serif Display** (light), loaded only on `/gr/`: Cormorant Garamond has no Greek, and the EB Garamond fallback looked too busy. The logo pins Cormorant explicitly.
 
 ## Conventions
 - **No em dashes (—) anywhere on the site** (UI strings, content, CMS labels, page titles). Use a comma, colon or full stop; `|` or `·` as a separator.
