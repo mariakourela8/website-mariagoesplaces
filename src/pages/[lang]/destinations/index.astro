@@ -3,13 +3,16 @@ import Base from '../../../layouts/Base.astro';
 import PageHead from '../../../components/PageHead.astro';
 import TravelMap from '../../../components/TravelMap.astro';
 import { t, langPaths, type Lang } from '../../../i18n/ui';
-import { getStories, getCountries, countryUrl, countryNamer, mapPoints } from '../../../lib/content';
+import { getStories, getCountries, countryUrl, countryNamer, mapPoints, getDestination } from '../../../lib/content';
 
 export const getStaticPaths = langPaths;
 const lang = Astro.params.lang as Lang;
 const s = t(lang);
 const stories = await getStories(lang);
 const countryName = await countryNamer(lang);
+// Card photo: the destination's own photo (CMS), else the first story cover
+const cardImg = async (c: { country: string; stories: { data: { cover?: string } }[] }) =>
+  (await getDestination(lang, c.country))?.data.image ?? c.stories.find((x) => x.data.cover)?.data.cover;
 const countries = (await getCountries(lang)).sort((a, b) =>
   countryName(a.country).localeCompare(countryName(b.country), lang === 'gr' ? 'el' : 'en'),
 );
@@ -21,7 +24,7 @@ const points = mapPoints(stories, countryName);
   <section class="wrap countries">
     {countries.map((c) => (
       <a class="country" href={countryUrl(lang, c.country)}>
-        <div class="frame">{c.stories.find((x) => x.data.cover) && <img src={c.stories.find((x) => x.data.cover)!.data.cover} alt="" loading="lazy" />}</div>
+        <div class="frame">{cardImg(c).then((src) => src && <img src={src} alt="" loading="lazy" />)}</div>
         <div class="country-body">
           <h2 class="title-serif">{countryName(c.country)}</h2>
           <p class="label eyebrow">{c.stories.length ? s.stories(c.stories.length) : s.comingSoon}</p>

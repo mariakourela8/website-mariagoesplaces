@@ -26,7 +26,7 @@ content/en/*.md, content/gr/*.md ──┘  read by src/content.config.ts (glob 
 | Path | What it is |
 |---|---|
 | `content/en/<slug>.md`, `content/gr/<slug>.md` | Stories. **Same filename in both folders = translations of each other.** |
-| `content/destinations/{en,gr}/<country>.md` | One per country (CMS "Destinations"): `country` (English key), `name` (shown name per language), optional intro text shown on the country page. A country here gets a page even with no stories. |
+| `content/destinations/{en,gr}/<country>.md` | One per country (CMS "Destinations"): `country` (English key), `name` (shown name per language), optional `headline`, `image` (big photo on the country page + overview card) and intro text. A country here gets a page even with no stories. |
 | `content/pages/{en,gr}/about.md` | About page (also feeds the homepage "About me" band) |
 | `src/content.config.ts` | Zod schema for stories/pages — must stay in sync with `public/admin/config.yml` |
 | `public/admin/config.yml` | Decap CMS fields (i18n `multiple_folders`, locales en/gr) |

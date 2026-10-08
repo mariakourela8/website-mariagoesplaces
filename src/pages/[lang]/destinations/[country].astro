@@ -29,13 +29,24 @@ const points = stories
 ---
 <Base lang={lang} title={name}>
   <PageHead kicker={s.destinations} title={name} intro={stories.length ? s.stories(stories.length) : s.comingSoon} />
-  {Intro && <div class="intro prose narrow"><Intro /></div>}
+  {intro?.data.image && (
+    <figure class="dest-photo wrap"><img src={intro.data.image} alt="" /></figure>
+  )}
+  {(Intro || intro?.data.headline) && (
+    <div class="intro prose narrow">
+      {intro?.data.headline && <h2 class="headline">{intro.data.headline}</h2>}
+      {Intro && <Intro />}
+    </div>
+  )}
   <StoryGrid stories={chronological(stories)} empty={s.nothingYet} />
   {points.length > 0 && <div class="wrap map-wrap"><TravelMap points={points} height="380px" /></div>}
   <p class="back"><a class="label more" href={`/${lang}/destinations/`}>{s.allDestinations}</a></p>
 </Base>
 <style>
+  .dest-photo { margin: 0 auto clamp(40px, 6vw, 64px); max-width: 980px; }
+  .dest-photo img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
   .intro { font-size: 18px; line-height: 1.85; margin-bottom: clamp(48px, 7vw, 80px); }
+  .intro .headline { font-family: var(--f-serif); font-size: clamp(30px, 4vw, 42px); line-height: 1.15; margin: 0 0 .7em; }
   .intro :global(h2) { font-family: var(--f-serif); font-size: 34px; margin: 1.5em 0 .5em; }
   .intro :global(h3) { font-family: var(--f-sans); font-size: 13px; font-weight: 500; letter-spacing: .18em; text-transform: uppercase; margin: 2em 0 .6em; }
   .intro :global(img) { margin: 2em auto; }

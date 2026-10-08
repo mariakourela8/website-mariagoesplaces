@@ -59,6 +59,8 @@ const destinations = defineCollection({
   schema: z.object({
     country: z.string(),
     name: optString,
+    headline: optString,
+    image: optString,
   }),
 });
 
