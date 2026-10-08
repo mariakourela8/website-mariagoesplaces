@@ -28,7 +28,7 @@ const series = d.series
   ? all.filter((x) => x.data.series === d.series).sort((a, b) => (a.data.part ?? 0) - (b.data.part ?? 0))
   : [];
 const related = (series.length > 1 ? series : all.filter((x) => x.data.country === d.country))
-  .filter((x) => x !== story)
+  .filter((x) => x.id !== story.id)
   .slice(0, 3);
 const altHref = hasTranslation ? `/${other}/journal/${slugOf(story)}/` : `/${other}/journal/`;
 ---
