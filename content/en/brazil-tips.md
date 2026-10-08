@@ -1,11 +1,9 @@
 ---
 title: "Tips That Helped Us Feel More Comfortable in Brazil"
-description: "Small, practical things that helped two women travelling on their own feel more comfortable and secure in Brazil."
+description: ""
 date: 2026-10-08
 category: tips
 country: Brazil
-cover: /images/brazil/rio/part1-copacabana.jpg
-coverAlt: "Walking along the Copacabana promenade"
 featured: false
 draft: false
 tags: []

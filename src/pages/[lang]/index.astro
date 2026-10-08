@@ -12,7 +12,7 @@ const s = t(lang);
 
 const stories = await getStories(lang);
 const countryName = await countryNamer(lang);
-const featured = stories.find((x) => x.data.featured) ?? stories[0];
+const featured = stories.find((x) => x.data.featured && x.data.cover) ?? stories.find((x) => x.data.cover);
 const about = await getPage(lang, 'about');
 const aboutIntro = about?.body?.split(/\n\s*\n/).slice(0, 2).join(' ').replace(/[#*_>\[\]]/g, '') ?? '';
 // The three most recent stories, shown in the order they happened

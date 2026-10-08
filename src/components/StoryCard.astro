@@ -11,8 +11,8 @@ const d = story.data;
 const place = [d.city, (await countryNamer(lang))(d.country)].filter(Boolean).join(', ');
 ---
 <a href={storyUrl(story)} class:list={['card', `card--${variant}`]}>
-  <div class="frame">
-    <img src={d.cover} alt={d.coverAlt} loading="lazy" />
+  <div class:list={['frame', { 'frame--empty': !d.cover }]}>
+    {d.cover ? <img src={d.cover} alt={d.coverAlt} loading="lazy" /> : <span class="star" aria-hidden="true">✦</span>}
   </div>
   <div class="card-body">
     {variant === 'grid' && <p class="label eyebrow">{place}</p>}
@@ -24,6 +24,9 @@ const place = [d.city, (await countryNamer(lang))(d.country)].filter(Boolean).jo
 <style>
   .card { text-decoration: none; display: block; }
   .card h3 { margin: 6px 0 12px; }
+  /* Story without a cover photo: plain sand block with a small star */
+  .frame--empty { display: grid; place-items: center; }
+  .frame--empty .star { color: var(--accent); font-size: 28px; opacity: .7; }
 
   .card--grid .frame { aspect-ratio: 4 / 5; }
   .card--grid .card-body { padding-top: 18px; }

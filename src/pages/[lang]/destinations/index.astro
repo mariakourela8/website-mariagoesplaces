@@ -21,7 +21,7 @@ const points = mapPoints(stories, countryName);
   <section class="wrap countries">
     {countries.map((c) => (
       <a class="country" href={countryUrl(lang, c.country)}>
-        <div class="frame">{c.stories[0] && <img src={c.stories[0].data.cover} alt="" loading="lazy" />}</div>
+        <div class="frame">{c.stories.find((x) => x.data.cover) && <img src={c.stories.find((x) => x.data.cover)!.data.cover} alt="" loading="lazy" />}</div>
         <div class="country-body">
           <h2 class="title-serif">{countryName(c.country)}</h2>
           <p class="label eyebrow">{c.stories.length ? s.stories(c.stories.length) : s.comingSoon}</p>

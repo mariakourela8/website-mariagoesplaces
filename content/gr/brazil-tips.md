@@ -1,11 +1,9 @@
 ---
 title: "Συμβουλές που μας βοήθησαν να νιώθουμε πιο άνετα στη Βραζιλία"
-description: "Μικρά, πρακτικά πράγματα που βοήθησαν δύο γυναίκες που ταξίδευαν μόνες τους να νιώθουν πιο άνετα και ασφαλείς στη Βραζιλία."
+description: ""
 date: 2026-10-08
 category: tips
 country: Brazil
-cover: /images/brazil/rio/part1-copacabana.jpg
-coverAlt: "Βόλτα στον πεζόδρομο της Copacabana"
 featured: false
 draft: false
 tags: []

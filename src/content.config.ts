@@ -19,7 +19,7 @@ const stories = defineCollection({
     city: optString,
     series: optString,
     part: optNumber,
-    cover: z.string(),
+    cover: optString,
     coverAlt: z.preprocess(empty, z.string().default('')),
     featured: z.boolean().default(false),
     draft: z.boolean().default(false),

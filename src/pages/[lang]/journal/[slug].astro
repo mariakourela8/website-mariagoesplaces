@@ -44,11 +44,13 @@ const altHref = hasTranslation ? `/${other}/journal/${slugOf(story)}/` : `/${oth
       <p class="label a-date">{formatDate(d.date, lang)}</p>
     </header>
 
-    <figure class="a-cover wrap">
-      <img src={d.cover} alt={d.coverAlt} />
-    </figure>
+    {d.cover && (
+      <figure class="a-cover wrap">
+        <img src={d.cover} alt={d.coverAlt} />
+      </figure>
+    )}
 
-    <div class="prose narrow">
+    <div class:list={['prose', 'narrow', { 'no-cover': !d.cover }]}>
       <Content />
     </div>
 
@@ -80,6 +82,7 @@ const altHref = hasTranslation ? `/${other}/journal/${slugOf(story)}/` : `/${oth
   .a-dek { font-family: var(--f-serif); font-style: italic; font-size: 23px; color: var(--ink-soft); max-width: 640px; margin: 0 auto 18px; line-height: 1.4; }
   .a-date { color: var(--ink-soft); }
   .a-cover { margin: 40px auto 56px; max-width: 860px; }
+  .no-cover { margin-top: clamp(40px, 6vw, 72px); }
   .a-cover img { width: 100%; aspect-ratio: 3 / 2; max-height: 70vh; object-fit: cover; }
 
   .prose { font-size: 18px; line-height: 1.85; }

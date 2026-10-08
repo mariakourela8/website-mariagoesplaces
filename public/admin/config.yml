@@ -54,7 +54,8 @@ collections:
       - { label: Series, name: series, widget: string, required: false, i18n: duplicate,
           hint: 'Same value for all parts, e.g. brazil-salvador' }
       - { label: Part number, name: part, widget: number, value_type: int, required: false, i18n: duplicate }
-      - { label: Cover image, name: cover, widget: image, i18n: duplicate }
+      - { label: Cover image, name: cover, widget: image, required: false, i18n: duplicate,
+          hint: 'Optional. Without one, the story page has no top photo and cards show a plain sand-coloured block.' }
       - { label: Cover description (for screen readers), name: coverAlt, widget: string, required: false, i18n: true }
       - { label: Feature on homepage, name: featured, widget: boolean, default: false, i18n: duplicate }
       - { label: Draft (hidden from site), name: draft, widget: boolean, default: false, i18n: duplicate }
