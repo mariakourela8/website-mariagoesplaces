@@ -45,7 +45,7 @@ content/en/*.md, content/gr/*.md ──┘  read by src/content.config.ts (glob 
 
 ## Features & how they work
 - **Language switch**: header swaps `/en/`↔`/gr/`. On articles it links to the same slug if a translation exists, else to the journal.
-- **Pop-ups**: in Markdown write `[Porto da Barra](#pop-porto-da-barra)`; the story's `highlights` list needs `key: porto-da-barra`. `Highlights.astro` renders `<dialog>`s and wires links.
+- **Pop-ups**: the `highlights` key is a word/phrase from the story (e.g. `walking tour`, `ποδήλατα`). `Highlights.astro` links its first whole-word occurrence in the text (case/accent-insensitive, skips headings, links and figures) on page load. Hand-written `[x](#pop-<key>)` links still work. Blank lines in the pop-up text become paragraphs.
 - **Gallery**: `gallery` list → grid + lightbox `<dialog>` with arrows (`Gallery.astro`).
 - **Photo collage**: CMS editor component (`public/admin/collage.js`, + menu in the story text) saves `<figure class="collage" data-layout="row|feature">` with `<img>`s and optional `<figcaption>` into the Markdown. Styled in `global.css` (`.collage`): layout by photo count (2 side by side, 3 row or big+two, 4 = 2×2), 2 per row on phones. Single in-text photos are capped by `.prose p > img` in `[slug].astro`.
 - **Map**: Leaflet 1.9.4 from unpkg + **OpenStreetMap** tiles (no key) toned with a CSS filter. CARTO tiles now need an API key, so don't switch back. Points come from story `lat`/`lng`.

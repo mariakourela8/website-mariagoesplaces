@@ -84,7 +84,7 @@ collections:
         widget: list
         required: false
         i18n: true
-        hint: 'In the text, link a word to #pop-KEY, e.g. [Porto da Barra](#pop-porto-da-barra). Clicking it opens this pop-up.'
+        hint: 'Key = a word or phrase exactly as it appears in your story, e.g. walking tour. The first time it appears in the text, it becomes clickable and opens this pop-up.'
         summary: '{{fields.title}}'
         fields:
           - { label: Key (lowercase, no spaces), name: key, widget: string }

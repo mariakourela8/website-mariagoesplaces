@@ -163,7 +163,7 @@ Just remember: have fun, but always be aware of your surroundings.
 
 ## **A day on the water**
 
-One of the highlights of the whole trip was our boat tour to ***Angra dos Reis*** and** *Ilha Grande***.
+One of the highlights of the whole trip was our boat tour to ***Angra dos Reis*** and ***Ilha Grande***.
 
 It was an all-day excursion, and we found several options online.
 

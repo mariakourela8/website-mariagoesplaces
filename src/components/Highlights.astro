@@ -1,41 +1,94 @@
 ---
 /**
- * Interactive pop-ups. In the article text, write a link like
- *   [Porto da Barra](#pop-porto-da-barra)
- * and add a Highlight in the CMS with key "porto-da-barra".
+ * Interactive pop-ups ("Pop-ups" list in the CMS).
+ * The pop-up's key is a word or phrase from the story, e.g. "walking tour".
+ * The first time it appears in the story text (whole words, any capitals or accents)
+ * it becomes a clickable link that opens the pop-up. Headings are skipped.
+ * Old-style links in the text, [Porto da Barra](#pop-porto-da-barra), keep working too.
  */
+import { slugify } from '../i18n/ui';
+
 interface Props { items: { key: string; title: string; text: string; image?: string }[]; closeLabel: string }
 const { items, closeLabel } = Astro.props;
+const paras = (text: string) => text.split(/\n\s*\n/).map((p) => p.trim()).filter(Boolean);
 ---
-{items.map((h) => (
-  <dialog class="pop" id={`pop-${h.key}`}>
+{items.map((h, i) => (
+  <dialog class="pop" id={`pop-${i}`} data-key={h.key.trim()} data-slug={slugify(h.key)}>
     <button class="dialog-close" aria-label={closeLabel}>×</button>
     {h.image && <img src={h.image} alt="" />}
     <div class="pop-body">
       <h3 class="title-serif">{h.title}</h3>
-      <p>{h.text}</p>
+      {paras(h.text).map((p) => <p>{p}</p>)}
     </div>
   </dialog>
 ))}
 
 <script>
-  document.querySelectorAll<HTMLAnchorElement>('a[href^="#pop-"]').forEach((a) => {
-    const dlg = document.getElementById(a.getAttribute('href')!.slice(1)) as HTMLDialogElement | null;
-    if (!dlg) return;
-    a.classList.add('pop-link');
-    a.addEventListener('click', (e) => { e.preventDefault(); dlg.showModal(); });
-  });
-  document.querySelectorAll<HTMLDialogElement>('dialog.pop').forEach((dlg) => {
+  // Case- and accent-insensitive folding that keeps one character per character,
+  // so positions in the folded text match the original text.
+  const fold = (s: string) =>
+    [...s].map((c) => {
+      const f = c.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase();
+      return f.length === 1 ? f : c.toLowerCase().length === 1 ? c.toLowerCase() : c;
+    }).join('');
+  const isWordChar = (c: string | undefined) => !!c && /[\p{L}\p{N}]/u.test(c);
+
+  function linkFirst(root: Element, phrase: string, dlg: HTMLDialogElement) {
+    const needle = fold(phrase);
+    if (!needle) return false;
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+      acceptNode: (n) =>
+        n.parentElement?.closest('h1, h2, h3, h4, h5, h6, a, figure, figcaption, script, style')
+          ? NodeFilter.FILTER_REJECT
+          : NodeFilter.FILTER_ACCEPT,
+    });
+    for (let node = walker.nextNode() as Text | null; node; node = walker.nextNode() as Text | null) {
+      const text = node.data;
+      const hay = fold(text);
+      let at = hay.indexOf(needle);
+      while (at !== -1 && (isWordChar(text[at - 1]) || isWordChar(text[at + needle.length]))) {
+        at = hay.indexOf(needle, at + 1);
+      }
+      if (at === -1) continue;
+      const match = node.splitText(at);
+      match.splitText(needle.length);
+      const a = document.createElement('a');
+      a.href = `#${dlg.id}`;
+      a.className = 'pop-link';
+      match.replaceWith(a);
+      a.append(match);
+      return true;
+    }
+    return false;
+  }
+
+  const prose = document.querySelector('.prose');
+  const dialogs = [...document.querySelectorAll<HTMLDialogElement>('dialog.pop')];
+  for (const dlg of dialogs) {
+    // Old-style links written by hand: #pop-<key> or #pop-<slug>
+    const keys = [`pop-${dlg.dataset.key}`, `pop-${dlg.dataset.slug}`];
+    let linked = false;
+    document.querySelectorAll<HTMLAnchorElement>('a[href^="#pop-"]').forEach((a) => {
+      const target = decodeURIComponent(a.getAttribute('href')!.slice(1));
+      if (keys.includes(target)) { a.href = `#${dlg.id}`; a.classList.add('pop-link'); linked = true; }
+    });
+    if (!linked && prose && dlg.dataset.key) linkFirst(prose, dlg.dataset.key, dlg);
+
     dlg.querySelector('.dialog-close')?.addEventListener('click', () => dlg.close());
     dlg.addEventListener('click', (e) => { if (e.target === dlg) dlg.close(); });
+  }
+  document.querySelectorAll<HTMLAnchorElement>('a.pop-link').forEach((a) => {
+    const dlg = document.getElementById(a.getAttribute('href')!.slice(1)) as HTMLDialogElement | null;
+    a.addEventListener('click', (e) => { e.preventDefault(); dlg?.showModal(); });
   });
 </script>
 
 <style>
   .pop img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; }
-  .pop-body { padding: 26px 30px 30px; }
+  .pop-body { padding: 26px 30px 30px; max-height: 70vh; overflow-y: auto; }
   .pop-body h3 { font-size: 32px; margin-bottom: 12px; }
-  .pop-body p { margin: 0; font-size: 16px; }
+  .pop-body p { margin: 0 0 .8em; font-size: 16px; }
+  .pop-body p:last-child { margin-bottom: 0; }
   :global(.pop-link) {
     text-decoration: none;
     border-bottom: 1px dashed var(--accent);
