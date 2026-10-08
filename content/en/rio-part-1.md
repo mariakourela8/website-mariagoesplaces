@@ -11,8 +11,8 @@ cover: /images/uploads/plein-center-2.jpeg
 coverAlt: Salvador
 featured: false
 draft: false
-lat: -22.9068
-lng: -43.1729
+lat: -13.0058
+lng: -38.5320
 tags: []
 gallery: []
 highlights:

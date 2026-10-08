@@ -11,8 +11,8 @@ cover: /images/uploads/img_8828.jpeg
 coverAlt: ""
 featured: true
 draft: false
-lat: -12.9777
-lng: -38.5016
+lat: -22.9519
+lng: -43.2105
 tags:
   - brazil
 gallery: []
