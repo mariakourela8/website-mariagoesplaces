@@ -27,7 +27,7 @@ const is = (p: string) => path.startsWith(`/${lang}/${p}`);
       <a class:list={['label', { on: is('journal') }]} href={`/${lang}/journal/`}>{s.journal}</a>
       <a class:list={['label', { on: is('destinations') }]} href={`/${lang}/destinations/`}>{s.destinations}</a>
       <a class:list={['label', { on: is('tips') }]} href={`/${lang}/tips/`}>{s.tips}</a>
-      <a class:list={['label', { on: is('about') }]} href={`/${lang}/about/`}>{s.aboutMe}</a>
+      <a class:list={['label', { on: is('about') }]} href={`/${lang}/about/`}>{s.aboutNav}</a>
     </nav>
 
     <button class="menu-btn label" aria-expanded="false" aria-controls="mobile-nav">{s.menu}</button>
@@ -37,7 +37,7 @@ const is = (p: string) => path.startsWith(`/${lang}/${p}`);
     <a href={`/${lang}/journal/`}>{s.journal}</a>
     <a href={`/${lang}/destinations/`}>{s.destinations}</a>
     <a href={`/${lang}/tips/`}>{s.tipsTitle}</a>
-    <a href={`/${lang}/about/`}>{s.aboutMe}</a>
+    <a href={`/${lang}/about/`}>{s.aboutNav}</a>
     <a href={site.instagram} target="_blank" rel="noopener">Instagram</a>
     <a href={altHref} hreflang={other === 'gr' ? 'el' : 'en'}>{s.otherLang}</a>
   </nav>
