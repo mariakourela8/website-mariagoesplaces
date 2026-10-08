@@ -79,14 +79,15 @@ const altHref = hasTranslation ? `/${other}/journal/${slugOf(story)}/` : `/${oth
   .a-title { font-size: clamp(40px, 6vw, 68px); margin: 16px 0 18px; }
   .a-dek { font-family: var(--f-serif); font-style: italic; font-size: 23px; color: var(--ink-soft); max-width: 640px; margin: 0 auto 18px; line-height: 1.4; }
   .a-date { color: var(--ink-soft); }
-  .a-cover { margin: 40px auto 56px; }
-  .a-cover img { width: 100%; max-height: 78vh; object-fit: cover; }
+  .a-cover { margin: 40px auto 56px; max-width: 860px; }
+  .a-cover img { width: 100%; aspect-ratio: 3 / 2; max-height: 70vh; object-fit: cover; }
 
   .prose { font-size: 18px; line-height: 1.85; }
   .prose :global(h2) { font-family: var(--f-serif); font-size: 36px; margin: 1.6em 0 .5em; }
   .prose :global(h3) { font-family: var(--f-sans); font-size: 13px; font-weight: 500; letter-spacing: .18em; text-transform: uppercase; margin: 2em 0 .6em; }
   .prose > :global(p:first-of-type::first-letter) { font-family: var(--f-display); float: left; font-size: 4.4em; line-height: .8; padding: 8px 10px 0 0; }
-  .prose :global(img) { margin: 2em auto; }
+  /* Photos in the text: centred and capped so portrait shots don't fill the whole screen */
+  .prose :global(img) { margin: 2em auto; width: auto; max-width: min(100%, 560px); max-height: min(560px, 70vh); }
   .prose :global(blockquote) { margin: 2em 0; padding: 0 0 0 24px; border-left: 1px solid var(--ink); font-family: var(--f-serif); font-style: italic; font-size: 26px; line-height: 1.4; }
   .prose :global(a:not(.pop-link)) { text-decoration-color: var(--accent); text-underline-offset: 3px; }
   .prose :global(hr) { border: 0; text-align: center; margin: 2.5em 0; }
