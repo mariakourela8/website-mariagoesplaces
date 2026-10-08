@@ -3,7 +3,7 @@ import Base from '../../layouts/Base.astro';
 import StoryCard from '../../components/StoryCard.astro';
 import TravelMap from '../../components/TravelMap.astro';
 import { t, langPaths, type Lang } from '../../i18n/ui';
-import { getStories, getPage, countryNamer, mapPoints, chronological } from '../../lib/content';
+import { getStories, getPage, countryNamer, mapPoints, chronological, isTip } from '../../lib/content';
 import { siteImage } from '../../lib/siteImages';
 
 export const getStaticPaths = langPaths;
@@ -16,7 +16,7 @@ const featured = stories.find((x) => x.data.featured && x.data.cover) ?? stories
 const about = await getPage(lang, 'about');
 const aboutIntro = about?.body?.split(/\n\s*\n/).slice(0, 2).join(' ').replace(/[#*_>\[\]]/g, '') ?? '';
 // The three most recent stories, shown in the order they happened
-const latest = chronological(stories.slice(0, 3));
+const latest = chronological(stories.filter((x) => !isTip(x)).slice(0, 3));
 const points = mapPoints(stories, countryName);
 // Photos set in the CMS win; otherwise use public/images/site/ (hero falls back to the featured story's cover)
 const heroImg = siteImage('hero') ?? featured?.data.cover;

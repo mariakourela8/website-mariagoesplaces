@@ -6,7 +6,21 @@ export type Story = CollectionEntry<'stories'>;
 /** "en/salvador-part-1" → "salvador-part-1" */
 export const slugOf = (s: Story) => s.id.split('/').slice(1).join('/');
 export const langOf = (s: Story) => s.id.split('/')[0] as Lang;
-export const storyUrl = (s: Story) => `/${langOf(s)}/journal/${slugOf(s)}/`;
+/** "Maria's tips" pages live under /tips/, everything else under /journal/. */
+export const isTip = (s: Story) => s.data.category === 'tips';
+export const sectionOf = (s: Story) => (isTip(s) ? 'tips' : 'journal');
+export const storyUrl = (s: Story) => `/${langOf(s)}/${sectionOf(s)}/${slugOf(s)}/`;
+
+/** getStaticPaths for one section's article pages (journal or tips). */
+export async function storyPaths(section: 'journal' | 'tips') {
+  const all = await getCollection('stories', (s) => import.meta.env.DEV || !s.data.draft);
+  return all
+    .filter((story) => sectionOf(story) === section)
+    .map((story) => ({
+      params: { lang: langOf(story), slug: slugOf(story) },
+      props: { story, hasTranslation: all.some((o) => o.id !== story.id && slugOf(o) === slugOf(story)) },
+    }));
+}
 export const countryUrl = (lang: Lang, country: string) =>
   `/${lang}/destinations/${slugify(country)}/`;
 
@@ -79,7 +93,8 @@ export async function countryNamer(lang: Lang) {
  * that have no stories yet (so their page exists and can be linked).
  */
 export async function getCountries(lang: Lang) {
-  const groups = groupByCountry(await getStories(lang));
+  // Tips pages are not travel stories: keep them out of country pages and story counts
+  const groups = groupByCountry((await getStories(lang)).filter((s) => !isTip(s)));
   const extra = await getCollection('destinations');
   for (const d of extra) {
     if (!groups.some((g) => sameCountry(g.country, d.data.country))) {

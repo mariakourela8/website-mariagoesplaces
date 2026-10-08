@@ -1,16 +1,44 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import PageHead from '../../../components/PageHead.astro';
-import StoryGrid from '../../../components/StoryGrid.astro';
 import { t, langPaths, type Lang } from '../../../i18n/ui';
-import { getStories } from '../../../lib/content';
+import { getStories, isTip, storyUrl, countryNamer } from '../../../lib/content';
 
 export const getStaticPaths = langPaths;
 const lang = Astro.params.lang as Lang;
 const s = t(lang);
-const tips = (await getStories(lang)).filter((x) => x.data.category === 'tips');
+const tips = (await getStories(lang)).filter(isTip);
+const countryName = await countryNamer(lang);
 ---
-<Base lang={lang} title={s.tipsTitle} description={s.tipsIntro}>
-  <PageHead title={s.tipsTitle} intro={s.tipsIntro} />
-  <StoryGrid stories={tips} empty={s.tipsEmpty} />
+<Base lang={lang} title={s.tipsTitle}>
+  <PageHead title={s.tipsTitle} />
+  {tips.length ? (
+    <ul class="tips narrow">
+      {tips.map((tip) => (
+        <li>
+          <a href={storyUrl(tip)}>
+            <p class="label eyebrow">{countryName(tip.data.country)}</p>
+            <h2 class="title-serif">{tip.data.title}</h2>
+            {tip.data.description && <p class="desc">{tip.data.description}</p>}
+            <span class="label more">{s.readMore}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  ) : (
+    <p class="empty">{s.tipsEmpty}</p>
+  )}
 </Base>
+
+<style>
+  /* Text-only list: tips pages have no pictures */
+  .tips { list-style: none; margin: 0 auto; padding-bottom: 100px; }
+  .tips li { border-top: 1px solid var(--line); }
+  .tips li:last-child { border-bottom: 1px solid var(--line); }
+  .tips a { display: block; padding: 36px 0; text-decoration: none; }
+  .tips .eyebrow { margin: 0 0 8px; font-size: 11px; }
+  .tips h2 { font-size: clamp(28px, 3.6vw, 38px); line-height: 1.15; margin: 0 0 14px; }
+  .tips .desc { color: var(--ink-soft); margin: 0 0 14px; }
+  .tips a:hover h2 { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 6px; }
+  .empty { text-align: center; color: var(--ink-soft); font-family: var(--f-serif); font-style: italic; font-size: 22px; padding: 40px 0 100px; }
+</style>

@@ -2,7 +2,7 @@
 import StoryPage from '../../../components/StoryPage.astro';
 import { storyPaths } from '../../../lib/content';
 
-export const getStaticPaths = () => storyPaths('journal');
+export const getStaticPaths = () => storyPaths('tips');
 const { story, hasTranslation } = Astro.props;
 ---
 <StoryPage story={story} hasTranslation={hasTranslation} />

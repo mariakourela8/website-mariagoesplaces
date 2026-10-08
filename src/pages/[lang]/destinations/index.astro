@@ -16,7 +16,7 @@ const countries = (await getCountries(lang)).sort((a, b) =>
 const points = mapPoints(stories, countryName);
 ---
 <Base lang={lang} title={s.destinations}>
-  <PageHead title={s.destinations} intro={s.guidesIntro} />
+  <PageHead title={s.destinations} />
 
   <section class="wrap countries">
     {countries.map((c) => (
