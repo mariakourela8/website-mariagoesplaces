@@ -115,8 +115,6 @@ For us, it also offered a welcome respite from the city's unbearable heat.
 <img src="/images/brazil/rio/part1-church4.jpg" alt="">
 </figure>
 
-![](/images/brazil/rio/part1-sweaty-maria.jpg)
-
 ## **Sugarloaf Mountain**
 
 We spent the afternoon at one of Brazil's most iconic landmarks: ***Sugarloaf Mountain***.

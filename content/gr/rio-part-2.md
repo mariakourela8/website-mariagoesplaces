@@ -113,8 +113,6 @@ highlights:
 <img src="/images/brazil/rio/part1-church4.jpg" alt="">
 </figure>
 
-![](/images/brazil/rio/part1-sweaty-maria.jpg)
-
 ## **Sugarloaf: η θέα που δεν ξεχνιέται**
 
 Το απόγευμα ήταν αφιερωμένο σε ένα από τα πιο εμβληματικά αξιοθέατα της Βραζιλίας: το ***Sugarloaf Mountain*.**
