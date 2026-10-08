@@ -23,9 +23,9 @@
   --header-h: 96px;         /* sticky header height */
 }
 
-/* Greek pages: Cormorant Garamond has no Greek letters, so use a light serif that does */
-html:lang(el) { --f-serif: 'Noto Serif Display', 'Cormorant Garamond', Georgia, serif; }
-html:lang(el) .title-serif { font-weight: 300; }
+/* Greek pages: Cormorant Garamond has no Greek letters, so use a clean serif that does.
+   Only the regular weight is loaded, so all Greek serif text renders at 400. */
+html:lang(el) { --f-serif: 'Source Serif 4', 'Cormorant Garamond', Georgia, serif; }
 
 *, *::before, *::after { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; scroll-padding-top: var(--header-h); }

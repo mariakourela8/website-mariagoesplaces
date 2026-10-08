@@ -60,7 +60,7 @@ const gr: typeof en = {
   tipsEmpty: 'Οι συμβουλές έρχονται σύντομα.',
   travelTo: 'Ταξίδι στη',
   latest: 'Πρόσφατες ιστορίες',
-  viewAll: 'Όλες',
+  viewAll: 'Περισσότερα',
   hi: 'Γεια, είμαι η Μαρία!',
   explore: 'Εξερευνήστε',
   quoteA: 'Συλλέξτε',
