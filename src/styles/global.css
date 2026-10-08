@@ -127,6 +127,53 @@ dialog::backdrop { background: rgba(43,39,35,.55); backdrop-filter: blur(3px); }
   border: 0; background: var(--white); cursor: pointer; font-size: 20px; line-height: 1;
 }
 
+/* Photo collage: the CMS "Photo collage" block (public/admin/collage.js) saves
+   <figure class="collage" data-layout="row|feature"> <img>… <figcaption>?</figure>.
+   Slightly wider than the text column; layout depends on how many photos it has. */
+.collage {
+  width: min(900px, calc(100vw - 2 * var(--gutter)));
+  position: relative; left: 50%; transform: translateX(-50%);
+  margin: 2.5em 0;
+  display: grid; gap: 10px; grid-template-columns: repeat(2, 1fr);
+}
+.collage > img { display: block; width: 100%; height: 100%; margin: 0; object-fit: cover; aspect-ratio: 4 / 5; background: var(--sand); }
+.collage figcaption {
+  grid-column: 1 / -1; text-align: center; margin-top: 4px;
+  font-family: var(--f-serif); font-style: italic; font-size: 17px; color: var(--ink-soft);
+}
+/* 1 photo */
+.collage:not(:has(> img:nth-of-type(2))) { grid-template-columns: 1fr; width: min(720px, calc(100vw - 2 * var(--gutter))); }
+.collage:not(:has(> img:nth-of-type(2))) > img { aspect-ratio: 3 / 2; }
+/* 3 photos in a row */
+.collage:has(> img:nth-of-type(3)) { grid-template-columns: repeat(3, 1fr); }
+.collage:has(> img:nth-of-type(3)) > img { aspect-ratio: 3 / 4; }
+/* 3 photos: one big + two small */
+.collage[data-layout="feature"]:has(> img:nth-of-type(3)):not(:has(> img:nth-of-type(4))) { grid-template-columns: 2fr 1fr; }
+.collage[data-layout="feature"]:has(> img:nth-of-type(3)):not(:has(> img:nth-of-type(4))) > img { aspect-ratio: 1 / 1; }
+.collage[data-layout="feature"]:has(> img:nth-of-type(3)):not(:has(> img:nth-of-type(4))) > img:first-of-type {
+  grid-row: span 2; aspect-ratio: auto; contain: size;
+}
+/* 4 photos: 2 x 2 */
+.collage:has(> img:nth-of-type(4)) { grid-template-columns: repeat(2, 1fr); }
+.collage:has(> img:nth-of-type(4)) > img { aspect-ratio: 4 / 3; }
+/* 5 or more: rows of three squares */
+.collage:has(> img:nth-of-type(5)) { grid-template-columns: repeat(3, 1fr); }
+.collage:has(> img:nth-of-type(5)) > img { aspect-ratio: 1 / 1; }
+
+@media (max-width: 600px) {
+  .collage { gap: 6px; }
+  /* phones: two per row; with 3 photos the odd one goes full width */
+  .collage:has(> img:nth-of-type(3)):not(:has(> img:nth-of-type(4))) { grid-template-columns: repeat(2, 1fr); }
+  .collage:has(> img:nth-of-type(3)):not(:has(> img:nth-of-type(4))) > img { aspect-ratio: 1 / 1; grid-row: auto; contain: none; }
+  .collage[data-layout="row"]:has(> img:nth-of-type(3)):not(:has(> img:nth-of-type(4))) > img:nth-of-type(3),
+  .collage[data-layout="feature"]:has(> img:nth-of-type(3)):not(:has(> img:nth-of-type(4))) > img:first-of-type {
+    grid-column: 1 / -1; aspect-ratio: 3 / 2;
+  }
+  .collage[data-layout="feature"]:has(> img:nth-of-type(3)):not(:has(> img:nth-of-type(4))) { grid-template-columns: repeat(2, 1fr); }
+  .collage[data-layout="feature"]:has(> img:nth-of-type(3)):not(:has(> img:nth-of-type(4))) > img:first-of-type { grid-row: 1; contain: none; }
+  .collage:has(> img:nth-of-type(5)) { grid-template-columns: repeat(2, 1fr); }
+}
+
 @media (max-width: 1220px) { :root { --header-h: 76px; } }
 
 @media (prefers-reduced-motion: reduce) {

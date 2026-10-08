@@ -47,6 +47,7 @@ content/en/*.md, content/gr/*.md ──┘  read by src/content.config.ts (glob 
 - **Language switch**: header swaps `/en/`↔`/gr/`. On articles it links to the same slug if a translation exists, else to the journal.
 - **Pop-ups**: in Markdown write `[Porto da Barra](#pop-porto-da-barra)`; the story's `highlights` list needs `key: porto-da-barra`. `Highlights.astro` renders `<dialog>`s and wires links.
 - **Gallery**: `gallery` list → grid + lightbox `<dialog>` with arrows (`Gallery.astro`).
+- **Photo collage**: CMS editor component (`public/admin/collage.js`, + menu in the story text) saves `<figure class="collage" data-layout="row|feature">` with `<img>`s and optional `<figcaption>` into the Markdown. Styled in `global.css` (`.collage`): layout by photo count (2 side by side, 3 row or big+two, 4 = 2×2), 2 per row on phones. Single in-text photos are capped by `.prose p > img` in `[slug].astro`.
 - **Map**: Leaflet 1.9.4 from unpkg + **OpenStreetMap** tiles (no key) toned with a CSS filter. CARTO tiles now need an API key, so don't switch back. Points come from story `lat`/`lng`.
 - **Countries**: shown names come from `countryNamer(lang)` (CMS destination `name` → `countryGr` fallback → English key). `getCountries(lang)` = story countries + CMS destinations.
 - **Photos**: `integrations/optimize-images.mjs` resizes everything in `dist/` to ≤2200px and strips metadata (incl. GPS) after each build. Never edits `public/`.
