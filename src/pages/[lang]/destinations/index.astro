@@ -2,21 +2,22 @@
 import Base from '../../../layouts/Base.astro';
 import PageHead from '../../../components/PageHead.astro';
 import TravelMap from '../../../components/TravelMap.astro';
-import { t, countryName, langPaths, type Lang } from '../../../i18n/ui';
-import { getStories, groupByCountry, storyUrl, countryUrl } from '../../../lib/content';
+import { t, langPaths, type Lang } from '../../../i18n/ui';
+import { getStories, getCountries, storyUrl, countryUrl, countryNamer } from '../../../lib/content';
 
 export const getStaticPaths = langPaths;
 const lang = Astro.params.lang as Lang;
 const s = t(lang);
 const stories = await getStories(lang);
-const countries = groupByCountry(stories).sort((a, b) =>
-  countryName(a.country, lang).localeCompare(countryName(b.country, lang)),
+const countryName = await countryNamer(lang);
+const countries = (await getCountries(lang)).sort((a, b) =>
+  countryName(a.country).localeCompare(countryName(b.country), lang === 'gr' ? 'el' : 'en'),
 );
 const points = stories
   .filter((x) => typeof x.data.lat === 'number' && typeof x.data.lng === 'number')
   .map((x) => ({
     lat: x.data.lat!, lng: x.data.lng!, title: x.data.title, href: storyUrl(x),
-    place: [x.data.city, countryName(x.data.country, lang)].filter(Boolean).join(', '),
+    place: [x.data.city, countryName(x.data.country)].filter(Boolean).join(', '),
   }));
 ---
 <Base lang={lang} title={s.destinations}>
@@ -25,10 +26,10 @@ const points = stories
   <section class="wrap countries">
     {countries.map((c) => (
       <a class="country" href={countryUrl(lang, c.country)}>
-        <div class="frame"><img src={c.stories[0].data.cover} alt="" loading="lazy" /></div>
+        <div class="frame">{c.stories[0] && <img src={c.stories[0].data.cover} alt="" loading="lazy" />}</div>
         <div class="country-body">
-          <h2 class="title-serif">{countryName(c.country, lang)}</h2>
-          <p class="label eyebrow">{s.stories(c.stories.length)}</p>
+          <h2 class="title-serif">{countryName(c.country)}</h2>
+          <p class="label eyebrow">{c.stories.length ? s.stories(c.stories.length) : s.comingSoon}</p>
         </div>
       </a>
     ))}

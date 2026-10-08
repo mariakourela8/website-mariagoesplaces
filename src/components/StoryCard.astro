@@ -1,6 +1,6 @@
 ---
-import { storyUrl, type Story } from '../lib/content';
-import { t, countryName } from '../i18n/ui';
+import { storyUrl, countryNamer, type Story } from '../lib/content';
+import { t } from '../i18n/ui';
 import type { Lang } from '../i18n/ui';
 
 interface Props { story: Story; variant?: 'grid' | 'row' | 'overlay' }
@@ -8,7 +8,7 @@ const { story, variant = 'grid' } = Astro.props;
 const lang = story.id.split('/')[0] as Lang;
 const s = t(lang);
 const d = story.data;
-const place = [d.city, countryName(d.country, lang)].filter(Boolean).join(', ');
+const place = [d.city, (await countryNamer(lang))(d.country)].filter(Boolean).join(', ');
 ---
 <a href={storyUrl(story)} class:list={['card', `card--${variant}`]}>
   <div class="frame">

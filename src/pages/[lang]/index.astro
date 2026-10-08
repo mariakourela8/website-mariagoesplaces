@@ -1,8 +1,8 @@
 ---
 import Base from '../../layouts/Base.astro';
 import StoryCard from '../../components/StoryCard.astro';
-import { t, countryName, langPaths, type Lang } from '../../i18n/ui';
-import { getStories, groupByCountry, getPage, storyUrl, countryUrl } from '../../lib/content';
+import { t, langPaths, type Lang } from '../../i18n/ui';
+import { getStories, groupByCountry, getPage, storyUrl, countryUrl, countryNamer } from '../../lib/content';
 import { siteImage } from '../../lib/siteImages';
 
 export const getStaticPaths = langPaths;
@@ -10,6 +10,7 @@ const lang = Astro.params.lang as Lang;
 const s = t(lang);
 
 const stories = await getStories(lang);
+const countryName = await countryNamer(lang);
 const featured = stories.find((x) => x.data.featured) ?? stories[0];
 const second = stories.find((x) => x !== featured);
 const countries = groupByCountry(stories).sort((a, b) => b.stories.length - a.stories.length);
@@ -42,7 +43,7 @@ const aboutImg2 = about?.data.image2 ?? siteImage('about-2');
         <img src={featured.data.cover} alt={featured.data.coverAlt} />
       </a>
       <div class="feature-text">
-        <p class="label eyebrow">{[featured.data.city, countryName(featured.data.country, lang)].filter(Boolean).join(', ')}</p>
+        <p class="label eyebrow">{[featured.data.city, countryName(featured.data.country)].filter(Boolean).join(', ')}</p>
         <h2 class="title-serif">{featured.data.title}</h2>
         {featured.data.description && <p>{featured.data.description}</p>}
         <a class="label more" href={storyUrl(featured)}>{s.readMore}</a>
@@ -59,7 +60,7 @@ const aboutImg2 = about?.data.image2 ?? siteImage('about-2');
   {spotlight && spotlight.stories.length > 0 && (
     <section class="section wrap">
       <div class="section-head">
-        <h2 class="label">{s.travelTo}: <strong>{countryName(spotlight.country, lang)}</strong></h2>
+        <h2 class="label">{s.travelTo}: <strong>{countryName(spotlight.country)}</strong></h2>
       </div>
       <div class="spot">
         <StoryCard story={spotlight.stories[0]} variant="overlay" />
@@ -115,7 +116,7 @@ const aboutImg2 = about?.data.image2 ?? siteImage('about-2');
       {countries.map((c) => (
         <div class="guide">
           <div class="guide-text">
-            <h3 class="title-serif">{countryName(c.country, lang)}</h3>
+            <h3 class="title-serif">{countryName(c.country)}</h3>
             <p class="eyebrow">{s.stories(c.stories.length)} · {[...new Set(c.stories.map((x) => x.data.city).filter(Boolean))].join(', ')}</p>
             <a class="label more" href={countryUrl(lang, c.country)}>{s.discover}</a>
           </div>

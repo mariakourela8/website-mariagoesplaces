@@ -4,8 +4,8 @@ import Base from '../../../layouts/Base.astro';
 import Gallery from '../../../components/Gallery.astro';
 import Highlights from '../../../components/Highlights.astro';
 import StoryCard from '../../../components/StoryCard.astro';
-import { t, countryName, formatDate, type Lang } from '../../../i18n/ui';
-import { slugOf, langOf, getStories, countryUrl } from '../../../lib/content';
+import { t, formatDate, type Lang } from '../../../i18n/ui';
+import { slugOf, langOf, getStories, countryUrl, countryNamer } from '../../../lib/content';
 
 export async function getStaticPaths() {
   const all = await getCollection('stories', (s) => import.meta.env.DEV || !s.data.draft);
@@ -21,6 +21,7 @@ const other: Lang = lang === 'en' ? 'gr' : 'en';
 const s = t(lang);
 const d = story.data;
 const { Content } = await render(story);
+const countryName = await countryNamer(lang);
 
 const all = await getStories(lang);
 const series = d.series
@@ -35,7 +36,7 @@ const altHref = hasTranslation ? `/${other}/journal/${slugOf(story)}/` : `/${oth
   <article>
     <header class="a-head wrap">
       <p class="label eyebrow">
-        <a href={countryUrl(lang, d.country)}>{[d.city, countryName(d.country, lang)].filter(Boolean).join(', ')}</a>
+        <a href={countryUrl(lang, d.country)}>{[d.city, countryName(d.country)].filter(Boolean).join(', ')}</a>
         {d.part && <> · {s.part} {d.part}</>}
       </p>
       <h1 class="title-serif a-title">{d.title}</h1>
@@ -65,7 +66,7 @@ const altHref = hasTranslation ? `/${other}/journal/${slugOf(story)}/` : `/${oth
   {related.length > 0 && (
     <section class="section related">
       <div class="wrap">
-        <h2 class="label section-head">{series.length > 1 ? s.inThisSeries : s.travelTo + ': ' + countryName(d.country, lang)}</h2>
+        <h2 class="label section-head">{series.length > 1 ? s.inThisSeries : s.travelTo + ': ' + countryName(d.country)}</h2>
         <div class="grid3">{related.map((r) => <StoryCard story={r} />)}</div>
       </div>
     </section>

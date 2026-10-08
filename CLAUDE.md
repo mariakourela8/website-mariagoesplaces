@@ -26,6 +26,7 @@ content/en/*.md, content/gr/*.md ──┘  read by src/content.config.ts (glob 
 | Path | What it is |
 |---|---|
 | `content/en/<slug>.md`, `content/gr/<slug>.md` | Stories. **Same filename in both folders = translations of each other.** |
+| `content/destinations/{en,gr}/<country>.md` | One per country (CMS "Destinations"): `country` (English key), `name` (shown name per language), optional intro text shown on the country page. A country here gets a page even with no stories. |
 | `content/pages/{en,gr}/about.md` | About page (also feeds the homepage "About me" band) |
 | `src/content.config.ts` | Zod schema for stories/pages — must stay in sync with `public/admin/config.yml` |
 | `public/admin/config.yml` | Decap CMS fields (i18n `multiple_folders`, locales en/gr) |
@@ -46,7 +47,9 @@ content/en/*.md, content/gr/*.md ──┘  read by src/content.config.ts (glob 
 - **Language switch**: header swaps `/en/`↔`/gr/`. On articles it links to the same slug if a translation exists, else to the journal.
 - **Pop-ups**: in Markdown write `[Porto da Barra](#pop-porto-da-barra)`; the story's `highlights` list needs `key: porto-da-barra`. `Highlights.astro` renders `<dialog>`s and wires links.
 - **Gallery**: `gallery` list → grid + lightbox `<dialog>` with arrows (`Gallery.astro`).
-- **Map**: Leaflet 1.9.4 + CARTO light tiles from unpkg CDN (no npm dep). Points come from story `lat`/`lng`.
+- **Map**: Leaflet 1.9.4 from unpkg + **OpenStreetMap** tiles (no key) toned with a CSS filter. CARTO tiles now need an API key, so don't switch back. Points come from story `lat`/`lng`.
+- **Countries**: shown names come from `countryNamer(lang)` (CMS destination `name` → `countryGr` fallback → English key). `getCountries(lang)` = story countries + CMS destinations.
+- **Photos**: `integrations/optimize-images.mjs` resizes everything in `dist/` to ≤2200px and strips metadata (incl. GPS) after each build. Never edits `public/`.
 - **Search / Food & cafés**: removed for now (Sep 2026, Dani's request). Both are in git history (commit 48f8e92) if wanted back.
 - **Drafts**: `draft: true` hides a story in production, shows it in `npm run dev`.
 - **Series**: stories with the same `series` value show "In this series" at the bottom, ordered by `part`.
@@ -62,16 +65,16 @@ generous white space, square-cornered photos. Fonts have Greek fallbacks (GFS Di
 ## Conventions
 - **No em dashes (—) anywhere on the site** (UI strings, content, CMS labels, page titles). Use a comma, colon or full stop; `|` or `·` as a separator.
 - Never hard-code UI text in components; add EN + GR strings to `src/i18n/ui.ts`.
-- Country is always stored in **English** (grouping key); add its Greek name to `countryGr` in `ui.ts`.
+- Country is always stored in **English** (grouping key). Greek names come from the CMS destination entry (`countryGr` in `ui.ts` is only a fallback).
+- Story `country` stays a plain string widget: Decap's `relation` widget marks every opened entry as "Unsaved changes" (tested Oct 2026).
 - If you add a frontmatter field, add it to **both** `content.config.ts` and `public/admin/config.yml`.
 - Decap 3 rejects `i18n: duplicate` on list widgets, so **tags are `i18n: false`** (saved on the English file only); `getStories()` copies them to translations that have none.
 - Decap writes empty optional fields as `""` — schema uses `optString`/`optNumber` preprocessors for that.
-- Images: Decap uploads to `public/images/uploads/`. Hand-organised photos may live in `public/images/<country>/<city>/`.
-  Consider converting to Astro `<Image>` / `astro:assets` later for automatic resizing (photos from phones are large).
+- Images: Decap uploads to `public/images/uploads/` (full size; resized at build). HEIC is not supported by browsers: ask for JPG.
 
 ## Commands
 - `npm run dev` — local site at http://localhost:4321
-- `npm run cms` (in a second terminal) + open http://localhost:4321/admin/ — edit content locally without logging in
+- `npm run cms` (in a second terminal) + open http://localhost:4321/admin/index.html (dev server doesn't serve `/admin/` as a folder) — edit content locally without logging in
 - `npm run build` / `npm run preview`
 
 ## To-do (suggested order)

@@ -53,4 +53,13 @@ const pages = defineCollection({
   }),
 });
 
-export const collections = { stories, pages };
+const destinations = defineCollection({
+  // content/destinations/en/brazil.md  →  id "destinations/en/brazil"; matched to stories by `country`
+  loader: glob({ pattern: 'destinations/**/*.md', base: './content' }),
+  schema: z.object({
+    country: z.string(),
+    name: optString,
+  }),
+});
+
+export const collections = { stories, pages, destinations };

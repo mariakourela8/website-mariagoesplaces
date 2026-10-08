@@ -1,5 +1,5 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
-import { slugify, type Lang } from '../i18n/ui';
+import { slugify, countryName, type Lang } from '../i18n/ui';
 
 export type Story = CollectionEntry<'stories'>;
 
@@ -37,6 +37,39 @@ export function groupByCountry(stories: Story[]) {
   }
   // countries with the most recent story first
   return [...map.entries()].map(([country, list]) => ({ country, stories: list }));
+}
+
+const sameCountry = (a: string, b: string) => a.trim().toLowerCase() === b.trim().toLowerCase();
+
+/** Country entry written in the CMS (name + intro text). Matched on the English country name. */
+export async function getDestination(lang: Lang, country: string) {
+  const all = await getCollection('destinations', (d) => d.id.startsWith(`destinations/${lang}/`));
+  return all.find((d) => sameCountry(d.data.country, country));
+}
+
+/**
+ * Returns a function that turns the English country key into the name to show.
+ * Order: name set in the CMS for this language → built-in Greek list → the English key.
+ */
+export async function countryNamer(lang: Lang) {
+  const all = await getCollection('destinations', (d) => d.id.startsWith(`destinations/${lang}/`));
+  return (country: string) =>
+    all.find((d) => sameCountry(d.data.country, country))?.data.name?.trim() || countryName(country, lang);
+}
+
+/**
+ * Every country for a language: those with stories, plus countries added in the CMS
+ * that have no stories yet (so their page exists and can be linked).
+ */
+export async function getCountries(lang: Lang) {
+  const groups = groupByCountry(await getStories(lang));
+  const extra = await getCollection('destinations');
+  for (const d of extra) {
+    if (!groups.some((g) => sameCountry(g.country, d.data.country))) {
+      groups.push({ country: d.data.country.trim(), stories: [] });
+    }
+  }
+  return groups;
 }
 
 export async function getPage(lang: Lang, name: string) {
