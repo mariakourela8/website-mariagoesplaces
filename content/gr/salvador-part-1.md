@@ -44,6 +44,11 @@ highlights:
 
 Εγώ όχι. Δεν ήμουν η τυχερή της ημέρας.
 
+<figure class="collage" data-layout="row">
+<img src="/images/brazil/rio/part2-traino-xristos.jpg" alt="">
+<img src="/images/brazil/rio/part2-xristos.jpg" alt="">
+</figure>
+
 ## **Λίγο Harry Potter στο Ρίο**
 
 Πίσω στην πόλη, κάναμε μια στάση στο ***Real Gabinete Português de Leitura***, το Βασιλικό Πορτογαλικό Αναγνωστήριο.
@@ -53,6 +58,11 @@ highlights:
 Ίσως έφταιγαν τα βιβλία, ίσως η ατμόσφαιρα. Δενξέρω.
 
 Αλλά σίγουρα ένιωσα για λίγο ότι από κάπου θα εμφανιστεί ένας καθηγητής του Hogwarts.
+
+<figure class="collage" data-layout="row">
+<img src="/images/brazil/rio/part2-books.jpg" alt="">
+<img src="/images/brazil/rio/part2-books2.jpg" alt="">
+</figure>
 
 ## **Βροχερές μέρες και βόλτες στη παραλία**
 
@@ -64,6 +74,12 @@ highlights:
 
 Άλλωστε, δεν χρειάζεται πάντα ήλιος για να απολαύσεις ένα μέρος.
 
+<figure class="collage" data-layout="feature">
+<img src="/images/brazil/rio/part2-img-8384.jpg" alt="">
+<img src="/images/brazil/rio/part2-img-8380.jpg" alt="">
+<img src="/images/brazil/rio/part2-img-1080.jpg" alt="">
+</figure>
+
 ## **Santa Teresa**
 
 Μια από τις πιο βροχερές μέρες αποφασίσαμε να πάρουμε το παλιό ιστορικό τραμ ***Bondinho de Santa Teresa***.
@@ -72,6 +88,12 @@ highlights:
 
 Η διαδρομή από μόνη της ήταν εμπειρία. Κάποια στιγμή, αντί να συνεχίσουμε μέχρι το τέλος, αποφασίσαμε να κατεβούμε κάπου στη μέση και να συνεχίσουμε με τα πόδια.
 
+<figure class="collage" data-layout="feature">
+<img src="/images/brazil/rio/part2-santatereza-tram.jpg" alt="">
+<img src="/images/brazil/rio/part2-santatereza2.jpg" alt="">
+<img src="/images/brazil/rio/part2-santatereza3.jpg" alt="">
+</figure>
+
 Και κάπου εκεί καταλήξαμε στο *Bar do Mineiro*, όπου η Έμμυ δοκίμασε τη γνωστή *Feijoada*.
 
 Εγώ θα είμαι ειλικρινής: δεν αντέχω τα φασόλια. Οπότε δεν ήμουν αρκετά γενναία για να δοκιμάσω. 
@@ -79,6 +101,11 @@ highlights:
 Η κριτική της Έμμυ, πάντως, ήταν πολύ καλή.
 
 Το ίδιο και οι κριτικές του εστιατορίου. Είναι ένα παραδοσιακό, χαλαρό μέρος. Οπότε, αν σου αρέσει να δοκιμάζεις τοπικές γεύσεις, οπωσδήποτε να το βάλεις στη λίστα σου.
+
+<figure class="collage" data-layout="row">
+<img src="/images/brazil/rio/part2-santatereza.jpg" alt="">
+<img src="/images/brazil/rio/part2-food1.jpg" alt="">
+</figure>
 
 ## **Ποδηλατάδα στο Ρίο**
 
@@ -89,6 +116,12 @@ highlights:
 Ο καιρός ήταν αρκετά μουντός και σίγουρα όχι ιδανικός για μπάνιο. Αλλά, και πάλι, η ποδηλατάδα ήταν σκέτη απόλαυση.
 
 Αυτό είναι κάτι που αγαπάω στα ταξίδια: δεν χρειάζεται πάντα να έχεις τέλειο καιρό ή το τέλειο πρόγραμμα. Μερικές φορές αρκεί να πάρεις ένα ποδήλατο και να δεις πού θα σε βγάλει.
+
+<figure class="collage" data-layout="feature">
+<img src="/images/brazil/rio/part2-bikes.jpg" alt="">
+<img src="/images/brazil/rio/part2-red-beach.jpg" alt="">
+<img src="/images/brazil/rio/part2-red-beach2.jpg" alt="">
+</figure>
 
 ## **Ipanema**
 
@@ -104,6 +137,8 @@ highlights:
 
 Good enough.
 
+![](/images/brazil/rio/part2-ipanema.jpg)
+
 ## **Η Έμμυ γίνεται30!**
 
 Και κάπου μέσα σε όλα αυτά ήταν και τα γενέθλια της φίλης μου.
@@ -114,6 +149,8 @@ Good enough.
 
 Είχαμε κλείσει τραπέζι στο *Aprazível*, ένα πραγματικά εντυπωσιακό εστιατόριο.
 
+![](/images/brazil/rio/part2-dinner.jpg)
+
 Το φαγητό ήταν πολύ καλό και ο χώρος ακόμα περισσότερο. Έχει υπέροχη θέα και μια πολύ ιδιαίτερη ατμόσφαιρα, οπότε αν ψάχνεις μία πιο ξεχωριστή βραδινή έξοδο στο Ρίο, αξίζει να το βάλεις στη λίστα σου.
 
 Και ένα μικρό bonus: αν έχεις γενέθλια και τους το πεις, σου φέρνουν γλυκάκι με κεράκι χωρις επιπλέον χρέωση.
@@ -123,6 +160,11 @@ Good enough.
 Πήγαμε σε ένα τοπικό μπαρ στο κέντρο, δεν θυμάμαι δυστυχώς ποιο. Αλλά πραγματικά δεν θα δυσκολευτείς να βρεις επιλογές για nightlife στο Ρίο.
 
 *Just remember: have fun, but always be aware of your surroundings.*
+
+<figure class="collage" data-layout="row">
+<img src="/images/brazil/rio/part2-img-8972.jpg" alt="">
+<img src="/images/brazil/rio/part2-img-8981.jpg" alt="">
+</figure>
 
 ## **Μία μέρα στο νερό**
 
@@ -136,6 +178,12 @@ Good enough.
 
 Τα νερά ήταν απίστευτα.
 
+<figure class="collage" data-layout="feature">
+<img src="/images/brazil/rio/part2-img-8570.jpg" alt="">
+<img src="/images/brazil/rio/part2-img-8741.jpg" alt="">
+<img src="/images/brazil/rio/part2-img-8836.jpg" alt="">
+</figure>
+
 Κάναμε δύο ή τρεις στάσεις για κολύμπι και βουτιές, ενώ στην τιμή περιλαμβανόταν και φαγητό σε ένα τοπικό εστιατόριο σε μία από τις παραλίες που επισκεφθήκαμε.
 
 Ήταν από εκείνες τις μέρες που δεν χρειάζεσαι πολλά. Ήλιο, θάλασσα, ένα καράβι και καλή παρέα.
@@ -146,6 +194,8 @@ Good enough.
 
 Δεν είχα ιδέα ότι υπάρχουν.
 
+![](/images/brazil/rio/part2-img-8948.jpg)
+
 ## **Μια τελευταία βουτιά**
 
 Και κάπως έτσι φτάσαμε στην τελευταία μας μέρα.
@@ -155,6 +205,8 @@ Good enough.
 Αλλά φυσικά δεν γινόταν να φύγουμε από τη Βραζιλία χωρίς να εκμεταλλευτούμε και το τελευταίο λεπτό.
 
 Μόλις προεγειωθήκαμε στο Σαλβαδόρ, αφήσαμε τις βαλίτσες μας σε lockers στο αεροδρόμιο, πήραμε ένα ταξίκαι κατευθυνθήκαμε προς μια κοντινή παραλία για μία τελευταία βουτιά.
+
+![](/images/brazil/rio/part2-last-day.jpg)
 
 Επιστροφή στο αεροδρόμιο.
 

@@ -45,19 +45,43 @@ highlights:
 
 Το πρώτο πράγμα που μου έκανε εντύπωση ήταν πόσο διαφορετικό ήταν το Ρίο από το Σαλβαδόρ. Ψηλά κτίρια, ουρανοξύστες, τεράστιες λεωφόροι και ένας ρυθμός πολύ πιο γρήγορος. Ήταν σαν να είχαμε ταξιδέψει σε μια άλλη χώρα.
 
+<figure class="collage" data-layout="feature">
+<img src="/images/brazil/rio/part1-copacabana.jpg" alt="">
+<img src="/images/brazil/rio/part1-copacabana2.jpg" alt="">
+<img src="/images/brazil/rio/part1-copacabana3.jpg" alt="">
+</figure>
+
 ## **Walking tour, ξανά και ξανά**
 
 Φυσικά, δεν παραλείψαμε ούτε εδώ το αγαπημένο μας walking tour. Αυτή τη φορά το γκρουπ ήταν πολύ μεγαλύτερο, η ξενάγηση κράτησε αρκετές ώρες και καταλάβαμε πόσο τεράστια είναι πραγματικά αυτή η πόλη.
 
 Ειλικρινά πιστεύω ότι είναι ο καλύτερος τρόπος να γνωρίσεις έναν προορισμό. Δεν βλέπεις απλώς αξιοθέατα, αλλά ακούς ιστορίες που δύσκολα θα ανακάλυπτες μόνος σου.
 
+<figure class="collage" data-layout="row">
+<img src="/images/brazil/rio/part1-historic-center.jpg" alt="">
+<img src="/images/brazil/rio/part1-historic-center2.jpg" alt="">
+<img src="/images/brazil/rio/part1-rio-city2.jpg" alt="">
+<img src="/images/brazil/rio/part1-rio-city3.jpg" alt="">
+</figure>
+
 ## **Confeitaria Colombo**
 
 Η πρώτη μας στάση ήταν το ιστορικό ***Confeitaria Colombo***, ένα από τα πιο όμορφα καφέ του κόσμου και για χρόνια σημείο συνάντησης συγγραφέων, καλλιτεχνών και διανοουμένων της Βραζιλίας.
 
+<figure class="collage" data-layout="row">
+<img src="/images/brazil/rio/part1-confetaria.jpg" alt="">
+<img src="/images/brazil/rio/part1-confetaria2.jpg" alt="">
+</figure>
+
 Δυστυχώς είχε τόσο πολύ κόσμο που δεν προλάβαμε να καθίσουμε. Περιηγηθήκαμε λίγο στο εσωτερικό του, χαζέψαμε τη μοναδική αρχιτεκτονική και υποσχεθήκαμε ότι θα επιστρέψουμε αργότερα με την ησυχία μας.
 
 Αν βρεθείς εκεί, δοκίμασε οπωσδήποτε *Bolinho* και *Coxinha*. Α, φυσικά και τα περίφημα *Brigadeiros*, που θα βρεις και στο δρόμο σε πλανώδιους πωλητές. Ναι, μοιάζουν λίγο με τα δικά μας τρουφάκια, αλλά η βραζιλιάνικη εκδοχή έχει άλλη χάρη.
+
+<figure class="collage" data-layout="row">
+<img src="/images/brazil/rio/part1-bolinho.jpg" alt="">
+<img src="/images/brazil/rio/part1-cohinha.jpg" alt="">
+<img src="/images/brazil/rio/part1-brigadeiro.jpg" alt="">
+</figure>
 
 ## **Escadaria Selarón**
 
@@ -69,6 +93,12 @@ highlights:
 
 Γύρω από τη σκάλα θα βρεις υπαίθρια μαγαζιά, μικρούς πάγκους και αρκετές επιλογές για φαγητό και ποτό. Η ατμόσφαιρα ήταν πραγματικά πολύ όμορφη**.**
 
+<figure class="collage" data-layout="feature">
+<img src="/images/brazil/rio/part1-stairs3.jpg" alt="">
+<img src="/images/brazil/rio/part1-stairs.jpg" alt="">
+<img src="/images/brazil/rio/part1-stairs2.jpg" alt="">
+</figure>
+
 ## **Ο καθεδρικός που μοιάζει με πυραμίδα**
 
 Περπατώντας στην πόλη, από μακριά είδαμε ένα τεράστιο κτήριο που έμοιαζε περισσότερο με πυραμίδα παρά με εκκλησία. Η περιέργεια μας νίκησε και κατευθυνθήκαμε προς τα εκεί.
@@ -77,13 +107,34 @@ highlights:
 
 Εξωτερικά είναι εντελώς διαφορετικός από κάθε καθεδρικό που έχω δει, αλλά το εσωτερικό του είναι πραγματικά εντυπωσιακό. Οι τεράστιες πολύχρωμες βιτρό λωρίδες φωτός δημιουργούν μια σχεδόν μαγική ατμόσφαιρα. Για εμάς ήταν και μια μικρή ανάσα από την αφόρητη ζέστη της πόλης.
 
+<figure class="collage" data-layout="row">
+<img src="/images/brazil/rio/part1-church2.jpg" alt="">
+<img src="/images/brazil/rio/part1-church3.jpg" alt="">
+<img src="/images/brazil/rio/part1-church4.jpg" alt="">
+</figure>
+
+![](/images/brazil/rio/part1-sweaty-maria.jpg)
+
 ## **Sugarloaf: η θέα που δεν ξεχνιέται**
 
 Το απόγευμα ήταν αφιερωμένο σε ένα από τα πιο εμβληματικά αξιοθέατα της Βραζιλίας: το ***Sugarloaf Mountain*.**
 
 Είχαμε κλείσει τα εισιτήριά μας online και επιλέξαμε skip-the-line, κάτι που πραγματικά άξιζε γιατί οι ουρές ήταν τεράστιες.
 
+<figure class="collage" data-layout="row">
+<img src="/images/brazil/rio/part1-sugarloaf.jpg" alt="">
+<img src="/images/brazil/rio/part1-img-7642.jpg" alt="">
+<img src="/images/brazil/rio/part1-img-7634-2.jpg" alt="">
+<img src="/images/brazil/rio/part1-img-7635.jpg" alt="">
+</figure>
+
 Το διάσημο διαφανές τελεφερίκ (***Bondinho do Pão de Açúcar***) σε ανεβάζει σε δύο διαφορετικά επίπεδα και η θέα γίνεται όλο και πιο εντυπωσιακή. Αν μπορώ να σου δώσω μία μόνο συμβουλή, πήγαινε λίγο πριν το ηλιοβασίλεμα. Έτσι θα δεις το Ρίο με το φως της ημέρας, θα απολαύσεις το ηλιοβασίλεμα και θα μείνεις αρκετά ώστε να ανάψουν τα φώτα της πόλης.
+
+<figure class="collage" data-layout="row">
+<img src="/images/brazil/rio/part1-img-7745.jpg" alt="">
+<img src="/images/brazil/rio/part1-img-7761.jpg" alt="">
+<img src="/images/brazil/rio/part1-img-7815.jpg" alt="">
+</figure>
 
 Είναι από εκείνες τις εικόνες που δεν αποτυπώνονται ποτέ ακριβώς σε μια φωτογραφία.
 
@@ -96,6 +147,12 @@ highlights:
 Πάγκοι με φαγητό, παγωμένες μπύρες, πολύ οικονομικά ποτά και εκατοντάδες άνθρωποι που μαζεύονται αυθόρμητα γύρω από τους μουσικούς. Δεν είναι παράσταση. Είναι η ζωή της πόλης.
 
 Κλείσαμε τη βραδιά με μια τελευταία μπύρα στο *Bafo da Prainha*, ένα μικρό υπαίθριο μπαρ στην περιοχή ***Largo São Francisco da Prainha***.
+
+<figure class="collage" data-layout="feature">
+<img src="/images/brazil/rio/part1-samba-event.jpg" alt="">
+<img src="/images/brazil/rio/part1-samba-event2.jpg" alt="">
+<img src="/images/brazil/rio/part1-pedro-de-sal.jpg" alt="">
+</figure>
 
 Και κάπου εκεί σκεφτόμουν ότι το Ρίο δεν έμοιαζε καθόλου με την εικόνα που είχα στο μυαλό μου πριν έρθω. Ήταν πολύ πιο ζωντανό, πολύ πιο ανθρώπινο και, κυρίως, γεμάτο μουσική.
 

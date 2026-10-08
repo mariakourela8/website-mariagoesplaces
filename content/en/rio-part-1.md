@@ -77,6 +77,11 @@ Together with our group, we wandered through Salvador’s colourful streets whil
 
 Honestly? 10/10 experience.
 
+<figure class="collage" data-layout="row">
+<img src="/images/brazil/salvador/part1-kentro.jpg" alt="">
+<img src="/images/brazil/salvador/part1-kentro1.jpg" alt="">
+</figure>
+
 ## **Elevador Lacerda & Mercado Modelo**
 
 Our tour eventually led us to ***Elevador Lacerda***, Salvador’s iconic public elevator connecting the Upper City (*Cidade Alta*) with the Lower City (*Cidade Baixa*).
@@ -87,6 +92,11 @@ Even so, the panoramic view from the upper level was beautiful. Just below sits 
 
 We ended up taking an Uber down instead, as the walk is fairly long and not the route we felt most comfortable doing on our own.
 
+<figure class="collage" data-layout="row">
+<img src="/images/brazil/salvador/part1-elevator1.jpg" alt="">
+<img src="/images/brazil/salvador/part1-untitled-design-2.jpg" alt="">
+</figure>
+
 ## **A City You Don’t Just See - You Feel**
 
 After the tour, our day was far from over. We kept wandering for hours, completely captivated by Salvador’s colourful buildings, independent shops and the music drifting through its streets.
@@ -95,11 +105,20 @@ If there’s one place where you truly feel the heartbeat of the city, it’s **
 
 And while you’re there, do yourself a favour and try *cachaça*, Brazil’s iconic sugarcane spirit, mixed with fresh tropical fruit. It’s almost impossible to pick a bad combination.
 
+<figure class="collage" data-layout="row">
+<img src="/images/brazil/salvador/part1-pelourinho.jpg" alt="">
+<img src="/images/brazil/salvador/part1-pelourinho2.jpg" alt="">
+<img src="/images/brazil/salvador/part1-pelourinho3.jpg" alt="">
+<img src="/images/brazil/salvador/part1-untitled-design-3.jpg" alt="">
+</figure>
+
 ## **The famous Moqueca**
 
 We finished the day at *Ré Restaurante Dona Suzana*, one of the city’s best-known spots for *Moqueca*, Bahia’s traditional seafood stew.
 
 We ordered the Moqueca de Camarão (shrimp moqueca), and without exaggerating, it was one of the best meals of our entire trip.
+
+![](/images/brazil/salvador/part1-mochecha.jpg)
 
 The restaurant is tucked inside a small neighborhood that might feel a little intimidating at first, but because it’s so popular, you’ll find plenty of locals and visitors making the same journey. 
 

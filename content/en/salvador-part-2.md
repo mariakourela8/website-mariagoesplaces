@@ -45,6 +45,11 @@ What stayed with me most, though, were the colourful ribbons known as *Fitinhas 
 
 The tradition says you tie one either to the church railings or around your wrist, make three knots, and silently wish for something with each one. Your wishes are said to come true only once the ribbon naturally falls off over time.
 
+<figure class="collage" data-layout="row">
+<img src="/images/brazil/salvador/part2-church.jpg" alt="">
+<img src="/images/brazil/salvador/part2-church2.jpg" alt="">
+</figure>
+
 ## **Pelourinho: The Heart of Salvador**
 
 From there, we wandered back into ***Pelourinho***, Salvador’s historic centre and a UNESCO World Heritage Site.
@@ -58,6 +63,11 @@ You’ll meet the *Baianas de Acarajé*, women dressed in traditional white clot
 And then we stumbled across *Olodum*.
 
 Suddenly the drums started, and within seconds the entire street turned into a celebration. Before I knew it, I was dancing alongside strangers. It was one of those spontaneous travel moments you could never organise, and probably the one I remember most.
+
+<figure class="collage" data-layout="row">
+<img src="/images/brazil/salvador/part2-pelourinho.jpg" alt="">
+<img src="/images/brazil/salvador/part2-pelourinho2.jpg" alt="">
+</figure>
 
 ## **The Flavours of Bahia**
 
@@ -79,6 +89,11 @@ What I remember most, however, isn’t my hairstyle; it’s the people. Even tho
 
 The owner, *Negra Jhô*, has created something much bigger than a beauty salon. It’s a space that celebrates Black identity, empowers women, and promotes anti-racism through beauty, culture, and community. If you ever find yourself in Salvador, don’t be shy—step inside, even if it’s just to experience the atmosphere.
 
+<figure class="collage" data-layout="row">
+<img src="/images/brazil/salvador/part2-braids.jpg" alt="">
+<img src="/images/brazil/salvador/part2-negrajo.jpg" alt="">
+</figure>
+
 ## **The Sunset We Almost Missed**
 
 One evening, we headed towards ***Farol da Barra***, one of the city’s most famous places to watch the sunset.
@@ -91,9 +106,20 @@ And honestly? I think we enjoyed it even more that way.
 
 From a distance, we could already see crowds gathering around the lighthouse. Instead, we found a quieter spot along the way and watched the sky slowly change colour without fighting for the perfect view. Sometimes the best travel moments are the ones that don’t go according to plan.
 
+<figure class="collage" data-layout="row">
+<img src="/images/brazil/salvador/part2-sunset.jpg" alt="">
+<img src="/images/brazil/salvador/part2-sunset2.jpg" alt="">
+</figure>
+
 ## **The Little Moments That Stay With You**
 
 Long walks along ***Porto da Barra***, late-night drinks, a few spontaneous samba dances, and little adventures in nearby neighbourhoods were all part of our Salvador experience too.
+
+<figure class="collage" data-layout="feature">
+<img src="/images/brazil/salvador/part2-beach.jpg" alt="">
+<img src="/images/brazil/salvador/part2-night-out.jpg" alt="">
+<img src="/images/brazil/salvador/part2-night-out2.jpg" alt="">
+</figure>
 
 I’m not going to tell you every single story. Some moments are simply meant to be lived rather than explained, and not everything needs to become a travel guide.
 

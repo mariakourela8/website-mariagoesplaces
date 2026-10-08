@@ -43,7 +43,10 @@ Emma did.
 
 I didn’t. I wasn't the lucky one of the day.
 
-![](/images/uploads/xristos.jpeg)
+<figure class="collage" data-layout="row">
+<img src="/images/brazil/rio/part2-traino-xristos.jpg" alt="">
+<img src="/images/brazil/rio/part2-xristos.jpg" alt="">
+</figure>
 
 ## **A little bit of Harry Potter in Rio**
 
@@ -55,6 +58,11 @@ Maybe it was the books, or perhaps the atmosphere. I’m not sure.
 
 But for a moment, I certainly felt as though a Hogwarts professor was about to appear out of nowhere.
 
+<figure class="collage" data-layout="row">
+<img src="/images/brazil/rio/part2-books.jpg" alt="">
+<img src="/images/brazil/rio/part2-books2.jpg" alt="">
+</figure>
+
 ## **Rainy days & beach walks**
 
 Our days in Rio were quite rainy, so we didn't manage to enjoy the sea as much as we would have liked.
@@ -65,6 +73,12 @@ We went for strolls along the beach and walked in Copacabana, and even under clo
 
 You don’t always need sunshine to enjoy a city.
 
+<figure class="collage" data-layout="feature">
+<img src="/images/brazil/rio/part2-img-8384.jpg" alt="">
+<img src="/images/brazil/rio/part2-img-8380.jpg" alt="">
+<img src="/images/brazil/rio/part2-img-1080.jpg" alt="">
+</figure>
+
 ## **Santa Teresa**
 
 On one of the rainiest days, we decided to take the old, historic ***Bondinho de Santa Teresa tram***.
@@ -72,6 +86,12 @@ On one of the rainiest days, we decided to take the old, historic ***Bondinho de
 The tram starts at *Carioca Station* and takes you towards ***Santa Teresa***, one of the most charming and bohemian areas of Rio.
 
 The journey itself was an experience. At one point, instead of continuing to the end, we decided to get off somewhere in the middle and continue on foot.
+
+<figure class="collage" data-layout="feature">
+<img src="/images/brazil/rio/part2-santatereza-tram.jpg" alt="">
+<img src="/images/brazil/rio/part2-santatereza2.jpg" alt="">
+<img src="/images/brazil/rio/part2-santatereza3.jpg" alt="">
+</figure>
 
 We eventually stopped at *Bar do Mineiro*, a traditional restaurant in Santa Teresa, where we tried one of the most famous Brazilian dishes: *Feijoada*.
 
@@ -83,6 +103,11 @@ Emmy, on the other hand, really liked it.
 
 The restaurant itself was lovely, very traditional and had great reviews, so if you like trying local food, definitely put it on your list.
 
+<figure class="collage" data-layout="row">
+<img src="/images/brazil/rio/part2-santatereza.jpg" alt="">
+<img src="/images/brazil/rio/part2-food1.jpg" alt="">
+</figure>
+
 ## **Rio on two wheels**
 
 Another day, we decided to rent bikes and explore the city differently.
@@ -90,6 +115,12 @@ Another day, we decided to rent bikes and explore the city differently.
 We cycled from ***Copacabana*** towards **Red Beach**, and even though the weather was cloudy and definitely not ideal for swimming, the bike ride itself was great.
 
 That’s something I love about traveling: you don’t always need perfect weather or a perfect itinerary. Sometimes, all it takes is hopping on a bike and seeing where it leads you.
+
+<figure class="collage" data-layout="feature">
+<img src="/images/brazil/rio/part2-bikes.jpg" alt="">
+<img src="/images/brazil/rio/part2-red-beach.jpg" alt="">
+<img src="/images/brazil/rio/part2-red-beach2.jpg" alt="">
+</figure>
 
 ## **Ipanema**
 
@@ -105,6 +136,8 @@ Nice place.
 
 Good enough.
 
+![](/images/brazil/rio/part2-ipanema.jpg)
+
 ## **Emmy turns 30!**
 
 The day Emmy turned 30.
@@ -113,6 +146,8 @@ I hope she doesn't curse me out for exposing her like this, if she happens to be
 
 We had booked a table at Aprazível, a truly impressive restaurant.
 
+![](/images/brazil/rio/part2-dinner.jpg)
+
 The food was excellent, and the setting was even better. It boasts a wonderful view and a very unique atmosphere, so if you’re looking for a special night out in Rio, it’s worth adding to your list.
 
 And a little bonus: if it’s your birthday and you let them know, they’ll bring you a dessert with a candle at no extra charge.
@@ -120,6 +155,11 @@ And a little bonus: if it’s your birthday and you let them know, they’ll bri
 After dinner, we went for drinks at a local bar. I honestly cannot remember the name anymore, but there are plenty of places to go out in Rio.
 
 Just remember: have fun, but always be aware of your surroundings.
+
+<figure class="collage" data-layout="row">
+<img src="/images/brazil/rio/part2-img-8972.jpg" alt="">
+<img src="/images/brazil/rio/part2-img-8981.jpg" alt="">
+</figure>
 
 ## **A day on the water**
 
@@ -133,6 +173,12 @@ And then, the best part of the day began.
 
 The water was absolutely beautiful.
 
+<figure class="collage" data-layout="feature">
+<img src="/images/brazil/rio/part2-img-8570.jpg" alt="">
+<img src="/images/brazil/rio/part2-img-8741.jpg" alt="">
+<img src="/images/brazil/rio/part2-img-8836.jpg" alt="">
+</figure>
+
 We stopped at a few different places for swimming and diving, around two or three stops throughout the day. Lunch was also included, and we stopped at a local restaurant on one of the beaches.
 
 And somewhere during the day, I saw capybaras for the first time in my life.
@@ -143,6 +189,8 @@ It’s not exactly the biggest travel achievement.
 
 But let me have this one.
 
+![](/images/brazil/rio/part2-img-8948.jpg)
+
 ## **One last swim**
 
 And suddenly, it was time to leave.
@@ -152,6 +200,8 @@ Our flight was taking us back to Salvador before heading back to the Netherlands
 So obviously, we couldn’t just sit at the airport.
 
 Once landed in Salvador, we left our luggage in lockers at the airport, took a taxi to a nearby beach, and went for one last swim.
+
+![](/images/brazil/rio/part2-last-day.jpg)
 
 Because, come on. It’s Brazil.
 

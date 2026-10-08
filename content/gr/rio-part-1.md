@@ -77,6 +77,11 @@ highlights:
 
 Ειλικρινά; 10/10 εμπειρία.
 
+<figure class="collage" data-layout="row">
+<img src="/images/brazil/salvador/part1-kentro.jpg" alt="">
+<img src="/images/brazil/salvador/part1-kentro1.jpg" alt="">
+</figure>
+
 ## Elevador Lacerda & Mercado Modelo
 
 Η διαδρομή μας κατέληξε στο ***Elevador Lacerda***, το πιο χαρακτηριστικό σημείο που ενώνει την Άνω Πόλη (*Cidade Alta*) με την Κάτω Πόλη (*Cidade Baixa*).
@@ -87,6 +92,11 @@ highlights:
 
 Εμείς τελικά πήραμε Uber μέχρι εκεί, καθώς η διαδρομή με τα πόδια είναι αρκετά μεγάλη και δεν θεωρείται η καλύτερη επιλογή, ειδικά για δύο τουρίστριες.
 
+<figure class="collage" data-layout="row">
+<img src="/images/brazil/salvador/part1-elevator1.jpg" alt="">
+<img src="/images/brazil/salvador/part1-untitled-design-2.jpg" alt="">
+</figure>
+
 ## **Η πόλη που τη ρουφάς**
 
 Μετά το τέλος της ξενάγησης, η εξερεύνησή μας φυσικά δεν σταμάτησε. Η μέρα είχε πολύ περπάτημα, αλλά ήταν από εκείνες τις μέρες που δεν θέλεις να τελειώσουν.
@@ -95,11 +105,20 @@ highlights:
 
 Και μια μικρή συμβουλή: δοκίμασε οπωσδήποτε *cachaça*, το εθνικό απόσταγμα της Βραζιλίας, σε κάποιο από τα δεκάδες φρουτένια cocktails που θα βρεις εκεί.
 
+<figure class="collage" data-layout="row">
+<img src="/images/brazil/salvador/part1-pelourinho.jpg" alt="">
+<img src="/images/brazil/salvador/part1-pelourinho2.jpg" alt="">
+<img src="/images/brazil/salvador/part1-pelourinho3.jpg" alt="">
+<img src="/images/brazil/salvador/part1-untitled-design-3.jpg" alt="">
+</figure>
+
 ## **Η περίφημη Moqueca**
 
 Η μέρα μας έκλεισε στο περίφημο *Ré Restaurante Dona Suzana*, ένα από τα πιο γνωστά εστιατόρια της περιοχής για τη *Moqueca*, το παραδοσιακό βραζιλιάνικο πιάτο με θαλασσινά.
 
 Εμείς παραγγείλαμε Moqueca de Camarão (με γαρίδες) και χωρίς υπερβολή ήταν από τα καλύτερα γεύματα όλου του ταξιδιού.
+
+![](/images/brazil/salvador/part1-mochecha.jpg)
 
 Το εστιατόριο βρίσκεται μέσα σε μια μικρή γειτονιά που στην αρχή ίσως σε κάνει να διστάσεις, όμως λόγω της φήμης του θα δεις αρκετούς ντόπιους και τουρίστες να κατευθύνονται προς τα εκεί. Αν μπορείς, πήγαινε εκτός ωρών αιχμής, θα βρεις πολύ πιο εύκολα τραπέζι.
 
