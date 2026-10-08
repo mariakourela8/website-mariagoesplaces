@@ -62,6 +62,7 @@ Rules: cream `--paper` background, white/sand alternating sections, big serif ca
 light serif for story titles (`.title-serif`), tiny letter-spaced sans labels (`.label`), "READ MORE →" links (`.label.more`),
 generous white space, square-cornered photos. Fonts have Greek fallbacks (GFS Didot, Commissioner) — **always check Greek pages render nicely.**
 Greek pages swap `--f-serif` to **Source Serif 4** (regular 400 only), loaded only on `/gr/`: Cormorant Garamond has no Greek. Tried and rejected: EB Garamond fallback (busy), Noto Serif Display (too light / calligraphic). The logo pins Cormorant explicitly.
+Greek sans text (Jost has no Greek) uses **Manrope** from `public/fonts/manrope-greek.woff2` via `@font-face 'Manrope Greek'` with `size-adjust: 94%` to match Jost.
 
 ## Conventions
 - **No em dashes (—) anywhere on the site** (UI strings, content, CMS labels, page titles). Use a comma, colon or full stop; `|` or `·` as a separator.

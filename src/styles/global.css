@@ -14,7 +14,7 @@
 
   --f-display: 'Playfair Display', 'GFS Didot', Georgia, serif;
   --f-serif: 'Cormorant Garamond', 'EB Garamond', Georgia, serif;
-  --f-sans: 'Jost', 'Commissioner', system-ui, sans-serif;
+  --f-sans: 'Jost', 'Manrope Greek', 'Commissioner', system-ui, sans-serif;
   --f-script: 'Mrs Saint Delafield', 'Allura', cursive;
 
   --wrap: 1180px;
@@ -26,6 +26,17 @@
 /* Greek pages: Cormorant Garamond has no Greek letters, so use a clean serif that does.
    Only the regular weight is loaded, so all Greek serif text renders at 400. */
 html:lang(el) { --f-serif: 'Source Serif 4', 'Cormorant Garamond', Georgia, serif; }
+
+/* Jost has no Greek letters. Greek text uses Manrope (self-hosted Greek subset, SIL OFL),
+   scaled to 94% so it matches Jost's size and lightness. Latin stays in Jost. */
+@font-face {
+  font-family: 'Manrope Greek';
+  src: url('/fonts/manrope-greek.woff2') format('woff2');
+  font-weight: 200 500;
+  font-display: swap;
+  size-adjust: 94%;
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
 
 *, *::before, *::after { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; scroll-padding-top: var(--header-h); }
