@@ -24,7 +24,7 @@
 }
 
 /* Greek pages: Cormorant Garamond has no Greek letters, so use a clean serif that does.
-   Only the regular weight is loaded, so all Greek serif text renders at 400. */
+   Only the light weight (300) is loaded, so Greek serif text matches the weight of the English Cormorant. */
 html:lang(el) { --f-serif: 'Source Serif 4', 'Cormorant Garamond', Georgia, serif; }
 
 *, *::before, *::after { box-sizing: border-box; }
