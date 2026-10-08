@@ -40,7 +40,7 @@ content/en/*.md, content/gr/*.md ──┘  read by src/content.config.ts (glob 
 | `netlify.toml` | Build settings + `/` → `/gr/` for Greek browsers, else `/en/` |
 
 ## Routes
-`/en/` home · `/en/journal/` · `/en/journal/<slug>/` · `/en/destinations/` (+ map) · `/en/destinations/<country>/` · `/en/about/` · same under `/gr/` · `/admin/`
+`/en/` home · `/en/journal/` · `/en/journal/<slug>/` · `/en/destinations/` (+ map) · `/en/destinations/<country>/` · `/en/tips/` (category `tips`) · `/en/about/` · same under `/gr/` · `/admin/`
 
 ## Features & how they work
 - **Language switch**: header swaps `/en/`↔`/gr/`. On articles it links to the same slug if a translation exists, else to the journal.

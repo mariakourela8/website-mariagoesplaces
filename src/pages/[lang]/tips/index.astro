@@ -1,0 +1,16 @@
+---
+import Base from '../../../layouts/Base.astro';
+import PageHead from '../../../components/PageHead.astro';
+import StoryGrid from '../../../components/StoryGrid.astro';
+import { t, langPaths, type Lang } from '../../../i18n/ui';
+import { getStories } from '../../../lib/content';
+
+export const getStaticPaths = langPaths;
+const lang = Astro.params.lang as Lang;
+const s = t(lang);
+const tips = (await getStories(lang)).filter((x) => x.data.category === 'tips');
+---
+<Base lang={lang} title={s.tipsTitle} description={s.tipsIntro}>
+  <PageHead title={s.tipsTitle} intro={s.tipsIntro} />
+  <StoryGrid stories={tips} empty={s.tipsEmpty} />
+</Base>

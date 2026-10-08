@@ -26,6 +26,7 @@ const is = (p: string) => path.startsWith(`/${lang}/${p}`);
     <nav class="nav" aria-label="Primary">
       <a class:list={['label', { on: is('journal') }]} href={`/${lang}/journal/`}>{s.journal}</a>
       <a class:list={['label', { on: is('destinations') }]} href={`/${lang}/destinations/`}>{s.destinations}</a>
+      <a class:list={['label', { on: is('tips') }]} href={`/${lang}/tips/`}>{s.tips}</a>
       <a class:list={['label', { on: is('about') }]} href={`/${lang}/about/`}>{s.aboutMe}</a>
     </nav>
 
@@ -35,6 +36,7 @@ const is = (p: string) => path.startsWith(`/${lang}/${p}`);
   <nav id="mobile-nav" class="mobile-nav" hidden>
     <a href={`/${lang}/journal/`}>{s.journal}</a>
     <a href={`/${lang}/destinations/`}>{s.destinations}</a>
+    <a href={`/${lang}/tips/`}>{s.tipsTitle}</a>
     <a href={`/${lang}/about/`}>{s.aboutMe}</a>
     <a href={site.instagram} target="_blank" rel="noopener">Instagram</a>
     <a href={altHref} hreflang={other === 'gr' ? 'el' : 'en'}>{s.otherLang}</a>
@@ -66,7 +68,7 @@ const is = (p: string) => path.startsWith(`/${lang}/${p}`);
   .lang { display: inline-flex; gap: 6px; color: var(--ink-soft); }
   .lang [aria-current] { color: var(--ink); }
 
-  .nav { display: flex; justify-content: flex-end; gap: 32px; }
+  .nav { display: flex; justify-content: flex-end; gap: 24px; white-space: nowrap; }
   .nav a { text-decoration: none; padding: 4px 0; border-bottom: 1px solid transparent; }
   .nav a:hover, .nav a.on { border-color: var(--ink); }
 
@@ -74,10 +76,10 @@ const is = (p: string) => path.startsWith(`/${lang}/${p}`);
   .mobile-nav { border-top: 1px solid var(--line); padding: 8px var(--gutter) 20px; background: var(--white); max-height: calc(100svh - var(--header-h)); overflow-y: auto; }
   .mobile-nav a { display: block; padding: 12px 0; border-bottom: 1px solid var(--line); text-decoration: none; font-family: var(--f-serif); font-size: 24px; }
 
-  @media (max-width: 960px) {
+  @media (max-width: 1220px) {
     .utility, .nav { display: none; }
     .mainbar { grid-template-columns: 1fr auto; }
     .menu-btn { display: inline-block; }
   }
-  @media (min-width: 961px) { .mobile-nav { display: none; } }
+  @media (min-width: 1221px) { .mobile-nav { display: none; } }
 </style>

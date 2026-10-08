@@ -47,7 +47,7 @@ collections:
         i18n: duplicate
         options:
           - { label: Story, value: story }
-          - { label: Travel guide, value: guide }
+          - { label: "Maria's tips", value: tips }
       - { label: Country (in English), name: country, widget: string, i18n: duplicate,
           hint: 'Always in English, e.g. Brazil, Greece, Jordan. The Greek site translates it.' }
       - { label: City, name: city, widget: string, required: false, i18n: true }

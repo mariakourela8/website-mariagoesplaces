@@ -16,6 +16,7 @@ const MAX_SIZE = 2200;
 const EXTS = new Set(['.jpg', '.jpeg', '.png', '.webp']);
 const CONCURRENCY = 4;
 
+/** @param {string} dir @returns {AsyncGenerator<string>} */
 async function* walk(dir) {
   for (const entry of await fs.readdir(dir, { withFileTypes: true })) {
     const full = path.join(dir, entry.name);
@@ -24,6 +25,7 @@ async function* walk(dir) {
   }
 }
 
+/** @param {string} file */
 async function optimize(file) {
   const input = await fs.readFile(file);
   const ext = path.extname(file).toLowerCase();
@@ -42,6 +44,7 @@ async function optimize(file) {
   return { before: input.length, after: output.length };
 }
 
+/** @returns {import('astro').AstroIntegration} */
 export default function optimizeImages() {
   return {
     name: 'optimize-images',
@@ -65,7 +68,7 @@ export default function optimizeImages() {
             }),
           );
         }
-        const mb = (n) => (n / 1024 / 1024).toFixed(1);
+        const mb = (/** @type {number} */ n) => (n / 1024 / 1024).toFixed(1);
         logger.info(`${files.length} images: ${mb(before)} MB → ${mb(after)} MB${failed ? ` (${failed} skipped)` : ''}`);
       },
     },

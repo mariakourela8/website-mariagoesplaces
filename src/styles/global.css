@@ -112,7 +112,7 @@ dialog::backdrop { background: rgba(43,39,35,.55); backdrop-filter: blur(3px); }
   border: 0; background: var(--white); cursor: pointer; font-size: 20px; line-height: 1;
 }
 
-@media (max-width: 960px) { :root { --header-h: 76px; } }
+@media (max-width: 1220px) { :root { --header-h: 76px; } }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; animation: none !important; }
