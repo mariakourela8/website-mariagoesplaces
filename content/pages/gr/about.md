@@ -1,5 +1,5 @@
 ---
-title: Ποια είμαι;
+title: Σχετικά με εμένα
 subtitle: ""
 image: null
 image2: null
