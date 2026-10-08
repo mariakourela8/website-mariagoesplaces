@@ -33,7 +33,6 @@ const aboutImg2 = about?.data.image2 ?? siteImage('about-2');
     <div class="wrap hero-inner">
       <p class="label hero-kicker">{s.heroKicker}</p>
       <h1 class="display hero-title">Maria<br />goes places</h1>
-      <p class="hero-tag">{s.tagline}</p>
       <a class="btn btn--light label" href={`/${lang}/journal/`}>{s.seeMore}</a>
     </div>
   </section>
@@ -143,8 +142,7 @@ const aboutImg2 = about?.data.image2 ?? siteImage('about-2');
   .hero-shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(30,26,22,.55), rgba(30,26,22,.1) 70%); }
   .hero-inner { position: relative; color: var(--white); width: 100%; padding-bottom: clamp(40px, 6vh, 64px); }
   .hero-kicker { opacity: .85; margin-bottom: 18px; }
-  .hero-title { font-size: clamp(52px, 8vw, 100px); line-height: .95; }
-  .hero-tag { font-size: 19px; margin: 16px 0 24px; opacity: .92; }
+  .hero-title { font-size: clamp(52px, 8vw, 100px); line-height: .95; margin-bottom: 32px; }
 
   .feature { display: grid; grid-template-columns: 1.15fr 1fr; margin-top: clamp(40px, 7vw, 80px); position: relative; }
   .feature-img { aspect-ratio: 4 / 3.4; }
