@@ -50,7 +50,7 @@ const gr: typeof en = {
   journal: 'Ημερολόγιο',
   destinations: 'Προορισμοί',
   about: 'Σχετικά',
-  aboutMe: 'Λίγα λόγια',
+  aboutMe: 'Σχετικά με εμένα',
   aboutNav: 'Σχετικά',
   tips: 'Συμβουλές',
   tipsTitle: 'Οι συμβουλές της Μαρίας',
