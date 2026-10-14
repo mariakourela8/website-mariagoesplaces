@@ -26,7 +26,7 @@ highlights:
 
 
       Maria’s note: We left our personal belongings at the hotel and brought only our beach towels and a little cash for water or anything else we might need. Better safe than sorry.
-    image: /images/brazil/rio/selaron.svg
+    image: ""
   - key: walking tour
     title: Walking Tour
     text: >
@@ -59,15 +59,15 @@ We travelled at the end of November, with a layover in Paris. Salvador, the capi
 
 We arrived late in the evening, so apart from a short walk around the hotel and a quick dinner, we didn’t discover much. Our real introduction to Salvador would begin the following morning.
 
-## **Porto da Barra & the Best Açaí I’ve Ever Had**
+## **Porto da Barra & the best Açaí I’ve ever had**
 
 We stayed in ***Porto da Barra***, at *Grande Hotel da Barra*, literally just a few steps from the beach. The neighborhood is full of restaurants, bars, and small cafés along the waterfront, making it the perfect area if you enjoy exploring on foot.
 
 And somewhere along that promenade, we had the best *açaí* of our lives.
 
-I’m still not sure whether to call it a dessert, breakfast, or a healthier version of ice cream. All I know is that after the first spoonful, we immediately started looking for an excuse to have another one. It’s refreshing, fruity, and easily one of my favourite things I ate in Brazil. If you’re nearby, Sorveteria da Ribeira is absolutely worth the stop.
+I’m still not sure whether to call it a dessert, breakfast, or a healthier version of ice cream. All I know is that after the first spoonful, we immediately started looking for an excuse to have another one. It’s refreshing, fruity, and easily one of my favourite things I ate in Brazil. If you’re nearby, *Sorveteria da Ribeira* is absolutely worth the stop.
 
-## **The Best Decision We Made That Day**
+## **The best decision we made that day**
 
 Our first full day was dedicated to walking all the way to Salvador’s historic centre. The walk was somewhere between 30 minutes and an hour; I honestly can’t remember, and I’m not going to lie to you. It might sound a little crazy, but we wanted to experience the city by walking through it, and it ended up being one of the best decisions we made.
 
@@ -97,7 +97,7 @@ We ended up taking an Uber down instead, as the walk is fairly long and not the 
 <img src="/images/brazil/salvador/part1-untitled-design-2.jpg" alt="">
 </figure>
 
-## **A City You Don’t Just See - You Feel**
+## **A city you don’t just see - You feel**
 
 After the tour, our day was far from over. We kept wandering for hours, completely captivated by Salvador’s colourful buildings, independent shops and the music drifting through its streets.
 
