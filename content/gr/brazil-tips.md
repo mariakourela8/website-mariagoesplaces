@@ -1,11 +1,16 @@
 ---
-title: "Τα tips που μας βοήθησαν στη Βραζιλία"
+title: Τα tips που μας βοήθησαν στη Βραζιλία
 description: ""
 date: 2026-10-08
 category: tips
 country: Brazil
+series: null
+part: null
+cover: null
 featured: false
 draft: false
+lat: null
+lng: null
 tags: []
 gallery: []
 highlights: []

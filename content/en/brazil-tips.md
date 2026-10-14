@@ -1,5 +1,5 @@
 ---
-title: "Tips That Helped Us Feel More Comfortable in Brazil"
+title: Tips that helped us feel more comfortable in Brazil
 description: ""
 date: 2026-10-08
 category: tips
