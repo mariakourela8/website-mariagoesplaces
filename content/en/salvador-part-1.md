@@ -39,7 +39,7 @@ We went up on the ***Trem do Corcovado***, the train that travels through ***Tij
 
 If you’re lucky, you can even spot monkeys along the way.
 
-Emma did.
+Emmy did.
 
 I didn’t. I wasn't the lucky one of the day.
 
@@ -144,7 +144,7 @@ The day Emmy turned 30.
 
 I hope she doesn't curse me out for exposing her like this, if she happens to be reading the blog right now.
 
-We had booked a table at Aprazível, a truly impressive restaurant.
+We had booked a table at *Aprazível*, a truly impressive restaurant.
 
 ![](/images/brazil/rio/part2-dinner.jpg)
 
