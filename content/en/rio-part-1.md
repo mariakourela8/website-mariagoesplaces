@@ -12,7 +12,7 @@ coverAlt: Salvador
 featured: false
 draft: false
 lat: -13.0058
-lng: -38.5320
+lng: -38.532
 tags: []
 gallery: []
 highlights:
