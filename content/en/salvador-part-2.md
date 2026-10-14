@@ -81,13 +81,13 @@ But I’m still glad I tried it. For me, food is one of the best ways to underst
 
 ## **A place I didn’t expect to love**
 
-Somewhere between exploring Pelourinho’s streets, we found ourselves at *Studio Negra Jhô – Penteados Afro* because I had decided I wanted to try Afro braids for the very first time.
+Somewhere between exploring Pelourinho’s streets, we found ourselves at *Studio Negra Jhô - Penteados Afro* because I had decided I wanted to try Afro braids for the very first time.
 
 Possibly the first and the last time, if I’m being honest. Not everything suits everyone.
 
 What I remember most, however, isn’t my hairstyle; it’s the people. Even though we didn’t speak the same language, we somehow communicated perfectly through smiles, gestures, and a lot of laughter.
 
-The owner, *Negra Jhô*, has created something much bigger than a beauty salon. It’s a space that celebrates Black identity, empowers women, and promotes anti-racism through beauty, culture, and community. If you ever find yourself in Salvador, don’t be shy—step inside, even if it’s just to experience the atmosphere.
+The owner, *Negra Jhô*, has created something much bigger than a beauty salon. It’s a space that celebrates Black identity, empowers women, and promotes anti-racism through beauty, culture, and community. If you ever find yourself in Salvador, don’t be shy and step inside, even if it’s just to experience the atmosphere.
 
 <figure class="collage" data-layout="row">
 <img src="/images/brazil/salvador/part2-braids.jpg" alt="">
