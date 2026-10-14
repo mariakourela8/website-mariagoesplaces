@@ -35,7 +35,7 @@ If you haven’t read it yet… what are you doing here?
 
 Go back and read it first. I’ll wait.
 
-After a few days in Salvador, we took a domestic flight to Rio de Janeiro. The flight was around two and a half hours, and, once again, the language situation was… interesting. Not many people spoke English, so we mostly survived thanks to Emma’s Italian, a little Spanish, and the two or three Portuguese words we had managed to learn.
+After a few days in Salvador, we took a domestic flight to Rio de Janeiro. The flight was around two and a half hours, and, once again, the language situation was… interesting. Not many people spoke English, so we mostly survived thanks to Emmy’s Italian, a little Spanish, and the two or three Portuguese words we had managed to learn.
 
 Somehow, we made it work.
 
@@ -146,7 +146,7 @@ From Sugarloaf, we headed to ***Pedra do Sal***, the historic area known as ***P
 
 There were small stalls selling drinks and food, people everywhere, music playing in the middle of the square, and groups of people gathering around the musicians to dance and enjoy the night.
 
-We also stopped for one last beer at ***Bafo da Prainha***, an outdoor bar in ***Largo São Francisco da Prainha***.
+We also stopped for one last beer at *Bafo da Prainha*, an outdoor bar in ***Largo São Francisco da Prainha***.
 
 <figure class="collage" data-layout="feature">
 <img src="/images/brazil/rio/part1-samba-event.jpg" alt="">
