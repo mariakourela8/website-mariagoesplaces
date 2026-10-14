@@ -33,7 +33,7 @@ So, let’s not be hard on ourselves, Maria.
 
 Instead of telling you exactly what happened each day, I’m going to share the moments I remember most vividly. After all, those are the memories that stay with you long after a trip is over.
 
-## **The Church of Three Wishes**
+## **The church of three wishes**
 
 One of our first stops was the ***Church of Our Lady of the Rosary of the Black People***.
 
@@ -50,7 +50,7 @@ The tradition says you tie one either to the church railings or around your wris
 <img src="/images/brazil/salvador/part2-church2.jpg" alt="">
 </figure>
 
-## **Pelourinho: The Heart of Salvador**
+## **Pelourinho: The heart of Salvador**
 
 From there, we wandered back into ***Pelourinho***, Salvador’s historic centre and a UNESCO World Heritage Site.
 
@@ -69,7 +69,7 @@ Suddenly the drums started, and within seconds the entire street turned into a c
 <img src="/images/brazil/salvador/part2-pelourinho2.jpg" alt="">
 </figure>
 
-## **The Flavours of Bahia**
+## **The flavours of Bahia**
 
 We spent hours wandering around ***Largo do Pelourinho***, stopping whenever something looked too good to resist.
 
@@ -79,7 +79,7 @@ I’ll be honest, it wasn’t my favourite dish.
 
 But I’m still glad I tried it. For me, food is one of the best ways to understand a place. You don’t have to love everything; you just have to be curious enough to taste it.
 
-## **A Place I Didn’t Expect to Love**
+## **A place I didn’t expect to love**
 
 Somewhere between exploring Pelourinho’s streets, we found ourselves at *Studio Negra Jhô – Penteados Afro* because I had decided I wanted to try Afro braids for the very first time.
 
@@ -94,7 +94,7 @@ The owner, *Negra Jhô*, has created something much bigger than a beauty salon. 
 <img src="/images/brazil/salvador/part2-negrajo.jpg" alt="">
 </figure>
 
-## **The Sunset We Almost Missed**
+## **The sunset we almost missed**
 
 One evening, we headed towards ***Farol da Barra***, one of the city’s most famous places to watch the sunset.
 
@@ -111,7 +111,7 @@ From a distance, we could already see crowds gathering around the lighthouse. In
 <img src="/images/brazil/salvador/part2-sunset2.jpg" alt="">
 </figure>
 
-## **The Little Moments That Stay With You**
+## **The little moments that stay with you**
 
 Long walks along ***Porto da Barra***, late-night drinks, a few spontaneous samba dances, and little adventures in nearby neighbourhoods were all part of our Salvador experience too.
 
@@ -122,8 +122,6 @@ Long walks along ***Porto da Barra***, late-night drinks, a few spontaneous samb
 </figure>
 
 I’m not going to tell you every single story. Some moments are simply meant to be lived rather than explained, and not everything needs to become a travel guide.
-
-*Until Next Time…*
 
 That was Salvador for us.
 
