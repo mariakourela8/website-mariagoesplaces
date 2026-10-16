@@ -23,9 +23,6 @@ const photo = page?.data.image ?? siteImage('about-1');
       <div class="prose">{Content && <Content />}</div>
     </div>
   </section>
-  <section class="quote">
-    <p class="display">{s.quoteA} <em>{s.quoteB}</em></p>
-  </section>
 </Base>
 <style>
   .about { display: grid; grid-template-columns: 1fr 1.1fr; gap: clamp(28px, 6vw, 80px); align-items: start; padding-top: clamp(48px, 7vw, 90px); padding-bottom: clamp(48px, 7vw, 90px); }
@@ -36,7 +33,5 @@ const photo = page?.data.image ?? siteImage('about-1');
   .sub { font-style: italic; font-size: 24px; margin: 10px 0 26px; }
   .prose { color: var(--ink-soft); font-size: 18px; }
   .prose :global(h2) { font-family: var(--f-serif); color: var(--ink); font-size: 32px; margin: 1.4em 0 .4em; }
-  .quote { background: var(--sand); padding: clamp(48px, 7vw, 80px) var(--gutter); text-align: center; }
-  .quote .display { font-size: clamp(28px, 4.5vw, 48px); margin: 0; }
   @media (max-width: 860px) { .about { grid-template-columns: 1fr; } .about-img { position: static; } }
 </style>
