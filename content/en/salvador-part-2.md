@@ -60,6 +60,8 @@ Colourful colonial buildings, cobbled streets, independent shops and music flowi
 
 You’ll meet the *Baianas de Acarajé*, women dressed in traditional white clothing preparing Bahia’s most iconic street food. Street performers, musicians, and local bands seem to appear in every square.
 
+![](/images/brazil/salvador/part2-baianas.jpg)
+
 And then we stumbled across *Olodum*.
 
 Suddenly the drums started, and within seconds the entire street turned into a celebration. Before I knew it, I was dancing alongside strangers. It was one of those spontaneous travel moments you could never organise, and probably the one I remember most.

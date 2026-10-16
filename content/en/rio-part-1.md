@@ -94,7 +94,7 @@ We ended up taking an Uber down instead, as the walk is fairly long and not the 
 
 <figure class="collage" data-layout="row">
 <img src="/images/brazil/salvador/part1-elevator1.jpg" alt="">
-<img src="/images/brazil/salvador/part1-untitled-design-2.jpg" alt="">
+<img src="/images/brazil/salvador/part1-elevator.jpg" alt="">
 </figure>
 
 ## **A city you don’t just see - You feel**

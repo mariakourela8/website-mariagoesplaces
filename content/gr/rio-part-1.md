@@ -94,7 +94,7 @@ highlights:
 
 <figure class="collage" data-layout="row">
 <img src="/images/brazil/salvador/part1-elevator1.jpg" alt="">
-<img src="/images/brazil/salvador/part1-untitled-design-2.jpg" alt="">
+<img src="/images/brazil/salvador/part1-elevator.jpg" alt="">
 </figure>
 
 ## **Η πόλη που τη ρουφάς**
