@@ -18,7 +18,7 @@ const countryName = await countryNamer(lang);
         <li>
           <a href={storyUrl(tip)}>
             <p class="label eyebrow">{countryName(tip.data.country)}</p>
-            <h2 class="title-serif">{tip.data.title}</h2>
+            <h2>{tip.data.title}</h2>
             {tip.data.description && <p class="desc">{tip.data.description}</p>}
             <span class="label more">{s.readMore}</span>
           </a>
@@ -37,7 +37,7 @@ const countryName = await countryNamer(lang);
   .tips li:last-child { border-bottom: 1px solid var(--line); }
   .tips a { display: block; padding: 36px 0; text-decoration: none; }
   .tips .eyebrow { margin: 0 0 8px; font-size: 11px; }
-  .tips h2 { font-size: clamp(28px, 3.6vw, 38px); line-height: 1.15; margin: 0 0 14px; }
+  .tips h2 { font-family: var(--f-display); font-weight: 400; font-size: clamp(26px, 3.2vw, 34px); line-height: 1.2; margin: 0 0 14px; }
   .tips .desc { color: var(--ink-soft); margin: 0 0 14px; }
   .tips a:hover h2 { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 6px; }
   .empty { text-align: center; color: var(--ink-soft); font-family: var(--f-serif); font-style: italic; font-size: 22px; padding: 40px 0 100px; }
