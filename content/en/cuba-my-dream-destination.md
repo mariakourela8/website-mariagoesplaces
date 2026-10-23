@@ -166,11 +166,29 @@ My last day, and another taxi ride on the agenda. Surprised?
 
 The day included horseback riding and a visit to a farm to see how the famous Cuban cigars are made. Along the way, our driver managed to squeeze in a quick stop at **Fusterlandia**, an entire neighbourhood transformed into a surreal, open-air work of art. It’s open to the public and accessible to everyone. Another little hidden gem in this city.
 
+<figure class="collage" data-layout="row">
+<img src="/images/uploads/img_7959.jpeg" alt="">
+<img src="/images/uploads/img_7961.jpeg" alt="">
+</figure>
+
 Our final destination was the **Viñales Valley**. It was a great experience, not only learning about such a famous product as Cuban cigars directly from local producers, but also having the chance to support them.
+
+<figure class="collage" data-layout="row">
+<img src="/images/uploads/img_7989.jpeg" alt="">
+<img src="/images/uploads/img_4786.jpg" alt="">
+<img src="/images/uploads/img_7996.jpeg" alt="">
+</figure>
 
 Another beautiful spot in the area was yet another cave! I’m trying to remember whether it was **La Cueva del Agua** or **Cueva de las Maravillas**. Sorry, my memory is failing me! But there are several options, and they’re all equally beautiful.
 
+<figure class="collage" data-layout="row">
+<img src="/images/uploads/img_8030.jpeg" alt="">
+<img src="/images/uploads/img_4803.jpg" alt="">
+</figure>
+
 Our last stop before heading back was the **Mural de la Prehistoria**. Another work of art, this time a giant outdoor painting on the side of a hill, depicting the evolution of life in the region.
+
+![](/images/uploads/img_4815.jpg)
 
 It was a full day, and one that brought me closer to nature than ever.
 
@@ -183,3 +201,5 @@ Of course, there were also aspects of the country that made me reflect on the in
 For now, I’ll leave you with the beautiful side of this place.
 
 Cuba is a dream!
+
+![](/images/uploads/img_8071.jpeg)
