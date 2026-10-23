@@ -83,11 +83,44 @@ Just like the day before, the taxi I had booked picked me up early in the mornin
 
 After a few hours on the road and a couple of stops, we finally arrived, and I was absolutely blown away by the hotel. It looked like something straight out of a fairytale. Magical! The houses have a unique architectural style that draws you in, even if they’re nothing like the modern buildings we’re used to. It’s as if they’ve been transported from another century, and that’s exactly where their charm lies.
 
-And off I went to explore the town! It’s such a peaceful place, with colourful houses that somehow make you feel completely at ease. Walking around worked up an appetite, and that’s how I ended up at **La Botija.** A lovely setting and really good food. I highly recommend it! And for a little coffee break, **Café El Mago** is a must-go. 
+<figure class="collage" data-layout="feature">
+<img src="/images/uploads/img_4669.jpg" alt="">
+<img src="/images/uploads/img_4671.jpg" alt="">
+<img src="/images/uploads/img_7776.jpeg" alt="">
+</figure>
+
+And off I went to explore the town! It’s such a peaceful place, with colourful houses that somehow make you feel completely at ease. 
+
+<figure class="collage" data-layout="feature">
+<img src="/images/uploads/img_4661.jpg" alt="">
+<img src="/images/uploads/img_7798.jpeg" alt="">
+<img src="/images/uploads/img_7819.jpeg" alt="">
+</figure>
+
+Walking around worked up an appetite, and that’s how I ended up at **La Botija.** A lovely setting and really good food. I highly recommend it! 
+
+<figure class="collage" data-layout="row">
+<img src="/images/uploads/img_7813.jpeg" alt="">
+<img src="/images/uploads/img_7810.jpeg" alt="">
+</figure>
+
+And for a little coffee break, **Café El Mago** is a must-go. 
+
+<figure class="collage" data-layout="row">
+<img src="/images/uploads/img_4707.jpg" alt="">
+<img src="/images/uploads/img_4710.jpg" alt="">
+</figure>
 
 Later, after a power nap, it was time to meet up with my fellow travellers for dinner and drinks in a cave. Yes, you read that right. A cave! More specifically, **Disco Ayala**, also known as **La Cueva**. Getting there involved a bit of an uphill walk along a dirt road, but it was an unforgettable experience.
 
+<figure class="collage" data-layout="row">
+<img src="/images/uploads/img_7844.jpeg" alt="">
+<img src="/images/uploads/img_7845.jpeg" alt="">
+</figure>
+
 The next morning, before hopping into the taxi back to Havana, there was no way I was leaving without taking a dip at **Playa Ancón**.
+
+![](/images/uploads/img_7858.jpeg)
 
 To avoid repeating myself, I’ll just say this: the beaches in Cuba are among the most beautiful I’ve ever visited.
 
