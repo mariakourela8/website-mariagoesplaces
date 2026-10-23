@@ -8,6 +8,12 @@ cover: /images/uploads/img_4679.jpg
 featured: false
 draft: true
 tags: []
+highlights:
+  - key: taxi
+    title: Taxi and road trips
+    text: You can easily find people online who organise these kinds of car trips,
+      or ask your accommodation host to help you arrange one. Just make sure to
+      cross-check the information for safety reasons.
 ---
 In November 2022, I was about to take one of my dream trips.
 

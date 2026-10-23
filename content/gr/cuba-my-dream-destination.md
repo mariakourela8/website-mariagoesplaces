@@ -3,9 +3,20 @@ title: "Κούβα: Ο προορισμός των ονείρων μου"
 date: 2026-10-24
 category: story
 country: Cuba
+series: null
+part: null
 cover: /images/uploads/img_4679.jpg
 featured: false
 draft: true
+lat: null
+lng: null
+highlights:
+  - key: ταξί
+    title: Ταξί και road trips
+    text: "Διαδικτυακά μπορεί κανείς να βρει σίγουρα ανθρώπους που διοργανώνουν
+      τέτοια trip με αυτοκίνητο ή με την βοήθεια του host από το κατάλυμα όπου
+      θα μείνει κάποιος. Απλά, πάντα κάνουμε cross-check τις πληροφορίες, για
+      λόγους ασφαλείας. "
 ---
 Τον Νοέμβριο του 2022, θα πραγματοποιούσα ένα από τα ταξίδια-όνειρο για εμένα. 
 
