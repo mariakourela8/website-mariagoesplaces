@@ -61,11 +61,11 @@ We arrived late in the evening, so apart from a short walk around the hotel and 
 
 ## **Porto da Barra & the best Açaí I’ve ever had**
 
-We stayed in ***Porto da Barra***, at *Grande Hotel da Barra*, literally just a few steps from the beach. The neighborhood is full of restaurants, bars, and small cafés along the waterfront, making it the perfect area if you enjoy exploring on foot.
+We stayed in **Porto da Barra**, at Grande Hotel da Barra, literally just a few steps from the beach. The neighborhood is full of restaurants, bars, and small cafés along the waterfront, making it the perfect area if you enjoy exploring on foot.
 
 And somewhere along that promenade, we had the best *açaí* of our lives.
 
-I’m still not sure whether to call it a dessert, breakfast, or a healthier version of ice cream. All I know is that after the first spoonful, we immediately started looking for an excuse to have another one. It’s refreshing, fruity, and easily one of my favourite things I ate in Brazil. If you’re nearby, *Sorveteria da Ribeira* is absolutely worth the stop.
+I’m still not sure whether to call it a dessert, breakfast, or a healthier version of ice cream. All I know is that after the first spoonful, we immediately started looking for an excuse to have another one. It’s refreshing, fruity, and easily one of my favourite things I ate in Brazil. If you’re nearby, **Sorveteria da Ribeira** is absolutely worth the stop.
 
 ## **The best decision we made that day**
 
@@ -84,11 +84,11 @@ Honestly? 10/10 experience.
 
 ## **Elevador Lacerda & Mercado Modelo**
 
-Our tour eventually led us to ***Elevador Lacerda***, Salvador’s iconic public elevator connecting the Upper City (*Cidade Alta*) with the Lower City (*Cidade Baixa*).
+Our tour eventually led us to **Elevador Lacerda**, Salvador’s iconic public elevator connecting the Upper City (Cidade Alta) with the Lower City (Cidade Baixa).
 
 Of course, with our luck, it was closed for maintenance during the exact days we were there.
 
-Even so, the panoramic view from the upper level was beautiful. Just below sits ***Mercado Modelo***, a historic market filled with handmade crafts, local art, musical instruments, and endless souvenirs. If you’re hungry, the upper floor is also a great place to try traditional Bahian food.
+Even so, the panoramic view from the upper level was beautiful. Just below sits **Mercado Modelo**, a historic market filled with handmade crafts, local art, musical instruments, and endless souvenirs. If you’re hungry, the upper floor is also a great place to try traditional Bahian food.
 
 We ended up taking an Uber down instead, as the walk is fairly long and not the route we felt most comfortable doing on our own.
 
@@ -101,7 +101,7 @@ We ended up taking an Uber down instead, as the walk is fairly long and not the 
 
 After the tour, our day was far from over. We kept wandering for hours, completely captivated by Salvador’s colourful buildings, independent shops and the music drifting through its streets.
 
-If there’s one place where you truly feel the heartbeat of the city, it’s ***Praça da Sé***. Salvador’s culture isn’t something you simply see; it’s something you absorb in every street musician, every conversation and every little stand selling local cocktails.
+If there’s one place where you truly feel the heartbeat of the city, it’s **Praça da Sé**. Salvador’s culture isn’t something you simply see; it’s something you absorb in every street musician, every conversation and every little stand selling local cocktails.
 
 And while you’re there, do yourself a favour and try *cachaça*, Brazil’s iconic sugarcane spirit, mixed with fresh tropical fruit. It’s almost impossible to pick a bad combination.
 
@@ -114,7 +114,7 @@ And while you’re there, do yourself a favour and try *cachaça*, Brazil’s ic
 
 ## **The famous Moqueca**
 
-We finished the day at *Ré Restaurante Dona Suzana*, one of the city’s best-known spots for *Moqueca*, Bahia’s traditional seafood stew.
+We finished the day at **Ré Restaurante Dona Suzana**, one of the city’s best-known spots for *Moqueca*, Bahia’s traditional seafood stew.
 
 We ordered the Moqueca de Camarão (shrimp moqueca), and without exaggerating, it was one of the best meals of our entire trip.
 
