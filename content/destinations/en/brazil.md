@@ -1,7 +1,7 @@
 ---
 country: Brazil
 name: Brazil
-headline: "Brazil: The Country I Was Afraid to Visit"
+headline: "Brazil: The country I was afraid to visit"
 image: /images/brazil/rio/part1-stairs2.jpg
 ---
 
