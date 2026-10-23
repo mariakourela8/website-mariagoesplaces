@@ -41,7 +41,7 @@ Somehow, we made it work.
 
 ## **Copacabana, our new home**
 
-We stayed in ***Copacabana*** at the *Ritz Copacabana Hotel*, in one of the most tourist-friendly yet convenient areas for travelers. The hotel was just steps away from the beach, offered an excellent breakfast, and served as an ideal base for exploring the city.
+We stayed in **Copacabana** at the **Ritz Copacabana Hotel**, in one of the most tourist-friendly yet convenient areas for travelers. The hotel was just steps away from the beach, offered an excellent breakfast, and served as an ideal base for exploring the city.
 
 The first thing that struck me was how different Rio was from Salvador. Tall buildings, skyscrapers, vast avenues, and a much faster pace of life. Ιt was as if we had traveled to a different country.
 
@@ -66,7 +66,7 @@ I honestly believe it is the best way to get to know a destination. You don't ju
 
 ## **Confeitaria Colombo**
 
-Our first stop was ***Confeitaria Colombo***, one of the city’s most famous historic cafés. The interior is beautiful, and the place has a long history as a meeting point for Brazilian writers, artists, and intellectuals.
+Our first stop was **Confeitaria Colombo**, one of the city’s most famous historic cafés. The interior is beautiful, and the place has a long history as a meeting point for Brazilian writers, artists, and intellectuals.
 
 <figure class="collage" data-layout="row">
 <img src="/images/brazil/rio/part1-confetaria.jpg" alt="">
@@ -85,9 +85,9 @@ And yes, if you visit, try some of the traditional sweets and snacks, especially
 
 ## **Escadaria Selarón**
 
-Next stop: ***Escadaria Selarón***. 
+Next stop: **Escadaria Selarón**. 
 
-If you’ve ever seen colourful photos of Rio with a staircase covered in thousands of different tiles, this is probably the place. The staircase connects ***Lapa*** and ***Santa Teresa*** and is covered with more than 2.000 tiles from countries all over the world.
+If you’ve ever seen colourful photos of Rio with a staircase covered in thousands of different tiles, this is probably the place. The staircase connects **Lapa** and **Santa Teresa** and is covered with more than 2.000 tiles from countries all over the world.
 
 I’ll be honest: it’s very touristy. The crowds take away a bit of the magic, but if you’re in Rio, it’s worth a visit. After all… I’m saying this as just another tourist who waited patiently to take a photo.
 
@@ -103,7 +103,7 @@ Around the staircase, you’ll also find small tourist shops, street food and pl
 
 While walking through the city, we spotted a massive building in the distance that looked more like a pyramid than a church. Curiosity got the better of us, and we headed towards it.
 
-That is how we discovered the ***Metropolitan Cathedral of Saint Sebastian***.
+That is how we discovered the **Metropolitan Cathedral of Saint Sebastian**.
 
 Its exterior is unlike any other cathedral I have ever seen, but the interior is truly impressive. Huge, colorful bands of light streaming through the stained glass create an almost magical atmosphere. 
 
@@ -117,7 +117,7 @@ For us, it also offered a welcome respite from the city's unbearable heat.
 
 ## **Sugarloaf Mountain**
 
-We spent the afternoon at one of Brazil's most iconic landmarks: ***Sugarloaf Mountain***.
+We spent the afternoon at one of Brazil's most iconic landmarks: **Sugarloaf Mountain**.
 
 We had booked our tickets online and chose the skip-the-line option, a choice that was truly worth it, as the queues were enormous.
 
@@ -128,7 +128,7 @@ We had booked our tickets online and chose the skip-the-line option, a choice th
 <img src="/images/brazil/rio/part1-img-7635.jpg" alt="">
 </figure>
 
-The famous transparent cable car (***Bondinho do Pão de Açúcar***) takes you up to two different levels, and the view becomes increasingly spectacular. If I could give you just one piece of advice, it would be to go shortly before sunset. That way, you’ll see Rio in daylight, enjoy the sunset, and stay long enough to watch the city lights come on.
+The famous transparent cable car (**Bondinho do Pão de Açúcar**) takes you up to two different levels, and the view becomes increasingly spectacular. If I could give you just one piece of advice, it would be to go shortly before sunset. That way, you’ll see Rio in daylight, enjoy the sunset, and stay long enough to watch the city lights come on.
 
 <figure class="collage" data-layout="row">
 <img src="/images/brazil/rio/part1-img-7745.jpg" alt="">
@@ -142,11 +142,11 @@ It is one of those sights that can never be perfectly captured in a photograph.
 
 Think the day is over? Not even.
 
-From Sugarloaf, we headed to ***Pedra do Sal***, the historic area known as ***Pequena África*** *("Little Africa")*. One of the most authentic outdoor samba nights in Rio takes place there ***(Roda de Samba da Pedra do Sal)***.
+From Sugarloaf, we headed to **Pedra do Sal**, the historic area known as **Pequena África** *("Little Africa")*. One of the most authentic outdoor samba nights in Rio takes place there **(Roda de Samba da Pedra do Sal)**.
 
 There were small stalls selling drinks and food, people everywhere, music playing in the middle of the square, and groups of people gathering around the musicians to dance and enjoy the night.
 
-We also stopped for one last beer at *Bafo da Prainha*, an outdoor bar in ***Largo São Francisco da Prainha***.
+We also stopped for one last beer at **Bafo da Prainha**, an outdoor bar in **Largo São Francisco da Prainha**.
 
 <figure class="collage" data-layout="feature">
 <img src="/images/brazil/rio/part1-samba-event.jpg" alt="">
