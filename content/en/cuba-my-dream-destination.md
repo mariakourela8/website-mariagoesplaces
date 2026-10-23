@@ -129,15 +129,34 @@ To avoid repeating myself, I’ll just say this: the beaches in Cuba are among t
 
 Here I am, back in Havana, wandering around the city once again.
 
-I found myself around **Plaza de la Catedral**, admiring the architecture of **Havana Cathedral**, both inside and out. Although I’m not a religious person, Catholic churches have a special kind of charm for me. I love taking my time to look around and admire all the little details. My next stop was the **City Museum (Museo de la Ciudad)**, a little journey back to the 19th century, with old horse-drawn carriages and other pieces of Cuban history.
+I found myself around **Plaza de la Catedral**, admiring the architecture of **Havana Cathedral**, both inside and out. Although I’m not a religious person, Catholic churches have a special kind of charm for me. I love taking my time to look around and admire all the little details. 
+
+<figure class="collage" data-layout="row">
+<img src="/images/uploads/img_7886.jpeg" alt="">
+<img src="/images/uploads/img_7911.jpeg" alt="">
+</figure>
+
+My next stop was the **City Museum (Museo de la Ciudad)**, a little journey back to the 19th century, with old horse-drawn carriages and other pieces of Cuban history.
+
+![](/images/uploads/img_4728.jpg)
 
 Since the day was all about exploring the area’s history and iconic landmarks, a visit to **Che Guevara’s** former home-turned-museum had to be part of the plan, too. I took the ferry from Muelle de Luz, in Old Havana, heading towards Casablanca. The journey takes around 10 minutes.
 
 My first stop was the **Christ of Havana statue (Cristo de La Habana)**. You’ll find one of these statues almost everywhere! This one isn’t quite as iconic or as massive as the one in Brazil, but the views from up there are beautiful.
 
+![](/images/uploads/img_4750.jpg)
+
 Next, I visited **Centro Cultural Casa del Che (La Cabaña de Che Guevara)**, where you pay a small entrance fee to visit the museum. It’s a relatively small place, I’d say, but one with a story of its own.
 
+<figure class="collage" data-layout="feature">
+<img src="/images/uploads/img_4762.jpg" alt="">
+<img src="/images/uploads/img_7936.jpeg" alt="">
+<img src="/images/uploads/img_7921.jpeg" alt="">
+</figure>
+
 Just a few steps away, on the same side of the city, you’ll find the **Fortress of San Carlos de la Cabaña (Fortaleza de San Carlos de la Cabaña)**, which offers incredible views across the bay towards Havana.
+
+![](/images/uploads/img_4774.jpg)
 
 That evening, I was supposed to visit **Fábrica de Arte Cubano**, but guess what… I fell asleep! So, I guess I’ll have to leave that one for another time. Still, I’ve heard nothing but good things about the place. From what people have told me, it feels like stepping into a completely different side of Cuba. Don’t make the same mistake I did! If you ever find yourself in Havana, make sure you go!
 
