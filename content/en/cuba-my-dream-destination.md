@@ -59,7 +59,19 @@ Next, a stop along Havana’s famous seaside promenade, **El Malecón**, was exa
 
 Day two started with a road trip. I had already booked a taxi, but it was nothing like the kind of taxis you’d expect or are used to seeing in other countries. It was an antique... I’m not great with car brands, but it was definitely vintage, let’s put it that way. It looked like something straight out of an old black-and-white Greek movie. 
 
+<figure class="collage" data-layout="row">
+<img src="/images/uploads/img_7747.jpeg" alt="">
+<img src="/images/uploads/img_7676.jpeg" alt="">
+<img src="/images/uploads/img_7742.jpeg" alt="">
+</figure>
+
 When the taxi arrived to pick me up, we set off for **Varadero**. It’s a more touristy destination, I’d say, with unbelievably blue waters, about two hours away from Havana. What I enjoyed most was swimming in the sea and simply relaxing. There isn’t a huge amount to do in the area apart from the resorts, so you might get a little bored after a few hours, but it’s definitely worth a visit.
+
+<figure class="collage" data-layout="feature">
+<img src="/images/uploads/img_7729.jpeg" alt="">
+<img src="/images/uploads/img_7691.jpeg" alt="">
+<img src="/images/uploads/img_4635.jpg" alt="">
+</figure>
 
 Back in Havana, I ended the day with dinner at **Los Mercaderes**, if I remember correctly. I have to admit, I really struggled when it came to food. Let’s be honest, Cuban cuisine isn’t exactly known for being one of the most impressive out there. That said, there are some restaurants with really good food, such as Los Mercaderes and **La Guarida**, where I had dinner on another evening. Both are also set in incredibly beautiful buildings.
 
