@@ -29,13 +29,13 @@ highlights:
 ---
 ## **Cristo Redentor**
 
-The next day started with… ***Christ the Redeemer***, obviously.
+The next day started with… **Christ the Redeemer**, obviously.
 
 I honestly don’t remember if we booked the tickets online or bought them there. What I do remember, however, is that, regardless of religion, the sight is truly dazzling.
 
 It was, of course, very crowded, but the view from the top was exceptional.
 
-We went up on the ***Trem do Corcovado***, the train that travels through ***Tijuca National Park***. The journey takes about 20 minutes and passes through the park, one of the largest urban jungles in the world.
+We went up on the **Trem do Corcovado**, the train that travels through **Tijuca National Park**. The journey takes about 20 minutes and passes through the park, one of the largest urban jungles in the world.
 
 If you’re lucky, you can even spot monkeys along the way.
 
@@ -50,7 +50,7 @@ I didn’t. I wasn't the lucky one of the day.
 
 ## **A little bit of Harry Potter in Rio**
 
-Back in the city, we stopped at the ***Real Gabinete Português de Leitura,*** the Royal Portuguese Reading Room.
+Back in the city, we stopped at the **Real Gabinete Português de Leitura*,*** the Royal Portuguese Reading Room.
 
 I don’t know if it’s the first thing that comes to mind when you hear "Rio," but it is truly worth a visit. The interior architecture is stunning, and for some reason, it gave me strong Harry Potter vibes.
 
@@ -69,7 +69,7 @@ Our days in Rio were quite rainy, so we didn't manage to enjoy the sea as much a
 
 But that didn't discourage us.
 
-We went for strolls along the beach and walked in Copacabana, and even under cloudy skies, the city had a beauty of its own.
+We went for strolls along the beach and walked in **Copacabana**, and even under cloudy skies, the city had a beauty of its own.
 
 You don’t always need sunshine to enjoy a city.
 
@@ -81,9 +81,9 @@ You don’t always need sunshine to enjoy a city.
 
 ## **Santa Teresa**
 
-On one of the rainiest days, we decided to take the old, historic ***Bondinho de Santa Teresa tram***.
+On one of the rainiest days, we decided to take the old, historic **Bondinho de Santa Teresa tram**.
 
-The tram starts at *Carioca Station* and takes you towards ***Santa Teresa***, one of the most charming and bohemian areas of Rio.
+The tram starts at **Carioca Station** and takes you towards **Santa Teresa**, one of the most charming and bohemian areas of Rio.
 
 The journey itself was an experience. At one point, instead of continuing to the end, we decided to get off somewhere in the middle and continue on foot.
 
@@ -93,7 +93,7 @@ The journey itself was an experience. At one point, instead of continuing to the
 <img src="/images/brazil/rio/part2-santatereza3.jpg" alt="">
 </figure>
 
-We eventually stopped at *Bar do Mineiro*, a traditional restaurant in Santa Teresa, where we tried one of the most famous Brazilian dishes: *Feijoada*.
+We eventually stopped at **Bar do Mineiro**, a traditional restaurant in Santa Teresa, where we tried one of the most famous Brazilian dishes: *Feijoada*.
 
 And when I say *we*, I mostly mean Emmy.
 
@@ -112,7 +112,7 @@ The restaurant itself was lovely, very traditional and had great reviews, so if 
 
 Another day, we decided to rent bikes and explore the city differently.
 
-We cycled from ***Copacabana*** towards **Red Beach**, and even though the weather was cloudy and definitely not ideal for swimming, the bike ride itself was great.
+We cycled from **Copacabana** towards **Red Beach**, and even though the weather was cloudy and definitely not ideal for swimming, the bike ride itself was great.
 
 That’s something I love about traveling: you don’t always need perfect weather or a perfect itinerary. Sometimes, all it takes is hopping on a bike and seeing where it leads you.
 
@@ -124,7 +124,7 @@ That’s something I love about traveling: you don’t always need perfect weath
 
 ## **Ipanema**
 
-Of course, we also had to visit ***Ipanema***.
+Of course, we also had to visit **Ipanema**.
 
 A more cosmopolitan version of Copacabana.
 
@@ -144,7 +144,7 @@ The day Emmy turned 30.
 
 I hope she doesn't curse me out for exposing her like this, if she happens to be reading the blog right now.
 
-We had booked a table at *Aprazível*, a truly impressive restaurant.
+We had booked a table at **Aprazível**, a truly impressive restaurant.
 
 ![](/images/brazil/rio/part2-dinner.jpg)
 
@@ -154,7 +154,7 @@ And a little bonus: if it’s your birthday and you let them know, they’ll bri
 
 After dinner, we went for drinks at a local bar. I honestly cannot remember the name anymore, but there are plenty of places to go out in Rio.
 
-Just remember: have fun, but always be aware of your surroundings.
+*Just remember: have fun, but always be aware of your surroundings.*
 
 <figure class="collage" data-layout="row">
 <img src="/images/brazil/rio/part2-img-8972.jpg" alt="">
@@ -163,7 +163,7 @@ Just remember: have fun, but always be aware of your surroundings.
 
 ## **A day on the water**
 
-One of the highlights of the whole trip was our boat tour to ***Angra dos Reis*** and ***Ilha Grande***.
+One of the highlights of the whole trip was our boat tour to **Angra dos Reis** and **Ilha Grande**.
 
 It was an all-day excursion, and we found several options online.
 
