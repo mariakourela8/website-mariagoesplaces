@@ -35,7 +35,7 @@ Instead of telling you exactly what happened each day, I’m going to share the 
 
 ## **The church of three wishes**
 
-One of our first stops was the ***Church of Our Lady of the Rosary of the Black People***.
+One of our first stops was the **Church of Our Lady of the Rosary of the Black People**.
 
 It isn’t just a beautiful church; it’s one of Salvador’s most important historical landmarks. 
 
@@ -52,7 +52,7 @@ The tradition says you tie one either to the church railings or around your wris
 
 ## **Pelourinho: The heart of Salvador**
 
-From there, we wandered back into ***Pelourinho***, Salvador’s historic centre and a UNESCO World Heritage Site.
+From there, we wandered back into **Pelourinho**, Salvador’s historic centre and a UNESCO World Heritage Site.
 
 If I had to describe Salvador with a single image, it would be this neighbourhood.
 
@@ -73,7 +73,7 @@ Suddenly the drums started, and within seconds the entire street turned into a c
 
 ## **The flavours of Bahia**
 
-We spent hours wandering around ***Largo do Pelourinho***, stopping whenever something looked too good to resist.
+We spent hours wandering around **Largo do Pelourinho**, stopping whenever something looked too good to resist.
 
 Fresh coconuts, tropical fruit juices, colourful cocktails and, of course, the famous *Acarajé*.
 
@@ -83,13 +83,13 @@ But I’m still glad I tried it. For me, food is one of the best ways to underst
 
 ## **A place I didn’t expect to love**
 
-Somewhere between exploring Pelourinho’s streets, we found ourselves at *Studio Negra Jhô - Penteados Afro* because I had decided I wanted to try Afro braids for the very first time.
+Somewhere between exploring Pelourinho’s streets, we found ourselves at **Studio Negra Jhô - Penteados Afro** because I had decided I wanted to try Afro braids for the very first time.
 
 Possibly the first and the last time, if I’m being honest. Not everything suits everyone.
 
 What I remember most, however, isn’t my hairstyle; it’s the people. Even though we didn’t speak the same language, we somehow communicated perfectly through smiles, gestures, and a lot of laughter.
 
-The owner, *Negra Jhô*, has created something much bigger than a beauty salon. It’s a space that celebrates Black identity, empowers women, and promotes anti-racism through beauty, culture, and community. If you ever find yourself in Salvador, don’t be shy and step inside, even if it’s just to experience the atmosphere.
+The owner, Negra Jhô, has created something much bigger than a beauty salon. It’s a space that celebrates Black identity, empowers women, and promotes anti-racism through beauty, culture, and community. If you ever find yourself in Salvador, don’t be shy and step inside, even if it’s just to experience the atmosphere.
 
 <figure class="collage" data-layout="row">
 <img src="/images/brazil/salvador/part2-braids.jpg" alt="">
@@ -98,7 +98,7 @@ The owner, *Negra Jhô*, has created something much bigger than a beauty salon. 
 
 ## **The sunset we almost missed**
 
-One evening, we headed towards ***Farol da Barra***, one of the city’s most famous places to watch the sunset.
+One evening, we headed towards **Farol da Barra**, one of the city’s most famous places to watch the sunset.
 
 Naturally, as two Greek girls who are almost never ready on time, we were running late.
 
@@ -115,7 +115,7 @@ From a distance, we could already see crowds gathering around the lighthouse. In
 
 ## **The little moments that stay with you**
 
-Long walks along ***Porto da Barra***, late-night drinks, a few spontaneous samba dances, and little adventures in nearby neighbourhoods were all part of our Salvador experience too.
+Long walks along **Porto da Barra**, late-night drinks, a few spontaneous samba dances, and little adventures in nearby neighbourhoods were all part of our Salvador experience too.
 
 <figure class="collage" data-layout="feature">
 <img src="/images/brazil/salvador/part2-beach.jpg" alt="">
