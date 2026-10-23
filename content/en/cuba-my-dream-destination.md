@@ -95,6 +95,7 @@ And off I went to explore the town! It’s such a peaceful place, with colourful
 <img src="/images/uploads/img_4661.jpg" alt="">
 <img src="/images/uploads/img_7798.jpeg" alt="">
 <img src="/images/uploads/img_7819.jpeg" alt="">
+<img src="/images/uploads/img_4677.jpg" alt="">
 </figure>
 
 Walking around worked up an appetite, and that’s how I ended up at **La Botija.** A lovely setting and really good food. I highly recommend it! 
