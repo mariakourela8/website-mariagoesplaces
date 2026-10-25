@@ -59,7 +59,7 @@ Next, a stop along Havana’s famous seaside promenade, **El Malecón**, was exa
 
 Day two started with a road trip. I had already booked a taxi, but it was nothing like the kind of taxis you’d expect or are used to seeing in other countries. It was an antique... I’m not great with car brands, but it was definitely vintage, let’s put it that way. It looked like something straight out of an old black-and-white Greek movie. 
 
-<figure class="collage" data-layout="row">
+<figure class="collage" data-layout="feature">
 <img src="/images/uploads/img_7747.jpeg" alt="">
 <img src="/images/uploads/img_7676.jpeg" alt="">
 <img src="/images/uploads/img_7742.jpeg" alt="">
