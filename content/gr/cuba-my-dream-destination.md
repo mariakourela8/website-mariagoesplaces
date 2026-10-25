@@ -6,8 +6,8 @@ country: Cuba
 series: null
 part: null
 cover: /images/uploads/img_4679.jpg
-featured: false
-draft: true
+featured: true
+draft: false
 lat: null
 lng: null
 highlights:

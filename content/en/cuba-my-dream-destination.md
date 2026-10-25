@@ -5,8 +5,8 @@ category: story
 country: Cuba
 city: ""
 cover: /images/uploads/img_4679.jpg
-featured: false
-draft: true
+featured: true
+draft: false
 tags: []
 highlights:
   - key: taxi
