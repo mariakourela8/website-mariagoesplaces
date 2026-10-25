@@ -180,7 +180,6 @@ highlights:
 <img src="/images/uploads/img_7989.jpeg" alt="">
 <img src="/images/uploads/img_4786.jpg" alt="">
 <img src="/images/uploads/img_7996.jpeg" alt="">
-<img src="/images/uploads/img_8001.jpeg" alt="">
 </figure>
 
 Ένα ακόμη όμορφο σημείο της περιοχής ήταν άλλη μία σπηλιά. Προσπαθώ να θυμηθώ αν ήταν η **La Cueva del Agua** ή η **Cueva de las Maravillas**. Συγγνώμη, η μνήμη μου με απατά! Αλλά υπάρχουν επιλογές και όλες είναι εξίσου όμορφες.
