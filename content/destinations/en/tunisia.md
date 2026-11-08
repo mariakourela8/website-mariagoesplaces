@@ -2,7 +2,7 @@
 country: Tunisia
 name: Tunisia
 headline: "Tunisia: A trip I never planned"
-image: /images/uploads/img_7795-small.jpeg
+image: /images/uploads/img_7795.jpeg
 ---
 Tunisia was never really on my list of destinations I wanted or even thought about visiting. It was one of those spontaneous trips that somehow ended up being one of my best trips ever.
 
