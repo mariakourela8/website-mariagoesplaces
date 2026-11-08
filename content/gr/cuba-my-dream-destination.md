@@ -9,7 +9,7 @@ part: null
 cover: /images/uploads/img_4679.jpg
 featured: true
 draft: false
-lat: null
+lat: -79.543
 lng: null
 highlights:
   - key: ταξί
