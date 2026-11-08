@@ -3,7 +3,7 @@ title: "Κούβα: Ο προορισμός των ονείρων μου"
 date: 2026-10-24
 category: story
 country: Cuba
-city: Αβάνα
+city: ""
 series: null
 part: null
 cover: /images/uploads/img_4679.jpg

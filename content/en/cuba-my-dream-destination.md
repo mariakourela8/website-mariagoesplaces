@@ -3,7 +3,7 @@ title: "Cuba: My dream destination"
 date: 2026-10-24
 category: story
 country: Cuba
-city: Havana
+city: ""
 cover: /images/uploads/img_4679.jpg
 featured: true
 draft: false
