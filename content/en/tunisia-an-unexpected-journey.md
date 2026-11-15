@@ -86,6 +86,13 @@ After taking the "obligatory" photos in the courtyard, we continued to our next 
 
 The next day, we packed our bags again, checked out of the hotel, and headed towards the **Sahara Desert**, with more photos and some camel-riding activities on the agenda. I had already ridden a camel in Jordan, but I'll save that story for another post. For Emmy, though, it was her first time, and she was pretty excited!
 
+<figure class="collage" data-layout="row">
+<img src="/images/uploads/img_7871.jpeg" alt="">
+<img src="/images/uploads/img_4656.jpeg" alt="">
+<img src="/images/uploads/img_7926.jpeg" alt="">
+<img src="/images/uploads/img_4622.jpeg" alt="">
+</figure>
+
 Next stop... **Mos Espa!** All the real Star Wars fans know what I'm talking about. Me? Well, I'm not one of them, so I can't say I was particularly impressed. Sorry, fans!
 
 And just like that, we found ourselves in the middle of nowhere, with a replica of the Titanic and only about 150 kilometres away from the Algerian border. Along the way, Youyou made another stop to show us some small mountains of salt. Tunisia has a long history of salt extraction, so it's quite common to come across these formations, as well as the famous desert roses.
