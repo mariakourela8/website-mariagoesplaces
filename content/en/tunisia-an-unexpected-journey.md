@@ -3,6 +3,7 @@ title: "Tunisia: An unexpected journey"
 date: 2026-11-15
 category: story
 country: Tunisia
+cover: /images/uploads/img_4198.jpeg
 featured: false
 draft: true
 tags: []

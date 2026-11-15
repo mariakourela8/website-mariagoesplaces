@@ -3,8 +3,13 @@ title: "Τυνησία: Ένα απρόσμενο ταξίδι"
 date: 2026-11-15
 category: story
 country: Tunisia
+series: null
+part: null
+cover: /images/uploads/img_4198.jpeg
 featured: false
 draft: true
+lat: null
+lng: null
 ---
 Έχω μια ιδιαίτερη αγάπη στο να επισκέπτομαι ζεστούς προορισμούς όταν πλησιάζει ο χειμώνας. Ένα μικρό διάλειμμα από τη μουντίλα της Ολλανδίας.
 
