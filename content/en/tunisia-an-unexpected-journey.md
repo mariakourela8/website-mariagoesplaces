@@ -112,6 +112,12 @@ And just like that, we found ourselves in the middle of nowhere, with a replica 
 
 Another day on the road, this time heading towards **Matmata**. A traditional Berber village in southern Tunisia, mainly known for its underground homes. The locals, as welcoming as ever, invited us into their homes to have a look inside these famous dwellings. A truly different experience!
 
+<figure class="collage" data-layout="feature">
+<img src="/images/uploads/img_8265.jpeg" alt="">
+<img src="/images/uploads/img_5218.jpeg" alt="">
+<img src="/images/uploads/img_8281.jpeg" alt="">
+</figure>
+
 It was also the day we headed back to Tunis, which meant quite a few hours on the road. I think this is probably a good moment to do a little recap of our experience so far.
 
 Despite all the hours spent driving, the long distances and the many different landscapes we got to see, what really made this experience even better was our driver. Youyou took the time to show us as much as possible in those three days, took countless photos of us, looked after us and, of course, gave us the chance to share a little bit of our cultures with each other. If you ever decide to do this trip, make sure to ask for Youyou. I'll happily give you his number in a heartbeat!
