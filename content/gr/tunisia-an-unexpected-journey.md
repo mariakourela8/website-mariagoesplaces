@@ -3,14 +3,14 @@ title: "Τυνησία: Ένα απρόσμενο ταξίδι"
 date: 2026-11-15
 category: story
 country: Tunisia
-city: Τύνιδα
+city: ""
 series: null
 part: null
 cover: /images/uploads/img_4198.jpeg
 featured: false
 draft: true
-lat: 34.07266227116024
-lng: null
+lat: 34.145433
+lng: 8.952901
 ---
 Έχω μια ιδιαίτερη αγάπη στο να επισκέπτομαι ζεστούς προορισμούς όταν πλησιάζει ο χειμώνας. Ένα μικρό διάλειμμα από τη μουντίλα της Ολλανδίας.
 
