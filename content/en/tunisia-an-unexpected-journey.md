@@ -95,7 +95,18 @@ The next day, we packed our bags again, checked out of the hotel, and headed tow
 
 Next stop... **Mos Espa!** All the real Star Wars fans know what I'm talking about. Me? Well, I'm not one of them, so I can't say I was particularly impressed. Sorry, fans!
 
+<figure class="collage" data-layout="row">
+<img src="/images/uploads/img_8079.jpeg" alt="">
+<img src="/images/uploads/img_8080.jpeg" alt="">
+</figure>
+
 And just like that, we found ourselves in the middle of nowhere, with a replica of the Titanic and only about 150 kilometres away from the Algerian border. Along the way, Youyou made another stop to show us some small mountains of salt. Tunisia has a long history of salt extraction, so it's quite common to come across these formations, as well as the famous desert roses.
+
+<figure class="collage" data-layout="feature">
+<img src="/images/uploads/img_4697.jpeg" alt="">
+<img src="/images/uploads/img_4992.jpeg" alt="">
+<img src="/images/uploads/img_5004.jpeg" alt="">
+</figure>
 
 ## **The fourth full day**
 
