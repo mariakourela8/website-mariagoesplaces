@@ -112,10 +112,11 @@ And just like that, we found ourselves in the middle of nowhere, with a replica 
 
 Another day on the road, this time heading towards **Matmata**. A traditional Berber village in southern Tunisia, mainly known for its underground homes. The locals, as welcoming as ever, invited us into their homes to have a look inside these famous dwellings. A truly different experience!
 
-<figure class="collage" data-layout="feature">
+<figure class="collage" data-layout="row">
 <img src="/images/uploads/img_8265.jpeg" alt="">
 <img src="/images/uploads/img_5218.jpeg" alt="">
 <img src="/images/uploads/img_8281.jpeg" alt="">
+<img src="/images/uploads/img_8291.jpeg" alt="">
 </figure>
 
 It was also the day we headed back to Tunis, which meant quite a few hours on the road. I think this is probably a good moment to do a little recap of our experience so far.
@@ -131,6 +132,12 @@ Stopping in the middle of nowhere to grab whatever "questionable" food we could 
 We were now on our fifth hotel (if I'm not mistaken) of this trip, and the last one! Our return to Tunis came with a little unexpected twist, as the hotel we had booked had been cancelled, and we only realised it when we got back to the city. Luckily, we managed to find an alternative quite easily and pretty quickly.
 
 Our first stop was the **Carthage Archaeological Site**, including the Roman amphitheatre and the **Antonine Baths**. Such an impressive place, with so many remains of ancient times still standing after all these centuries, helping your imagination bring the past back to life and picture what things must have looked like back then.
+
+<figure class="collage" data-layout="feature">
+<img src="/images/uploads/img_5311.jpeg" alt="">
+<img src="/images/uploads/img_8333.jpeg" alt="">
+<img src="/images/uploads/img_8344.jpeg" alt="">
+</figure>
 
 After exploring the site, we headed to **Sidi Bou Said**. A place where, the moment you set foot in it, you feel as if you've landed on a Greek island. A Tunisian village with a very Mediterranean island vibe.
 
