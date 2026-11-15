@@ -141,8 +141,16 @@ Our first stop was the **Carthage Archaeological Site**, including the Roman amp
 
 After exploring the site, we headed to **Sidi Bou Said**. A place where, the moment you set foot in it, you feel as if you've landed on a Greek island. A Tunisian village with a very Mediterranean island vibe.
 
+<figure class="collage" data-layout="row">
+<img src="/images/uploads/img_8417.jpeg" alt="">
+<img src="/images/uploads/img_8463.jpeg" alt="">
+<img src="/images/uploads/img_5543.jpeg" alt="">
+</figure>
+
 We wandered through the cobbled, blue-and-white streets, surrounded by other tourists, with endless blue views all around us. We enjoyed our coffee overlooking the sea, our eyes getting lost in the endless shades of blue. A view that completely captivated us and took us back to Greece for a little while.
 
 In the evening, we returned to Tunis, with only a few hours left before heading back to our everyday lives.
 
 A destination I would wholeheartedly recommend, even if you've never considered visiting it before. It is more than worth it!
+
+![](/images/uploads/img_8534.jpeg)
