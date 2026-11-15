@@ -21,11 +21,17 @@ The trip started in November 2023, once again around my birthday. I guess I get 
 
 We took a taxi and got to our hotel easily and pretty quickly. An incredible building with amazing architecture. Absolutely beautiful! What was it called? I honestly can't remember...
 
+<figure class="collage" data-layout="feature">
+<img src="/images/uploads/img_3960.jpeg" alt="">
+<img src="/images/uploads/img_7524.jpeg" alt="">
+<img src="/images/uploads/img_3993.jpeg" alt="">
+</figure>
+
 After checking in, changing clothes, and taking a little breather, we headed out to explore. We wandered around the area, making our way towards the **Medina of Tunis**.
 
 Most of the shops and stores were already closed by then, as it was getting dark. We found some random fast-food place and decided to grab a bite there. I don't think I've ever eaten that cheaply in my life!
 
-## **The first full day** 
+## **The first full day**
 
 After unsuccessfully trying to get some sleep all night (because snoring and my friend seem to come as a package deal), sorry Emmy, we finally got up, got ready, and hit the streets again, after having breakfast at the hotel. If you've read my Brazil posts, you'll already know about our walking tours. Well, here's another one to add to the list!
 
@@ -37,6 +43,13 @@ Starting at **Place de l'Indépendance**, we continued through the narrow street
 
 Our guide also bought us some local sweets to try. They actually reminded me quite a bit of the traditional syrup-soaked desserts we have back in Greece. Turns out, our cuisines have quite a few things in common. Towards the end of the tour, he took us to a lovely local café tucked away among the busy market streets.
 
+<figure class="collage" data-layout="row">
+<img src="/images/uploads/img_4008.jpeg" alt="">
+<img src="/images/uploads/img_4016.jpeg" alt="">
+<img src="/images/uploads/img_4032.jpeg" alt="">
+<img src="/images/uploads/img_6181.jpg" alt="">
+</figure>
+
 We spent the rest of the day heading back to **Souk Al Attarine**, this time to do some bargaining for souvenirs. I have to admit, they were quite expensive considering the country's prices. What really surprised us, though, was how easily the sellers figured out we were Greek and immediately started speaking to us in Greek! For dinner, we chose **Fondouk El Attarine**, a restaurant serving Mediterranean and local cuisine. It had an outdoor seating area and, to be honest, quite a lot of people. Still, it turned out to be a very good choice. And just like that, we headed back to the hotel to relax for a while, enjoying the view and gazing at the stars from our little balcony...
 
 ## **The second full day**
@@ -47,9 +60,27 @@ And that's how we met Youyou. An incredible guy, more or less our age, who made 
 
 The first one was somewhere halfway through the drive, where our driver insisted on treating us to some traditional tea with almonds. Definitely not my favourite, as in my mind tea equals being sick, and I'm not particularly fond of nuts in general either. Still, I appreciated the gesture!
 
+<figure class="collage" data-layout="row">
+<img src="/images/uploads/img_4294.jpeg" alt="">
+<img src="/images/uploads/img_7684.jpeg" alt="">
+</figure>
+
 Our next official stop was the city of **Kairouan** and the **Great Mosque of Kairouan (Mosque of Uqba)**. It was my first time visiting a mosque, and it was really interesting to see a place of worship up close and learn about the way people pray in a religion so different from our "own".
 
+![](/images/uploads/img_4320.jpeg)
+
 After taking the "obligatory" photos in the courtyard, we continued to our next stop, the **Chebika Oasis**. And that's when I finally understood the true meaning of the word "oasis". It's hard to capture in a single photo what my eyes got to see. A place of absolute peace and tranquillity. One of those landscapes that make you stop for a moment and simply take it all in. Perhaps the most beautiful scenery I had ever seen up to that point.
+
+<figure class="collage" data-layout="feature">
+<img src="/images/uploads/img_7734.jpeg" alt="">
+<img src="/images/uploads/img_7754.jpeg" alt="">
+<img src="/images/uploads/img_7795-2.jpeg" alt="">
+</figure>
+
+<figure class="collage" data-layout="row">
+<img src="/images/uploads/img_4493.jpeg" alt="">
+<img src="/images/uploads/img_4418.jpeg" alt="">
+</figure>
 
 ## **The third full day**
 
