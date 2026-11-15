@@ -7,6 +7,7 @@ city: Tunis
 cover: /images/uploads/img_4198.jpeg
 featured: false
 draft: true
+lat: 34.07266227116024
 tags: []
 ---
 I have a thing for visiting warm destinations just before winter kicks in. A little escape from the gloomy Dutch weather.
