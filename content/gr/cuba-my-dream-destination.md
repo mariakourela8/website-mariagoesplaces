@@ -9,8 +9,8 @@ part: null
 cover: /images/uploads/img_4679.jpg
 featured: true
 draft: false
-lat: -79.543
-lng: null
+lat: 21.697123
+lng: -79.012093
 highlights:
   - key: ταξί
     title: Ταξί και road trips

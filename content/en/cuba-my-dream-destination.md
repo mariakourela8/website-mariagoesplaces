@@ -7,7 +7,8 @@ city: ""
 cover: /images/uploads/img_4679.jpg
 featured: true
 draft: false
-lat: -79.543
+lat: 21.697123
+lng: -79.012093
 tags: []
 highlights:
   - key: taxi
