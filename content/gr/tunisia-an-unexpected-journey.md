@@ -3,6 +3,7 @@ title: "Τυνησία: Ένα απρόσμενο ταξίδι"
 date: 2026-11-15
 category: story
 country: Tunisia
+city: Τύνιδα
 series: null
 part: null
 cover: /images/uploads/img_4198.jpeg
